@@ -1,0 +1,530 @@
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-ExtraLight.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tlight W';
+    src: url('../fonts/TitilliumWeb-Light.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tregular W';
+    src: url('../fonts/TitilliumWeb-Regular.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tsemibold W';
+    src: url('../fonts/TitilliumWeb-SemiBold.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Regular.woff2') format('woff2'),
+        url('../fonts/Heebo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.remove-padding {
+    padding: 0;
+}
+
+.custom-nav {
+    border-bottom: 1.5px solid #44d62c;
+    top: 0;
+    z-index: 3;
+}
+
+.custom-grey {
+    font-size: 14px;
+    /* width: 100%; */
+    height: 44px;
+    background-color: rgb(85, 85, 85);
+    margin-top: 62px;
+    text-align: center;
+}
+
+
+
+.custom-a1 {
+    text-decoration: none;
+}
+
+.custom-a1:link {
+    color: white;
+
+}
+
+.custom-a1 :visited {
+    color: white;
+}
+
+.custom-a1 :hover {
+    text-decoration: underline;
+}
+
+.custom-1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/razer-blade-16-homepage-desktop2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 10px solid #222222;
+}
+
+.custom-2 {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/viper-mini-signature-edition-homepage-desktop2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    border-bottom: 10px solid #222222;
+}
+
+.custom-3 {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/razer-blade-18-homepage-desktop2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 10px solid #222222;
+}
+
+.custom-4 {
+    /* width: 100%; */
+    height: 570px;
+    background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-right: 5px solid #222222;
+    border-bottom: 10px solid #222222;
+}
+
+.custom-5 {
+    /* width: 100%; */
+    height: 570px;
+    background-image: url(../images/enkipro-lamborghini-b-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-left: 5px solid #222222;
+    border-bottom: 10px solid #222222;
+}
+
+.custom-6 {
+    /* width: 100%; */
+    height: 570px;
+    background-image: url(../images/valentines-day-campaign-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-right: 5px solid #222222;
+    border-bottom: 10px solid #222222;
+}
+
+.custom-7 {
+    /* width: 100%; */
+    height: 570px;
+    background-image: url(../images/rzrstoremiami-b-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-left: 5px solid #222222;
+    border-bottom: 10px solid #222222;
+}
+
+.custom-8 {
+    /* width: 100%; */
+    height: 570px;
+    background-image: url(../images/dav3pro-faker-teaser-b-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-right: 5px solid #222222;
+    border-bottom: 10px solid #222222;
+}
+
+.custom-9 {
+    /* width: 100%; */
+    height: 570px;
+    background-image: url(../images/razer-blade-141517-b-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-left: 5px solid #222222;
+    border-bottom: 10px solid #222222;
+}
+
+.custom-a-first {
+    width: 100%;
+    height: 690px;
+}
+
+.custom-a-sec {
+    width: 100%;
+    height: 560px;
+}
+
+.custom-footer {
+    width: 100%;
+    height: 370px;
+    background-color: #111111;
+}
+
+.custom-text {
+    z-index: 2;
+    margin-top: 160px;
+    width: 600px;
+    /* margin-left: auto; */
+
+}
+
+#imglogo {
+    width: 34px;
+    height: 34px;
+}
+
+.custom-p {
+    line-height: 45px;
+    text-align: center;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+}
+
+.custom-sp {
+    color: #44d62c;
+}
+
+.custom-font1 {
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+    /* font-size: 15px; */
+}
+
+.custom-exclusive {
+    width: 100px;
+    height: 40px;
+}
+
+.custom-text2 {
+    text-align: center;
+    margin-top: 25px;
+    width: 1000px;
+}
+
+.custom-bbstb {
+    font-family: 'Tregular W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+    letter-spacing: 1.1px;
+}
+
+.custom-p2 {
+    margin-top: 65px;
+    text-align: center;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+    line-height: 45px
+}
+
+.custom-lm1 {
+    font-family: 'Tregular W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}
+
+.custom-text3 {
+    width: 600px;
+}
+
+#cp3 {
+    margin-top: 65px;
+}
+
+.custom-text4 {
+    text-align: center;
+    width: 700px;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+    margin-top: 45px;
+    /* line-height: 35px; */
+}
+
+.custom-sp4 {
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.custom-text5 {
+    text-align: center;
+    width: 700px;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.custom-p5 {
+    margin-top: 45px;
+}
+
+.custom-text6 {
+    text-align: center;
+    width: 700px;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.custom-text7 {
+    text-align: center;
+    width: 700px;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.custom-text8 {
+    text-align: center;
+    width: 700px;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.custom-ft-ul {
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+.custom-ft-a {
+    text-decoration: none;
+}
+
+.custom-ft-a:link {
+    color: #999999;
+}
+
+.custom-ft-a:visited {
+    color: #999999;
+}
+
+.custom-ft-a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.custom-ft-li {
+
+    font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 12px;
+
+}
+
+.custom-fgbg {
+    color: #43d42b;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.custom-minilogo {
+    width: 32px;
+    height: 32px;
+    margin-left: 8px;
+    margin-top: -25px;
+}
+
+.custom-face {
+    margin-left: 80px;
+}
+
+
+
+@media all and (max-width: 575px) {
+    .custom-4 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-edge-b-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-5 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/enkipro-lamborghini-b-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-6 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/valentines-day-campaign-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-7 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/rzrstoremiami-b-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-8 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/dav3pro-faker-teaser-b-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-9 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-blade-141517-b-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+}
+
+@media all and (min-width:576px) and (max-width:767px) {
+    .custom-4 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-edge-b-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-5 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/enkipro-lamborghini-b-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-6 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/valentines-day-campaign-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-7 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/rzrstoremiami-b-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-8 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/dav3pro-faker-teaser-b-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-9 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-blade-141517-b-480x615-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    .custom-li {
+        margin-right: 58px;
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1199px) {
+    .custom-li {
+        margin-right: 58px;
+    }
+}
+
+@media all and (min-width:1200px) and (max-width:1399px) {
+    .custom-li {
+        margin-right: 58px;
+    }
+}
+
+@media all and (min-width:1400px) {
+    .custom-li {
+        margin-right: 58px;
+    }
+}
