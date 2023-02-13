@@ -236,7 +236,7 @@
 .custom-text2 {
     text-align: center;
     margin-top: 25px;
-    width: 1000px;
+    /* width: 1000px; */
 }
 
 .custom-bbstb {
@@ -527,4 +527,29 @@
     .custom-li {
         margin-right: 58px;
     }
+}
+
+#lm1:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#b1:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#lm2:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#lm3:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#b3:hover {
+    text-decoration: underline;
+    color: white;
 }
