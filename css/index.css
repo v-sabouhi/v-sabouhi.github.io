@@ -116,8 +116,8 @@
     border-bottom: 10px solid #222222;
 }
 
-.custom-4 {
-    /* width: 100%; */
+/* .custom-4 {
+    width: 100%;(comment)
     height: 570px;
     background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
     background-repeat: no-repeat;
@@ -125,10 +125,10 @@
     background-position: center;
     border-right: 5px solid #222222;
     border-bottom: 10px solid #222222;
-}
+} */
 
-.custom-5 {
-    /* width: 100%; */
+/* .custom-5 {
+    width: 100%;(comment)
     height: 570px;
     background-image: url(../images/enkipro-lamborghini-b-950x580-desktop.jpg);
     background-repeat: no-repeat;
@@ -136,10 +136,10 @@
     background-position: center;
     border-left: 5px solid #222222;
     border-bottom: 10px solid #222222;
-}
+} */
 
-.custom-6 {
-    /* width: 100%; */
+/* .custom-6 {
+    width: 100%;(comment)
     height: 570px;
     background-image: url(../images/valentines-day-campaign-950x580-desktop.jpg);
     background-repeat: no-repeat;
@@ -147,10 +147,10 @@
     background-position: center;
     border-right: 5px solid #222222;
     border-bottom: 10px solid #222222;
-}
+} */
 
-.custom-7 {
-    /* width: 100%; */
+/* .custom-7 {
+    width: 100%;(comment)
     height: 570px;
     background-image: url(../images/rzrstoremiami-b-950x580-desktop.jpg);
     background-repeat: no-repeat;
@@ -158,10 +158,10 @@
     background-position: center;
     border-left: 5px solid #222222;
     border-bottom: 10px solid #222222;
-}
+} */
 
-.custom-8 {
-    /* width: 100%; */
+/* .custom-8 {
+    width: 100%;(comment)
     height: 570px;
     background-image: url(../images/dav3pro-faker-teaser-b-950x580-desktop.jpg);
     background-repeat: no-repeat;
@@ -169,10 +169,10 @@
     background-position: center;
     border-right: 5px solid #222222;
     border-bottom: 10px solid #222222;
-}
+} */
 
-.custom-9 {
-    /* width: 100%; */
+/* .custom-9 {
+    width: 100%;(comment)
     height: 570px;
     background-image: url(../images/razer-blade-141517-b-950x580-desktop.jpg);
     background-repeat: no-repeat;
@@ -180,7 +180,7 @@
     background-position: center;
     border-left: 5px solid #222222;
     border-bottom: 10px solid #222222;
-}
+} */
 
 .custom-a-first {
     width: 100%;
@@ -201,7 +201,7 @@
 .custom-text {
     z-index: 2;
     margin-top: 160px;
-    width: 600px;
+    /* width: 600px; */
     /* margin-left: auto; */
 
 }
@@ -259,9 +259,9 @@
     letter-spacing: 0.8px;
 }
 
-.custom-text3 {
+/* .custom-text3 {
     width: 600px;
-}
+} */
 
 #cp3 {
     margin-top: 65px;
@@ -510,24 +510,292 @@
     .custom-li {
         margin-right: 58px;
     }
+
+    .custom-4 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-5 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/enkipro-lamborghini-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-6 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/valentines-day-campaign-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-7 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/rzrstoremiami-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-8 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/dav3pro-faker-teaser-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-9 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-blade-141517-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
     .custom-li {
         margin-right: 58px;
     }
+
+    .custom-4 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-5 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/enkipro-lamborghini-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-6 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/valentines-day-campaign-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-7 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/rzrstoremiami-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-8 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/dav3pro-faker-teaser-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-9 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-blade-141517-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
 }
 
 @media all and (min-width:1200px) and (max-width:1399px) {
     .custom-li {
         margin-right: 58px;
     }
+
+    .custom-4 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-5 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/enkipro-lamborghini-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-6 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/valentines-day-campaign-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-7 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/rzrstoremiami-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-8 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/dav3pro-faker-teaser-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-9 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-blade-141517-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
 }
 
 @media all and (min-width:1400px) {
     .custom-li {
         margin-right: 58px;
     }
+
+    .custom-4 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-5 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/enkipro-lamborghini-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-6 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/valentines-day-campaign-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-7 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/rzrstoremiami-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-8 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/dav3pro-faker-teaser-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-right: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
+    .custom-9 {
+        /* width: 100%; */
+        height: 570px;
+        background-image: url(../images/razer-blade-141517-b-950x580-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-left: 5px solid #222222;
+        border-bottom: 10px solid #222222;
+    }
+
 }
 
 #lm1:hover {
