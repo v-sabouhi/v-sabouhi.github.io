@@ -359,14 +359,22 @@
 .custom-minilogo {
     width: 32px;
     height: 32px;
-    margin-left: 8px;
-    margin-top: -25px;
+    /* margin-left: 8px;
+    margin-top: -25px; */
 }
 
-.custom-face {
+/* .custom-face {
     margin-left: 80px;
+} */
+
+.mini-a {
+    width: 32px;
+    height: 32px;
 }
 
+.mini-three {
+    margin-top: -15px;
+}
 
 
 @media all and (max-width: 575px) {
