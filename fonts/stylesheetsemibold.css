@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Titillium Web';
-    src: url('TitilliumWeb-SemiBold.woff2') format('woff2'),
-        url('TitilliumWeb-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
