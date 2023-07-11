@@ -432,7 +432,7 @@
         border-bottom: 10px solid #222222;
         /* background-color: pink; */
         background-color: #222222;
-        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
+        background-image: url(../images/xanthus-homepage-desktop2x.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -452,7 +452,7 @@
         width: 810px;
         height: 140px;
         background-color: transparent;
-        margin-top: 15vh;
+        margin-top: 10vh;
         text-align: center;
         line-height: 35px;
     }
@@ -488,9 +488,7 @@
         text-decoration: underline;
     }
 
-    .lm-custom {
-        margin-right: 6vh;
-    }
+
 
     /* Second Picture  */
 
@@ -571,28 +569,39 @@
     /* 5.Question: Why Doesn't space-between Work On It? */
 
     .double-picbox1 {
-        width: 100%;
-        height: 570px;
+        /* width: 100%;
+        height: 570px; */
         background-color: pink;
-        display: flex;
+        /* display: flex; */
 
         /* justify-content: space-between; */
         padding: 0;
     }
 
     .double-picbox1 .row {
+        width: 100%;
+        height: 570px;
         margin: 0;
+        display: flex;
     }
+
+    /* .custom-annoying {
+        background-color: rebeccapurple;
+        width: 100%;
+        height: 100%;
+    } */
 
     /* The FORTH Picture */
     .theforthpic {
-        width: 100%;
+        width: 50%;
         height: 570px;
-        background-color: lightblue;
-        background-image: url(../images/razer-pubg-homepage-desktop2x.jpg);
+        background-color: #222222;
+        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        justify-content: center;
         cursor: pointer;
         padding: 0;
     }
@@ -602,7 +611,7 @@
         height: 180px;
         text-align: center;
         margin-top: 6vh;
-        overflow: hidden;
+
     }
 
     .forth-picText p {
@@ -638,28 +647,362 @@
         text-decoration: underline;
     }
 
+    .lm-custom {
+        margin-right: 6vh;
+    }
+
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
     .thefifthpic {
-        width: 100%;
+        width: 50%;
         height: 570px;
-        background-color: lightblue;
+        background-color: #222222;
         background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        justify-content: center;
         cursor: pointer;
         padding: 0;
         /* margin-left: 11px; */
         border-left: 11px solid #222222;
     }
 
-    /* The FIFTH Picture*/
+    .fifth-picText {
+        width: 700px;
+        height: 180px;
+        text-align: center;
+        margin-top: 6vh;
+    }
 
-    /* HELPPP WHY CAN'T THEY JUST STAND BESIDE EACHOTHER?!! */
+    .fifth-picText p {
+        color: #ffffff;
+        font-size: 42px;
+        font-family: 'Tsemibold W', 'sans-serif';
+        font-weight: 600;
+    }
+
+    .fifth-picText span {
+        color: #ffffff;
+        font-size: 21px;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+    }
+
+    .fifth-picText a {
+        color: #ffffff;
+        font-size: 17px;
+        text-decoration: none;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    }
+
+    .fifth-picText a span {
+        font-size: 17px;
+        color: #44d62c;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+    }
+
+    .fifth-picText a:hover {
+        text-decoration: underline;
+    }
+
+    /* The FIFTH Picture*/
 
     /* Double Pics 1: The Forth And Fifth Picture */
 
+    /* Double Pics 2: The Sixth And Seventh Picture */
+    .double-picbox2 {
+        /* width: 100%;
+        height: 570px; */
+        background-color: pink;
+        padding: 0;
+    }
 
+    .double-picbox2 .row {
+        width: 100%;
+        height: 570px;
+        margin: 0;
+        display: flex;
+    }
+
+    /* The SIXTH Picture */
+    .thesixthpic {
+        width: 50%;
+        height: 570px;
+        background-color: #222222;
+        background-image: url(../images/mercury-blade16-blade18-b-950x580-desktop.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        padding: 0;
+        /* margin-left: 11px; */
+
+        border-top: 10px solid #222222;
+    }
+
+    .sixth-picText {
+        width: 700px;
+        height: 180px;
+        text-align: center;
+        margin-top: 6vh;
+    }
+
+    .sixth-picText p {
+        color: #ffffff;
+        font-size: 42px;
+        font-family: 'Tsemibold W', 'sans-serif';
+        font-weight: 600;
+    }
+
+    .sixth-picText span {
+        color: #ffffff;
+        font-size: 21px;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+    }
+
+    .sixth-picText a {
+        color: #ffffff;
+        font-size: 1fpx;
+        text-decoration: none;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    }
+
+    .sixth-picText a span {
+        font-size: 1fpx;
+        color: #44d62c;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+    }
+
+    .sixth-picText a:hover {
+        text-decoration: underline;
+    }
+
+    .lm-custom {
+        margin-right: 6vh;
+    }
+
+    /* The SIXTH Picture */
+
+    /* The SEVENTH Picture */
+    .theseventhpic {
+        width: 50%;
+        height: 570px;
+        background-color: #222222;
+        background-image: url(../images/razer-pubg-homepage-desktop2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        padding: 0;
+        border-left: 11px solid #222222;
+        border-top: 10px solid #222222;
+    }
+
+    .seventh-picText {
+        width: 700px;
+        height: 180px;
+        text-align: center;
+        margin-top: 6vh;
+    }
+
+    .seventh-picText p {
+        color: #ffffff;
+        font-size: 42px;
+        font-family: 'Tsemibold W', 'sans-serif';
+        font-weight: 600;
+    }
+
+    .seventh-picText span {
+        color: #ffffff;
+        font-size: 21px;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+    }
+
+    .seventh-picText a {
+        color: #ffffff;
+        font-size: 17px;
+        text-decoration: none;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    }
+
+    .seventh-picText a span {
+        font-size: 17px;
+        color: #44d62c;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+    }
+
+    .seventh-picText a:hover {
+        text-decoration: underline;
+    }
+
+
+    /* The SEVENTH Picture */
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+    .double-picbox3 {
+        /* width: 100%;
+        height: 570px; */
+        background-color: pink;
+        padding: 0;
+    }
+
+    .double-picbox3 .row {
+        width: 100%;
+        height: 570px;
+        margin: 0;
+        display: flex;
+    }
+
+    /* The EIGHTH Picture */
+    .theeighthpic {
+        width: 50%;
+        height: 570px;
+        background-color: #222222;
+        background-image: url(../images/exoprimal-b-950x580-desktop.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        padding: 0;
+        /* margin-left: 11px; */
+
+        border-top: 10px solid #222222;
+    }
+
+    .eighth-picText {
+        width: 700px;
+        height: 180px;
+        text-align: center;
+        margin-top: 6vh;
+        /* line-height: 40px; */
+    }
+
+    .eighth-picText p {
+        color: #ffffff;
+        font-size: 42px;
+        font-family: 'Tsemibold W', 'sans-serif';
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .eighth-picText span {
+        color: #ffffff;
+        font-size: 21px;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+    }
+
+    .eighth-picText a {
+        color: #ffffff;
+        font-size: 1fpx;
+        text-decoration: none;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    }
+
+    .eighth-picText a span {
+        font-size: 1fpx;
+        color: #44d62c;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+    }
+
+    .eighth-picText a:hover {
+        text-decoration: underline;
+    }
+
+
+
+    /* The EIGHTH Picture */
+
+    /* The NINTH Picture */
+    .theninthpic {
+        width: 50%;
+        height: 570px;
+        background-color: #222222;
+        background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        padding: 0;
+        border-left: 11px solid #222222;
+        border-top: 10px solid #222222;
+        /* position: relative; */
+    }
+
+    .custom-exclusive {
+        width: 100px;
+        height: 40px;
+        /* position: absolute; */
+        /* margin: 0 auto; */
+    }
+
+    .ninth-picText {
+        width: 700px;
+        height: 180px;
+        text-align: center;
+        margin-top: 6vh;
+    }
+
+    .ninth-picText p {
+        color: #ffffff;
+        font-size: 42px;
+        font-family: 'Tsemibold W', 'sans-serif';
+        font-weight: 600;
+        line-height: 66px;
+    }
+
+    .ninth-picText span {
+        color: #ffffff;
+        font-size: 21px;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        line-height: 34px;
+    }
+
+    .ninth-picText a {
+        color: #ffffff;
+        font-size: 17px;
+        text-decoration: none;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        line-height: 34px;
+    }
+
+    .ninth-picText a span {
+        font-size: 17px;
+        color: #44d62c;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+    }
+
+    .ninth-picText a:hover {
+        text-decoration: underline;
+    }
+
+    .lm-custom {
+        margin-right: 6vh;
+    }
+
+    /* The NINTH Picture */
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
 }
