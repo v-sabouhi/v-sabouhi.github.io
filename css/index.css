@@ -1030,13 +1030,15 @@
 
     .secondrow {
         width: 80%;
-        height: 270px;
+        height: 285px;
         padding: 0;
         margin: 0;
         margin-top: 20px;
         background-color: transparent;
         border-bottom: 1px solid #999999;
     }
+
+
 
     .thirdrow {
         width: 80%;
@@ -1050,13 +1052,21 @@
         font-size: 12px;
         color: #ffffff;
         list-style-type: none;
+        padding: 0;
 
     }
 
+    .custom-cl {
+        padding: 0;
+        width: 180px;
+    }
+
     .bigfoot-box li {
+        width: 150px;
         font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
-        margin-bottom: 10px;
+        padding: 0;
+        margin-bottom: 12px;
     }
 
 
@@ -1068,6 +1078,34 @@
     .bigfoot-box li a:hover {
         color: #ffffff;
         text-decoration: underline;
+    }
+
+    .custom-icon-ul a {
+        width: 28px;
+        height: 28px;
+
+    }
+
+    .custom-icon-ul img {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+
+    }
+
+    .custom-icon-ul li {
+        margin-bottom: 5px;
+    }
+
+    .custom-gamers {
+        padding: 0;
+        width: 260px;
+        position: absolute;
+        right: 10%;
+        text-align: right;
+        color: #43d42b;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
     }
 
     /* BIGFOOT  */
