@@ -1042,10 +1042,10 @@
 
     .thirdrow {
         width: 80%;
-        height: 60px;
+        height: 50px;
         padding: 0;
         margin: 0;
-        background: lightseagreen;
+        background: darkslategrey;
     }
 
     .bigfoot-box ul {
@@ -1106,6 +1106,34 @@
         color: #43d42b;
         font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
+    }
+
+    .tinyfoot-cl {
+        padding: 0;
+        height: 50px;
+    }
+
+    .tinyfoot-ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .tinyfoot-ul li {
+        color: #999999;
+        margin: 0;
+        width: 100px;
+        border-right: 1px solid #999999;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+
+
+    .no-br {
+        border: 0;
     }
 
     /* BIGFOOT  */
