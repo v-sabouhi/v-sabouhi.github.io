@@ -43,16 +43,706 @@
     font-display: swap;
 }
 
+.navigation-bar2 {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    height: 48px;
+}
+
+.custom-container {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+.custom-container .row {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-bar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+.custom-col {
+    padding: 0;
+    /* margin: 0; */
+}
+
+
+.custom-col2 {
+    padding: 0;
+    margin: 0;
+}
+
+.custom-navlogo {
+    width: 34px;
+    height: 34px;
+}
+
+
+.custom-navul2 {
+    width: 100%;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.8px solid #44d62c;
+    box-sizing: border-box;
+    background-color: #000000;
+    list-style-type: none;
+    font-size: 30px;
+
+}
+
+.custom-navul2 a {
+    text-decoration: none;
+    color: #888888;
+}
+
+
+/* 1.Question:problem */
+#menu-list2 {
+    margin-left: 4%;
+}
+
+#cart-2 {
+    font-size: 22px;
+    margin-right: 3%;
+}
+
+#cart-2 a:hover {
+    color: #ffffff;
+}
+
+
+
+/* Gray Box With Useless Content */
+
+.gray-box {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+.gray {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif, 'Tregular W';
+    background-color: #555555;
+    color: #d9d9d9;
+}
+
+
+.gray-box .row {
+    margin: 0;
+}
+
+.gray-col {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+.gray-box p {
+    margin: 0;
+    text-align: center;
+}
+
+
+/* Gray Box With Useless Content */
+
+
+/* Navigation 1 */
+
+
+.custom-navul {
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.8px solid #44d62c;
+    box-sizing: border-box;
+    background-color: #000000;
+    list-style-type: none;
+
+}
+
+.custom-navul a {
+    text-decoration: none;
+    color: #888888;
+    font-family: 'Tlight W', 'Titillium Web', sans-serif;
+}
+
+.custom-navul a:hover {
+    color: #ffffff;
+}
+
+.custom-navul li {
+    margin-right: calc(8px + 2.7vw);
+}
+
+#cart-1 {
+    font-size: 21px;
+    margin-right: 0;
+}
+
+
+/* Navigation 1 */
+
+
+/*********************************************************/
+.experiment {
+    /* padding: 0;
+    margin: 0; */
+    background-color: #222222;
+    height: 10px;
+    width: 100%;
+}
+
+/*********************************************************/
+
+/* First Picture */
+.first-picbox {
+    width: 100%;
+    height: 700px;
+    background-color: #222222;
+    background-image: url(../images/prime-day-2023-homepage-desktop2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.first-piccol {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.first-picText {
+    background-color: transparent;
+    text-align: center;
+}
+
+.first-picText p {
+    color: #ffffff;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+}
+
+.first-picText span {
+    color: #ffffff;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+}
+
+
+.first-picText a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.first-picText a span {
+    color: #44d62c;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.first-picText a:hover {
+    text-decoration: underline;
+}
+
+/* First Picture */
+
+
+/* Second Picture */
+.second-picbox {
+    width: 100%;
+    height: 700px;
+    background-color: #222222;
+    background-image: url(../images/xanthus-homepage-desktop2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.second-piccol {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.second-picText {
+    background-color: transparent;
+    margin-top: 10vh;
+    text-align: center;
+    line-height: 35px;
+}
+
+.second-picText p {
+    color: #ffffff;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+}
+
+.second-picText span {
+    color: #ffffff;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+}
+
+.second-picText a {
+    color: #ffffff;
+    font-size: 21px;
+    text-decoration: none;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.second-picText a span {
+    font-size: 21px;
+    color: #44d62c;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.second-picText a:hover {
+    text-decoration: underline;
+}
+
+/* Second Picture */
+
+/* Third Picture */
+
+.third-picbox {
+    width: 100%;
+    height: 700px;
+    background-color: #222222;
+    background-image: url(../images/razer-blade-14-2023-homepage-desktop2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.third-piccol {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.third-picText {
+    background-color: transparent;
+    margin-top: 10vh;
+    text-align: center;
+    line-height: 35px;
+}
+
+.third-picText p {
+    color: #ffffff;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+}
+
+.third-picText span {
+    color: #ffffff;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+}
+
+.third-picText a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.third-picText a span {
+    color: #44d62c;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.third-picText a:hover {
+    text-decoration: underline;
+}
+
+.lm-custom {
+    margin-right: 6vh;
+}
+
+
+/* Third Picture */
+
+/* Double Pics 1: The Forth And Fifth Picture */
+.double-picbox1 {
+    /* width: 100%;
+    height: 570px; */
+    background-color: #222222;
+    padding: 0;
+}
+
+.double-picbox1 .row {
+    /* width: 100%;
+    height: 1400px; */
+    margin: 0;
+    /* display: flex; */
+}
+
+
+/* The FORTH Picture */
+.theforthpic {
+    background-color: #222222;
+    background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.forth-picText {
+    text-align: center;
+
+}
+
+.forth-picText p {
+    color: #ffffff;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+}
+
+.forth-picText span {
+    color: #ffffff;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+}
+
+.forth-picText a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.forth-picText a span {
+    color: #44d62c;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.forth-picText a:hover {
+    text-decoration: underline;
+}
+
+/* The FORTH Picture */
+
+/* The FIFTH Picture*/
+.thefifthpic {
+    background-color: #222222;
+    background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.fifth-picText {
+    text-align: center;
+}
+
+.fifth-picText p {
+    color: #ffffff;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+}
+
+.fifth-picText span {
+    color: #ffffff;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+}
+
+.fifth-picText a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.fifth-picText a span {
+    color: #44d62c;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+}
+
+.fifth-picText a:hover {
+    text-decoration: underline;
+}
+
+
+/* The FIFTH Picture*/
+/* Double Pics 1: The Forth And Fifth Picture */
+
+
+/* Double Pics 2: The Sixth And Seventh Picture */
+.double-picbox2 {
+    background-color: #222222;
+    padding: 0;
+}
+
+/* .double-picbox2 .row {
+    width: 100%;
+    height: 1400px;
+    margin: 0;
+    display: flex;
+} */
+
+/* The SIXTH Picture */
+.thesixthpic {
+    background-color: #222222;
+    background-image: url(../images/mercury-blade16-blade18-b-950x580-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.sixth-picText {
+    text-align: center;
+}
+
+.sixth-picText p {
+    color: #ffffff;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+}
+
+.sixth-picText span {
+    color: #ffffff;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+}
+
+.sixth-picText a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.sixth-picText a span {
+    color: #44d62c;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+}
+
+.sixth-picText a:hover {
+    text-decoration: underline;
+}
+
+/* The SIXTH Picture */
+
+/* The SEVENTH Picture */
+.theseventhpic {
+    background-color: #222222;
+    background-image: url(../images/razer-pubg-homepage-desktop2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.seventh-picText {
+    text-align: center;
+}
+
+.seventh-picText p {
+    color: #ffffff;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+}
+
+.seventh-picText span {
+    color: #ffffff;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+}
+
+
+.seventh-picText a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.seventh-picText a span {
+    color: #44d62c;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+}
+
+.seventh-picText a:hover {
+    text-decoration: underline;
+}
+
+/* The SEVENTH Picture */
+/* Double Pics 2: The Sixth And Seventh Picture */
+
+
+/* Double Pics 3: The Eighth And Ninth Picture */
+.double-picbox3 {
+    background-color: #222222;
+    padding: 0;
+}
+
+/* .double-picbox3 .row {
+    width: 100%;
+    height: 1400px;
+    margin: 0;
+    display: flex;
+} */
+
+/* The EIGHTH Picture */
+.theeighthpic {
+    background-color: #222222;
+    background-image: url(../images/exoprimal-b-950x580-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.eighth-picText {
+    text-align: center;
+}
+
+.eighth-picText p {
+    color: #ffffff;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+}
+
+.eighth-picText span {
+    color: #ffffff;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+}
+
+
+.eighth-picText a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.eighth-picText a span {
+    color: #44d62c;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+}
+
+.eighth-picText a:hover {
+    text-decoration: underline;
+}
+
+/* The EIGHTH Picture */
+
+/* The NINTH Picture */
+.theninthpic {
+    background-color: #222222;
+    background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.custom-exclusive {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.ninth-picText {
+    text-align: center;
+}
+
+.ninth-picText p {
+    color: #ffffff;
+    font-family: 'Tsemibold W', 'sans-serif';
+    font-weight: 600;
+}
+
+.ninth-picText span {
+    color: #ffffff;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+    font-weight: 400;
+}
+
+.ninth-picText a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+}
+
+.ninth-picText a span {
+    color: #44d62c;
+    font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+}
+
+.ninth-picText a:hover {
+    text-decoration: underline;
+}
+
+
+/* The NINTH Picture */
+/* Double Pics 3: The Eighth And Ninth Picture */
 
 
 @media all and (max-width:575px) {
 
 
-    /* 1.Question? why did this happen in the first place?!
-    that it made the page to have a horizental scroll in smaller sizes "NOT Responsive" */
-    body {
-        overflow: hidden;
-    }
 
     /* Navigation 1 */
     .navigation-bar {
@@ -63,454 +753,1300 @@
 
 
     /* Navigation 2 */
-    .navigation-bar2 {
-        margin: 0;
+    /* Navigation 2 */
+
+
+    .custom-containcol {
         padding: 0;
-        outline: 0;
+    }
+
+
+    .nav-containBox {
+        width: 100%;
+        height: 636px;
+        /* background-color: orange; */
+        background-color: #040404;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 300ms linear 0s;
+        overflow: hidden;
+    }
+
+    /* SEARCH BOX */
+
+    .search-box {
+        width: 96%;
+        height: 40px;
+        border-radius: 9px;
+        margin: 30px 0 43px 0;
+        /* background-color: mediumslateblue; */
+    }
+
+    .searchboxText {
+        width: 100%;
+        height: 100%;
+        /* background-color: transparent; */
+        background-color: #222222;
+        display: flex;
+        align-items: center;
+        border-radius: 9px;
+        justify-content: flex-start;
+        font-family: 'Tlight W', 'Titillium Web', sans-serif;
+        /* padding: 0 5px; */
+    }
+
+
+    .search-box input {
+        /* width: 90%; */
+        /* height: 40px; */
         border: 0;
+        /* background-color: transparent; */
+        background-color: #222222;
+        color: #999999;
     }
 
-    .custom-col2 {
+
+
+
+    .search-box span {
+        margin: 0 10px;
+        font-size: 12px;
+        color: #999999;
+    }
+
+    /* SEARCH BOX */
+
+    /* .contain-box-visibility {
+    height: 100vh;
+    position: fixed;
+    scroll-behavior:
+} */
+
+
+
+    .ul-containerBox {
+        width: 100%;
+        height: 530px;
+        /* background-color: transparent; */
+        background-color: #040404;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ul-boxNav {
+        width: 90%;
         padding: 0;
-        margin: 0;
+        margin-bottom: 0;
+        /* background-color: mediumpurple; */
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-end; */
     }
 
-    .custom-navlogo {
-        width: 34px;
-        height: 34px;
+    .ul-boxNav li {
+        width: 90%;
+        height: 60px;
+        font-size: 20px;
+        /* background-color: transparent; */
+        background-color: #040404;
+        font-family: 'Tlight W', 'Titillium Web', sans-serif;
+        color: #999999;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
     }
 
-    .custom-navul2 {
+    .border-customNav {
+        border-bottom: 1px solid #555555;
+    }
+
+    .ul-boxNav li a {
+        width: 100%;
+        height: 100%;
+        color: #999999;
+        text-decoration: none;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .ul-boxNav li a:hover {
+        color: #ffffff;
+    }
+
+    .custom-pc {
+        cursor: pointer;
+    }
+
+    .custom-pc span {
+        color: #34a521;
+    }
+
+    /* THIRD NAVIGATION */
+    .menu-container {
         width: 100%;
         height: 48px;
+    }
+
+    .custom-navul3 {
+        width: 100%;
+        height: 100%;
         margin: 0;
         padding: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 0.8px solid #44d62c;
+        background-color: transparent;
+        /* background-color: #000000; */
         box-sizing: border-box;
-        background-color: #000000;
         list-style-type: none;
         font-size: 30px;
 
     }
 
-    .custom-navul2 a {
-        text-decoration: none;
-        color: #888888;
-        /* font-family: 'Tlight W', 'Titillium Web', sans-serif; */
+    .custom-navul3 li {
+        text-align: center;
     }
 
 
-    /* 1.Question:problem */
-    #menu-list2 {
+    .custom-navul3 a {
+        text-decoration: none;
+        color: #888888;
+    }
+
+    #menu-close3 {
         margin-left: 4%;
     }
 
-    #cart-2 {
-        font-size: 22px;
-        margin-right: 3%;
+    #hiddenli {
+        margin-right: 4%;
+        color: #000000;
     }
 
-    #cart-2 a:hover {
-        color: #ffffff;
+
+
+
+    /* THIRD NAVIGATION */
+
+
+
+    /************************************************************************************/
+    /* NAVIGATION JAVASCRIPT CLASSES */
+
+    .hide-navigation {
+        display: none;
     }
+
+
+    .hide-menu {
+        height: 0px;
+    }
+
+
+
+    /* NAVIGATION JAVASCRIPT CLASSES */
+    /************************************************************************************/
 
 
     /* Navigation 2 */
 
-    /* Gray Box With Useless Content */
-
-    .gray-box {
-        padding: 0;
-        margin: 0;
-        outline: 0;
-        border: 0;
-        width: 100%;
-        height: 44px;
-        display: flex;
-        /* position: relative; */
-        /* top: 60px; */
-        justify-content: center;
-        align-items: center;
-        font-size: 14px;
-        font-family: sans-serif, 'Tregular W';
-        background-color: #555555;
-        color: #d9d9d9;
-
-    }
-
-    .gray-col {
-        padding: 0;
-        margin: 0;
-        outline: 0;
-        border: 0;
-    }
-
-    .gray-box p {
-        margin: 0;
-    }
+    /* Navigation 2 */
 
 
-    /* Gray Box With Useless Content */
 
     /* First Picture */
     .first-picbox {
+        width: 100%;
+        height: 430px;
+        background-image: url(../images/prime-day-2023-homepage-mobile2x.jpg);
+        /* align-items: center; */
+        background-position: bottom;
+    }
+
+
+    .first-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 26px;
+    }
+
+    .first-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .first-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .first-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .first-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    /* First Picture */
+
+    /* Second Picture  */
+    .second-picbox {
+        width: 100%;
+        height: 430px;
+        background-image: url(../images/xanthus-homepage-mobile2x.jpg);
+        background-position: bottom;
+    }
+
+
+    .second-picText {
+        width: 100%;
+        height: 100%;
+        /* text-align: center; */
+        margin-top: 10vh;
+        line-height: 26px;
+    }
+
+    .second-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .second-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .second-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    .second-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    /* Second Picture  */
+
+    /* Third Picture */
+    .third-picbox {
+        width: 100%;
+        height: 430px;
+        background-image: url(../images/razer-blade-14-2023-homepage-mobile2x.jpg);
+        background-position: bottom;
+    }
+
+
+
+    .third-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 26px;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .third-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .third-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .third-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .third-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+
+    /* Third Picture */
+
+    /* Double Pics 1: The Forth And Fifth Picture */
+
+    /* .double-picbox1 .row {
+        width: 100%;
+        height: 1140px;
+    } */
+
+    /* The FORTH Picture */
+    .theforthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/cobra-pro-homepage-mobile2x.jpg);
+        /* border-right: 5px solid #222222; */
+    }
+
+    .forth-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 26px;
+    }
+
+    .forth-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .forth-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+
+
+    .forth-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .forth-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    /* The FORTH Picture*/
+
+    /* The FIFTH Picture*/
+    .thefifthpic {
+        width: 100%;
+        height: 570px;
+        background-color: #222222;
+        background-image: url(../images/deathstalker-pro-tkl-480x615-mobile.jpg);
+        background-position: bottom;
+        border-top: 10px solid #222222;
+        /* border-left: 5px solid #222222; */
+    }
+
+    .fifth-picText {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 10vh;
+        line-height: 26px;
+    }
+
+    .fifth-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .fifth-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .fifth-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .fifth-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    /* The FIFTH Picture*/
+
+    /* Double Pics 1: The Forth And Fifth Picture */
+
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+    /* .double-picbox2 .row {
+        width: 100%;
+        height: 1140px;
+    } */
+
+    /* The SIXTH Picture */
+    .thesixthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/mercury-blade16-blade18-b-480x615-mobile.jpg);
+        background-position: bottom;
+        /* border-right: 5px solid #222222; */
+    }
+
+    .sixth-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 26px;
+    }
+
+    .sixth-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .sixth-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .sixth-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .sixth-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+    /* The SIXTH Picture */
+
+    /* The SEVENTH Picture */
+    .theseventhpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/razer-pubg-homepage-mobile2x.jpg);
+        background-position: bottom;
+        border-top: 10px solid #222222;
+        /* border-left: 5px solid #222222; */
+    }
+
+    .seventh-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 26px;
+    }
+
+    .seventh-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .seventh-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .seventh-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .seventh-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    /* The SEVENTH Picture */
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+
+    /* .double-picbox3 .row {
+        width: 100%;
+        height: 1140px;
+    } */
+
+    /* The EIGHTH Picture */
+    .theeighthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/exoprimal-b-480x615-mobile.jpg);
+        /* border-right: 5px solid #222222; */
+    }
+
+    .eighth-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 26px;
+    }
+
+    .eighth-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .eighth-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .eighth-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .eighth-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    /* The EIGHTH Picture */
+
+    /* The NINTH Picture */
+    .theninthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/razer-edge-b-480x615-mobile.jpg);
+        border-top: 10px solid #222222;
+        /* border-left: 5px solid #222222; */
+    }
+
+
+    .custom-exclusive {
+        width: 100px;
+        height: 40px;
+    }
+
+    .ninth-picText {
+        width: 100%;
+        height: 80%;
+        margin-top: 6vh;
+        line-height: 26px;
+    }
+
+    .ninth-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .ninth-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .ninth-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .ninth-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+
+    /* The NINTH Picture */
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+    /* BIGFOOT */
+    .bigfoot-box {
+        display: none;
+    }
+
+    /* BIGFOOT */
+
+    /* Footer For Small Sizes */
+
+    .smallFooter {
+        background-color: #111111;
         padding: 0;
         margin: 0;
         outline: 0;
+    }
+
+
+    .smfootcol {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .adjustfooter {
         width: 100%;
-        height: 360px;
-        /* background-color: pink; */
-        background-image: url(../images/prime-day-2023-homepage-mobile2x.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        cursor: pointer;
+        height: 215px;
         display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #111111;
+
+    }
+
+
+    .footTitle-box {
+
+        width: 90%;
+        height: 55px;
+        color: #ffffff;
+        background-color: #111111;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #303030;
+        font-size: 12px;
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+    }
+
+
+    .custom-ft-icon {
+        font-size: 16px;
+        color: #999999;
+        cursor: pointer;
+        transition: all 200ms ease 0s;
+        transform: rotate(45deg);
+        display: block;
+        position: absolute;
+    }
+
+    button {
+        width: 20px;
+        height: 20px;
+        /* background-color: blue; */
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+        position: relative;
+    }
+
+
+    .custom-ft-icon:hover {
+        color: #ffffff;
+    }
+
+
+
+    /* SHOP */
+    .shop-hdiv {
+        width: 90%;
+        height: 0px;
+        /* visibility: hidden; */
+        /* display: none; */
+        background-color: #111111;
+        transition: all 300ms linear 0s;
+        overflow: hidden;
+    }
+
+    .shop-ul {
+        list-style-type: none;
+        color: #999999;
+        font-size: 12px;
+        /* transition: all 300ms ease 0s; */
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .shop-ul li {
+        margin-bottom: 15px;
+    }
+
+    .rs-li {
+        margin-top: 15px;
+    }
+
+    .shop-ul a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .shop-ul a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    /* SHOP */
+
+    /* EXPLORE */
+    .explore-hdiv {
+        width: 90%;
+        height: 0px;
+        /* visibility: hidden; */
+        /* display: none; */
+        background-color: #111111;
+        transition: all 300ms linear 0s;
+        overflow: hidden;
+    }
+
+    .explore-ul {
+        list-style-type: none;
+        color: #999999;
+        font-size: 12px;
+        /* transition: all 300ms ease 0s; */
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .explore-ul li {
+        margin-bottom: 15px;
+    }
+
+    .rs-li {
+        margin-top: 15px;
+    }
+
+    .explore-ul a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .explore-ul a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    /* EXPLORE */
+
+    /* SUPPORT */
+    .support-hdiv {
+        width: 90%;
+        height: 0px;
+        /* visibility: hidden; */
+        /* display: none; */
+        background-color: #111111;
+        transition: all 300ms linear 0s;
+        overflow: hidden;
+    }
+
+    .support-ul {
+        list-style-type: none;
+        color: #999999;
+        font-size: 12px;
+        /* transition: all 300ms ease 0s; */
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .support-ul li {
+        margin-bottom: 15px;
+    }
+
+    .rs-li {
+        margin-top: 15px;
+    }
+
+    .support-ul a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .support-ul a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    /* SUPPORT */
+
+    /* COMPANY */
+    .company-hdiv {
+        width: 90%;
+        height: 0px;
+        /* visibility: hidden; */
+        /* display: none; */
+        background-color: #111111;
+        transition: all 300ms linear 0s;
+        overflow: hidden;
+    }
+
+    .company-ul {
+        list-style-type: none;
+        color: #999999;
+        font-size: 12px;
+        /* transition: all 300ms ease 0s; */
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .company-ul li {
+        margin-bottom: 15px;
+    }
+
+    .rs-li {
+        margin-top: 15px;
+    }
+
+    .company-ul a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .company-ul a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    /* COMPANY */
+
+
+    /***************************************************************************/
+    .open-footer {
+        height: 300px;
+        overflow: scroll;
+        /* display: flex; */
+        border-bottom: 1px solid #303030;
+    }
+
+    .rotate {
+        transform: rotateX(0deg);
+    }
+
+
+    .hideborder {
+        border-bottom: 0px;
+    }
+
+    .extraheight {
+        height: 490px;
+    }
+
+    /***************************************************************************/
+
+    /* LINE FOOTER */
+    .small-line-foot {
+        width: 100%;
+        height: 76px;
+        /* background-color: darkslategrey; */
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #303030;
+    }
+
+    .small-line-ul {
+        list-style-type: none;
+        color: #999999;
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    .small-line-ul li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        font-size: 12px;
+        height: 16px;
+    }
+
+    .small-line-ul li a {
+        color: #999999;
+        text-decoration: none;
+    }
+
+    .small-line-ul li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    #custom-copyright {
+        color: #ffffff;
+    }
+
+    .custom-rightborder {
+        border-right: 1px solid #999999;
+        padding: 0 10px;
+    }
+
+    .custom-padding {
+        padding: 0 10px;
+    }
+
+
+    .small-line-foot2 {
+        width: 100%;
+        height: 55px;
+        /* background-color: darkslategrey; */
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 1px solid #303030; */
+    }
+
+
+    .small-line-ul2 {
+        list-style-type: none;
+        color: #999999;
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    .small-line-ul2 li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        font-size: 12px;
+        height: 16px;
+        /* background-color: pink; */
+
+    }
+
+    .small-line-ul2 li a {
+        color: #999999;
+        text-decoration: none;
+    }
+
+    .small-line-ul2 li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+
+    #custom-usa {
+        color: #ffffff;
+        border-right: 1px solid #ffffff;
+        padding: 0 10px;
+    }
+
+    .small-line-foot3 {
+        width: 100%;
+        height: 27px;
+        /* background-color: darkslategrey; */
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+        /* border-bottom: 1px solid #303030; */
+    }
+
+    .custom-sm-gamers {
+        text-align: center;
+        color: #43d42b;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+
+    .small-line-foot4 {
+        width: 100%;
+        height: 30px;
+        /* background-color: darkslategrey; */
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 1px solid #303030; */
+    }
+
+    .small-line-ul4 {
+        list-style-type: none;
+        color: #999999;
+        display: flex;
+        margin-bottom: 0;
         justify-content: center;
         align-items: center;
     }
 
-    .first-piccol {
+    .small-line-ul4 li {
+        width: 24px;
+        height: 24px;
+        /* background-color: pink; */
+    }
+
+    .small-line-ul4 li a {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+
+    .small-line-ul4 li a img {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+
+    .margin-tiny-img {
+        margin-right: 8px;
+    }
+
+    .last-box {
         padding: 0;
         margin: 0;
         outline: 0;
     }
 
-    .first-picText {
+    .useless-div {
         width: 100%;
-        height: 140px;
-        background-color: transparent;
-        margin-top: 15vh;
-        text-align: center;
-        line-height: 35px;
+        height: 70px;
+        background-color: #111111;
     }
 
-    .first-picText p {
-        color: #ffffff;
-        font-size: 7vh;
-        font-family: 'Tsemibold W', 'sans-serif';
-        font-weight: 600;
+
+    /* LINE FOOTER */
+
+    /* Footer For Small Sizes */
+
+
+    /* BIGFOOT */
+    .customfooterContainer {
+        display: none;
     }
 
-    .first-picText span {
-        color: #ffffff;
-        font-size: 4vh;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        font-weight: 400;
-    }
-
-    .first-picText a {
-        color: #ffffff;
-        font-size: 3.5vh;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-    }
-
-    .first-picText a span {
-        font-size: 20px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-    }
-
-    .first-picText a:hover {
-        text-decoration: underline;
-    }
-
-    /* First Picture */
+    /* BIGFOOT */
 
 
 
 }
 
-@media all and (min-width:576px) and (max-width:767px) {}
+@media all and (min-width:576px) and (max-width:767.5px) {
 
-@media all and (min-width:768px) and (max-width:991px) {}
-
-@media all and (min-width:992px) and (max-width:1199px) {}
-
-@media all and (min-width:1400px) {
-
-
-    /* Navigation 2 */
-    .navigation-bar2 {
+    /* Navigation 1 */
+    .navigation-bar {
         display: none;
     }
 
+    /* Navigation 1 */
+
+    /* Navigation 2 */
+
+
+    .custom-containcol {
+        padding: 0;
+    }
+
+
+    .nav-containBox {
+        width: 100%;
+        height: 636px;
+        /* background-color: orange; */
+        background-color: #040404;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 300ms linear 0s;
+        overflow: hidden;
+    }
+
+    /* SEARCH BOX */
+
+    .search-box {
+        width: 96%;
+        height: 40px;
+        border-radius: 9px;
+        margin: 30px 0 43px 0;
+        /* background-color: mediumslateblue; */
+    }
+
+    .searchboxText {
+        width: 100%;
+        height: 100%;
+        /* background-color: transparent; */
+        background-color: #222222;
+        display: flex;
+        align-items: center;
+        border-radius: 9px;
+        justify-content: flex-start;
+        font-family: 'Tlight W', 'Titillium Web', sans-serif;
+        /* padding: 0 5px; */
+    }
+
+
+    .search-box input {
+        /* width: 90%; */
+        /* height: 40px; */
+        border: 0;
+        /* background-color: transparent; */
+        background-color: #222222;
+        color: #999999;
+    }
+
+    .search-box span {
+        margin: 0 10px;
+        font-size: 12px;
+        color: #999999;
+    }
+
+    /* SEARCH BOX */
+
+    /* .contain-box-visibility {
+        height: 100vh;
+        position: fixed;
+        scroll-behavior:
+    } */
+
+
+
+    .ul-containerBox {
+        width: 100%;
+        height: 530px;
+        /* background-color: transparent; */
+        background-color: #040404;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ul-boxNav {
+        width: 90%;
+        padding: 0;
+        margin-bottom: 0;
+        /* background-color: mediumpurple; */
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-end; */
+    }
+
+    .ul-boxNav li {
+        width: 90%;
+        height: 60px;
+        font-size: 20px;
+        /* background-color: transparent; */
+        background-color: #040404;
+        font-family: 'Tlight W', 'Titillium Web', sans-serif;
+        color: #999999;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .border-customNav {
+        border-bottom: 1px solid #555555;
+    }
+
+    .ul-boxNav li a {
+        width: 100%;
+        height: 100%;
+        color: #999999;
+        text-decoration: none;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .ul-boxNav li a:hover {
+        color: #ffffff;
+    }
+
+    .custom-pc {
+        cursor: pointer;
+    }
+
+    .custom-pc span {
+        color: #34a521;
+    }
+
+    /* THIRD NAVIGATION */
+    .menu-container {
+        width: 100%;
+        height: 48px;
+    }
+
+    .custom-navul3 {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+        /* background-color: #000000; */
+        box-sizing: border-box;
+        list-style-type: none;
+        font-size: 30px;
+
+    }
+
+    .custom-navul3 li {
+        text-align: center;
+    }
+
+
+    .custom-navul3 a {
+        text-decoration: none;
+        color: #888888;
+    }
+
+    #menu-close3 {
+        margin-left: 4%;
+    }
+
+    #hiddenli {
+        margin-right: 4%;
+        color: #000000;
+    }
+
+
+
+
+    /* THIRD NAVIGATION */
+
+
+
+    /************************************************************************************/
+    /* NAVIGATION JAVASCRIPT CLASSES */
+
+    .hide-navigation {
+        display: none;
+    }
+
+
+    .hide-menu {
+        height: 0px;
+    }
+
+
+
+    /* NAVIGATION JAVASCRIPT CLASSES */
+    /************************************************************************************/
+
+
     /* Navigation 2 */
 
 
 
-    /* Navigation 1 */
-
-    /* 4.Question:Why Doesn't It's Fixed Position Last After Scrolling for A While??? */
-
-    .navigation-bar {
-        margin: 0;
-        padding: 0;
-        outline: 0;
-        border: 0;
-        position: fixed;
-        top: 0px;
-        z-index: 2;
-    }
-
-    .custom-col {
-        padding: 0;
-        margin: 0;
-    }
-
-    .custom-navlogo {
-        width: 34px;
-        height: 34px;
-    }
-
-    .custom-navul {
-        width: 100%;
-        height: 60px;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-bottom: 0.8px solid #44d62c;
-        box-sizing: border-box;
-        background-color: #000000;
-        list-style-type: none;
-
-    }
-
-    .custom-navul a {
-        text-decoration: none;
-        color: #888888;
-        font-family: 'Tlight W', 'Titillium Web', sans-serif;
-    }
-
-    .custom-navul a:hover {
-        color: #ffffff;
-    }
-
-    .custom-navul li {
-        margin-right: 66px;
-    }
-
-    #cart-1 {
-        font-size: 21px;
-        margin-right: 0;
-    }
-
-
-    /* Navigation 1 */
-
-    /* Gray Box With Useless Content */
-
-    /* 2.Question:why isn't it in the center even though ive written justify-content and align-items?    !SOLVED! */
-
-
-    /* 3.Question:Why The Horizontal Scroll?!!! */
-
-    .gray-box {
-        padding: 0;
-        margin: 0;
-        outline: 0;
-        border: 0;
-        width: 100%;
-        height: 44px;
-        display: flex;
-        position: relative;
-        top: 60px;
-        justify-content: center;
-        align-items: center;
-        font-size: 14px;
-        font-family: sans-serif, 'Tregular W';
-        background-color: #555555;
-        color: #d9d9d9;
-
-    }
-
-    .gray-col {
-        padding: 0;
-        margin: 0;
-        outline: 0;
-        border: 0;
-    }
-
-    .gray-box p {
-        margin: 0;
-    }
-
-    /* .gray-box a {
-        text-decoration: none;
-        color: #d9d9d9;
-    } */
-
-    /* .gray-box a:hover {
-        text-decoration: underline;
-    } */
-
-    /* Gray Box With Useless Content */
-
     /* First Picture */
     .first-picbox {
-        padding: 0;
-        margin: 0;
-        outline: 0;
         width: 100%;
-        height: 700px;
-        /* border-bottom: 10px solid #222222; */
-        /* background-color: pink; */
-        background-color: #222222;
-        background-image: url(../images/prime-day-2023-homepage-desktop2x.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
+        height: 430px;
+        background-image: url(../images/prime-day-2023-homepage-mobile2x.jpg);
+        /* align-items: center; */
+        background-position: bottom;
     }
 
-
-    /*********************************************************/
-    .experiment {
-        padding: 0;
-        margin: 0;
-        background-color: #222222;
-        height: 10px;
-        width: 100%;
-    }
-
-    /*********************************************************/
-
-
-    .first-piccol {
-        padding: 0;
-        margin: 0;
-        outline: 0;
-    }
 
     .first-picText {
-        width: 900px;
-        height: 140px;
-        background-color: transparent;
-        margin-top: 18vh;
-        text-align: center;
-        line-height: 38px;
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 26px;
+        /* line-height: 35px; */
     }
 
     .first-picText p {
-        color: #ffffff;
-        font-size: 56px;
-        font-family: 'Tsemibold W', 'sans-serif';
-        font-weight: 600;
+        font-size: calc(16px + 1rem);
     }
 
     .first-picText span {
-        color: #ffffff;
-        font-size: 28px;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        font-weight: 400;
+        font-size: calc(14px + 1vh);
     }
 
     .first-picText a {
-        color: #ffffff;
-        font-size: 21px;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-size: calc(11px + 1vh);
     }
 
     .first-picText a span {
-        font-size: 21px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-    }
-
-    .first-picText a:hover {
-        text-decoration: underline;
+        font-size: calc(11px + 1vh);
     }
 
 
     /* First Picture */
 
-
     /* Second Picture  */
     .second-picbox {
-        padding: 0;
-        margin: 0;
-        outline: 0;
         width: 100%;
-        height: 700px;
-        /* border-bottom: 10px solid #222222; */
-        /* background-color: pink; */
-        background-color: #222222;
-        background-image: url(../images/xanthus-homepage-desktop2x.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
+        height: 430px;
+        background-image: url(../images/xanthus-homepage-mobile2x.jpg);
+        background-position: bottom;
     }
 
-    /*********************************************************/
-    .experiment {
-        padding: 0;
-        margin: 0;
-        background-color: #222222;
-        height: 10px;
-        width: 100%;
-    }
-
-    /*********************************************************/
-
-
-    .second-piccol {
-        padding: 0;
-        margin: 0;
-        outline: 0;
-    }
 
     .second-picText {
-        width: 810px;
-        height: 140px;
-        background-color: transparent;
+        width: 100%;
+        height: 100%;
         margin-top: 10vh;
-        text-align: center;
-        line-height: 35px;
+        line-height: 26px;
     }
 
     .second-picText p {
-        color: #ffffff;
-        font-size: 56px;
-        font-family: 'Tsemibold W', 'sans-serif';
-        font-weight: 600;
+        font-size: calc(16px + 1rem);
     }
 
     .second-picText span {
-        color: #ffffff;
-        font-size: 28px;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        font-weight: 400;
+        font-size: calc(14px + 1vh);
     }
 
     .second-picText a {
-        color: #ffffff;
-        font-size: 21px;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-size: calc(11px + 1vh);
     }
 
-    .second-picText a span {
-        font-size: 21px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-    }
-
-    .second-picText a:hover {
-        text-decoration: underline;
+    .second-picText span {
+        font-size: calc(11px + 1vh);
     }
 
 
@@ -519,46 +2055,872 @@
 
     /* Third Picture */
     .third-picbox {
-        padding: 0;
-        margin: 0;
-        outline: 0;
         width: 100%;
-        height: 700px;
-        /* border-bottom: 10px solid #222222; */
-        /* background-color: pink; */
-        /* background-color: #222222; */
-        background-image: url(../images/razer-blade-14-2023-homepage-desktop2x.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
+        height: 430px;
+        background-image: url(../images/razer-blade-14-2023-homepage-mobile2x.jpg);
+        background-position: bottom;
     }
 
 
-    /*********************************************************/
-    .experiment {
-        padding: 0;
-        margin: 0;
-        background-color: #222222;
-        height: 10px;
-        width: 100%;
-    }
-
-    /*********************************************************/
-
-
-    .third-piccol {
-        padding: 0;
-        margin: 0;
-        outline: 0;
-    }
 
     .third-picText {
-        width: 810px;
-        height: 140px;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        line-height: 26px;
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .third-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .third-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .third-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .third-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+
+    /* Third Picture */
+
+    /* Double Pics 1: The Forth And Fifth Picture */
+
+    /* .double-picbox1 .row {
+        width: 100%;
+        height: 1140px;
+    } */
+
+    /* The FORTH Picture */
+    .theforthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/cobra-pro-homepage-mobile2x.jpg);
+        /* border-right: 5px solid #222222; */
+    }
+
+    .forth-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 26px;
+    }
+
+    .forth-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .forth-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+
+
+    .forth-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .forth-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    /* The FORTH Picture*/
+
+    /* The FIFTH Picture*/
+    .thefifthpic {
+        width: 100%;
+        height: 570px;
+        background-color: #222222;
+        background-image: url(../images/deathstalker-pro-tkl-480x615-mobile.jpg);
+        background-position: bottom;
+        border-top: 10px solid #222222;
+        /* border-left: 5px solid #222222; */
+    }
+
+    .fifth-picText {
+        width: 90%;
+        height: 100%;
+        text-align: center;
+        line-height: 26px;
+        margin-top: 10vh;
+    }
+
+    .fifth-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .fifth-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .fifth-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .fifth-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    /* The FIFTH Picture*/
+
+    /* Double Pics 1: The Forth And Fifth Picture */
+
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+    /* .double-picbox2 .row {
+        width: 100%;
+        height: 1140px;
+    } */
+
+    /* The SIXTH Picture */
+    .thesixthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/mercury-blade16-blade18-b-480x615-mobile.jpg);
+        /* background-position: bottom; */
+        /* border-right: 5px solid #222222; */
+    }
+
+    .sixth-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 26px;
+    }
+
+    .sixth-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .sixth-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .sixth-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .sixth-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+    /* The SIXTH Picture */
+
+    /* The SEVENTH Picture */
+    .theseventhpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/razer-pubg-homepage-mobile2x.jpg);
+        /* background-position: bottom; */
+        border-top: 10px solid #222222;
+        /* border-left: 5px solid #222222; */
+    }
+
+    .seventh-picText {
+        width: 100%;
+        height: 100%;
+        line-height: 26px;
+        margin-top: 10vh;
+    }
+
+    .seventh-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .seventh-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .seventh-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .seventh-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    /* The SEVENTH Picture */
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+
+    /* .double-picbox3 .row {
+        width: 100%;
+        height: 1140px;
+    } */
+
+    /* The EIGHTH Picture */
+    .theeighthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/exoprimal-b-480x615-mobile.jpg);
+        /* border-right: 5px solid #222222; */
+    }
+
+    .eighth-picText {
+        width: 100%;
+        height: 100%;
+        line-height: 26px;
+        margin-top: 10vh;
+    }
+
+    .eighth-picText p {
+        font-size: calc(16px + 1rem);
+
+    }
+
+    .eighth-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .eighth-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .eighth-picText a span {
+        font-size: calc(11px + 1vh);
+    }
+
+
+    /* The EIGHTH Picture */
+
+    /* The NINTH Picture */
+    .theninthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/razer-edge-b-480x615-mobile.jpg);
+        border-top: 10px solid #222222;
+        /* border-left: 5px solid #222222; */
+    }
+
+
+    .custom-exclusive {
+        width: 100px;
+        height: 40px;
+    }
+
+    .ninth-picText {
+        width: 100%;
+        height: 80%;
+        line-height: 26px;
+        margin-top: 6vh;
+    }
+
+    .ninth-picText p {
+        font-size: calc(16px + 1rem);
+    }
+
+    .ninth-picText span {
+        font-size: calc(14px + 1vh);
+    }
+
+    .ninth-picText a {
+        font-size: calc(11px + 1vh);
+    }
+
+    .ninth-picText a span {
+        font-size: calc(11px + 1vh);
+
+    }
+
+
+
+    /* The NINTH Picture */
+
+
+
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+
+    .bigfoot-box {
+        display: none;
+    }
+
+
+    /* Footer For Small Sizes */
+
+    .last-box {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .last-boxcol {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .smallFooter {
+        background-color: #111111;
+        padding: 0;
+        margin: 0;
+        outline: 0;
+    }
+
+
+    .smfootcol {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .adjustfooter {
+        margin: 0;
+        width: 100%;
+        height: 215px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #111111;
+
+    }
+
+
+    .footTitle-box {
+        /* position: relative; */
+        width: 90%;
+        height: 55px;
+        color: #ffffff;
+        background-color: #111111;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #303030;
+        font-size: 12px;
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+    }
+
+
+    .custom-ft-icon {
+        font-size: 16px;
+        color: #999999;
+        cursor: pointer;
+        transition: all 200ms ease 0s;
+        transform: rotate(45deg);
+        display: block;
+        position: absolute;
+    }
+
+    button {
+        width: 20px;
+        height: 20px;
+        /* background-color: blue; */
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+        position: relative;
+    }
+
+
+    .custom-ft-icon:hover {
+        color: #ffffff;
+    }
+
+
+
+    /* SHOP */
+    .shop-hdiv {
+        width: 90%;
+        height: 0px;
+        /* visibility: hidden; */
+        /* display: none; */
+        background-color: #111111;
+        transition: all 300ms linear 0s;
+        overflow: hidden;
+    }
+
+    .shop-ul {
+        list-style-type: none;
+        color: #999999;
+        font-size: 12px;
+        /* transition: all 300ms ease 0s; */
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .shop-ul li {
+        margin-bottom: 15px;
+    }
+
+    .rs-li {
+        margin-top: 15px;
+    }
+
+    .shop-ul a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .shop-ul a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    /* SHOP */
+
+    /* EXPLORE */
+    .explore-hdiv {
+        width: 90%;
+        height: 0px;
+        /* visibility: hidden; */
+        /* display: none; */
+        background-color: #111111;
+        transition: all 300ms linear 0s;
+        overflow: hidden;
+    }
+
+    .explore-ul {
+        list-style-type: none;
+        color: #999999;
+        font-size: 12px;
+        /* transition: all 300ms ease 0s; */
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .explore-ul li {
+        margin-bottom: 15px;
+    }
+
+    .rs-li {
+        margin-top: 15px;
+    }
+
+    .explore-ul a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .explore-ul a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    /* EXPLORE */
+
+    /* SUPPORT */
+    .support-hdiv {
+        width: 90%;
+        height: 0px;
+        /* visibility: hidden; */
+        /* display: none; */
+        background-color: #111111;
+        transition: all 300ms linear 0s;
+        overflow: hidden;
+    }
+
+    .support-ul {
+        list-style-type: none;
+        color: #999999;
+        font-size: 12px;
+        /* transition: all 300ms ease 0s; */
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .support-ul li {
+        margin-bottom: 15px;
+    }
+
+    .rs-li {
+        margin-top: 15px;
+    }
+
+    .support-ul a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .support-ul a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    /* SUPPORT */
+
+    /* COMPANY */
+    .company-hdiv {
+        width: 90%;
+        height: 0px;
+        /* visibility: hidden; */
+        /* display: none; */
+        background-color: #111111;
+        transition: all 300ms linear 0s;
+        overflow: hidden;
+    }
+
+    .company-ul {
+        list-style-type: none;
+        color: #999999;
+        font-size: 12px;
+        /* transition: all 300ms ease 0s; */
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .company-ul li {
+        margin-bottom: 15px;
+    }
+
+    .rs-li {
+        margin-top: 15px;
+    }
+
+    .company-ul a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .company-ul a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    /* COMPANY */
+
+
+    /***************************************************************************/
+    .open-footer {
+        height: 300px;
+        /* display: flex; */
+        border-bottom: 1px solid #303030;
+        overflow: scroll;
+    }
+
+    .rotate {
+        transform: rotateX(0deg);
+    }
+
+
+    .hideborder {
+        border-bottom: 0px;
+    }
+
+    .extraheight {
+        height: 490px;
+    }
+
+    /***************************************************************************/
+
+    /* LINE FOOTER */
+    .small-line-foot {
+        width: 100%;
+        height: 76px;
+        /* background-color: darkslategrey; */
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #303030;
+    }
+
+    .small-line-ul {
+        list-style-type: none;
+        color: #999999;
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    .small-line-ul li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        font-size: 12px;
+        height: 16px;
+    }
+
+    .small-line-ul li a {
+        color: #999999;
+        text-decoration: none;
+    }
+
+    .small-line-ul li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    #custom-copyright {
+        color: #ffffff;
+    }
+
+    .custom-rightborder {
+        border-right: 1px solid #999999;
+        padding: 0 10px;
+    }
+
+    .custom-padding {
+        padding: 0 10px;
+    }
+
+
+    .small-line-foot2 {
+        width: 100%;
+        height: 55px;
+        /* background-color: darkslategrey; */
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 1px solid #303030; */
+    }
+
+
+    .small-line-ul2 {
+        list-style-type: none;
+        color: #999999;
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    .small-line-ul2 li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        font-size: 12px;
+        height: 16px;
+        /* background-color: pink; */
+
+    }
+
+    .small-line-ul2 li a {
+        color: #999999;
+        text-decoration: none;
+    }
+
+    .small-line-ul2 li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+
+    #custom-usa {
+        color: #ffffff;
+        border-right: 1px solid #ffffff;
+        padding: 0 10px;
+    }
+
+    .small-line-foot3 {
+        width: 100%;
+        height: 27px;
+        /* background-color: darkslategrey; */
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+        /* border-bottom: 1px solid #303030; */
+    }
+
+    .custom-sm-gamers {
+        text-align: center;
+        color: #43d42b;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+
+    .small-line-foot4 {
+        width: 100%;
+        height: 30px;
+        /* background-color: darkslategrey; */
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 1px solid #303030; */
+    }
+
+    .small-line-ul4 {
+        list-style-type: none;
+        color: #999999;
+        display: flex;
+        margin-bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small-line-ul4 li {
+        width: 24px;
+        height: 24px;
+        /* background-color: pink; */
+    }
+
+    .small-line-ul4 li a {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+
+    .small-line-ul4 li a img {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+
+    .margin-tiny-img {
+        margin-right: 8px;
+    }
+
+    .last-box {
+        padding: 0;
+        margin: 0;
+        outline: 0;
+    }
+
+    .useless-div {
+        width: 100%;
+        height: 70px;
+        background-color: #111111;
+    }
+
+
+
+
+
+    /* LINE FOOTER */
+
+
+
+
+    /* Footer For Small Sizes */
+
+    /* BIGFOOT */
+    .customfooterContainer {
+        display: none;
+    }
+
+    /* BIGFOOT */
+
+
+
+
+}
+
+@media all and (min-width:768px) and (max-width:991.5px) {
+
+    /* Navigation 2 */
+    .navigation-bar2 {
+        display: none;
+    }
+
+
+    .contain-box-visibility {
+        display: none;
+    }
+
+    /* Navigation 2 */
+
+
+    /* Navigation 1 */
+    .custom-navul li {
+        margin-right: calc(8px + 2.6vw);
+    }
+
+    /* Navigation 1 */
+
+
+
+    /* Gray Box With Useless Content */
+
+    .gray-box {
+        position: relative;
+        top: 60px;
+    }
+
+    /* Gray Box With Useless Content */
+
+    /* First Picture */
+    .first-picbox {
+        width: 100%;
+        height: 430px;
+        align-items: flex-start;
+        background-image: url(../images/prime-day-2023-homepage-desktop2x.jpg);
+    }
+
+    .first-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 20vh;
+        line-height: 38px;
+    }
+
+    .first-picText p {
+        font-size: 54px;
+    }
+
+    .first-picText span {
+        font-size: 28px;
+    }
+
+    .first-picText a {
+        font-size: 21px;
+    }
+
+    .first-picText a span {
+        font-size: 21px;
+    }
+
+
+    /* First Picture */
+
+
+    /* Second Picture  */
+    .second-picbox {
+        width: 100%;
+        height: 430px;
+    }
+
+    .second-picText {
+        width: 100%;
+        height: 100%;
+    }
+
+    .second-picText p {
+        font-size: 54px;
+    }
+
+    .second-picText span {
+        font-size: 28px;
+    }
+
+
+    /* Second Picture  */
+
+    /* Third Picture */
+    .third-picbox {
+        width: 100%;
+        height: 430px;
+    }
+
+
+
+    .third-picText {
+        width: 100%;
+        height: 100%;
         background-color: transparent;
         margin-top: 10vh;
         text-align: center;
@@ -566,479 +2928,252 @@
     }
 
     .third-picText p {
-        color: #ffffff;
-        font-size: 56px;
-        font-family: 'Tsemibold W', 'sans-serif';
-        font-weight: 600;
+        font-size: 54px;
     }
 
     .third-picText span {
-        color: #ffffff;
         font-size: 28px;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        font-weight: 400;
     }
 
     .third-picText a {
-        color: #ffffff;
         font-size: 21px;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
     }
 
     .third-picText a span {
         font-size: 21px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
     }
 
-    .third-picText a:hover {
-        text-decoration: underline;
-    }
 
-    .lm-custom {
-        margin-right: 6vh;
-    }
 
     /* Third Picture */
 
     /* Double Pics 1: The Forth And Fifth Picture */
 
-    /* 5.Question: Why Doesn't space-between Work On It? */
-
-    .double-picbox1 {
-        /* width: 100%;
-        height: 570px; */
-        background-color: #222222;
-        /* display: flex; */
-
-        /* justify-content: space-between; */
-        padding: 0;
-    }
-
-    .double-picbox1 .row {
+    /* .double-picbox1 .row {
         width: 100%;
         height: 570px;
-        margin: 0;
-        display: flex;
-    }
-
-    /* .custom-annoying {
-        background-color: rebeccapurple;
-        width: 100%;
-        height: 100%;
     } */
 
     /* The FORTH Picture */
     .theforthpic {
-        width: 50%;
+        width: 100%;
         height: 570px;
-        background-color: #222222;
         background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-        padding: 0;
+        border-right: 5px solid #222222;
     }
 
     .forth-picText {
-        width: 700px;
-        height: 180px;
-        text-align: center;
+        width: 90%;
+        height: 100%;
         margin-top: 6vh;
 
     }
 
     .forth-picText p {
-        color: #ffffff;
-        font-size: 42px;
-        font-family: 'Tsemibold W', 'sans-serif';
-        font-weight: 600;
+        font-size: 40px;
     }
 
     .forth-picText span {
-        color: #ffffff;
         font-size: 21px;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        font-weight: 400;
     }
 
 
 
     .forth-picText a {
-        color: #ffffff;
         font-size: 17px;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
     }
 
     .forth-picText a span {
         font-size: 17px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
     }
 
-    .forth-picText a:hover {
-        text-decoration: underline;
-    }
-
-    .lm-custom {
-        margin-right: 6vh;
-    }
 
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
     .thefifthpic {
-        width: 50%;
+        width: 100%;
         height: 570px;
         background-color: #222222;
         background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-        padding: 0;
-        /* margin-left: 11px; */
-        border-left: 11px solid #222222;
+        border-left: 5px solid #222222;
     }
 
     .fifth-picText {
-        width: 700px;
-        height: 180px;
+        width: 90%;
+        height: 100;
         text-align: center;
         margin-top: 6vh;
     }
 
     .fifth-picText p {
-        color: #ffffff;
-        font-size: 42px;
-        font-family: 'Tsemibold W', 'sans-serif';
-        font-weight: 600;
+        font-size: 40px;
     }
 
     .fifth-picText span {
-        color: #ffffff;
         font-size: 21px;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        font-weight: 400;
     }
 
     .fifth-picText a {
-        color: #ffffff;
         font-size: 17px;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
     }
 
     .fifth-picText a span {
         font-size: 17px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
     }
 
-    .fifth-picText a:hover {
-        text-decoration: underline;
-    }
 
     /* The FIFTH Picture*/
 
-    /*********************************************************/
-    .experiment {
-        padding: 0;
-        margin: 0;
-        background-color: #222222;
-        height: 10px;
-        width: 100%;
-    }
-
-    /*********************************************************/
-
-
     /* Double Pics 1: The Forth And Fifth Picture */
 
-    /* Double Pics 2: The Sixth And Seventh Picture */
-    .double-picbox2 {
-        /* width: 100%;
-        height: 570px; */
-        background-color: #222222;
-        padding: 0;
-    }
 
-    .double-picbox2 .row {
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+    /* .double-picbox2 .row {
         width: 100%;
         height: 570px;
-        margin: 0;
-        display: flex;
-    }
+    } */
 
     /* The SIXTH Picture */
     .thesixthpic {
-        width: 50%;
+        width: 100%;
         height: 570px;
-        background-color: #222222;
         background-image: url(../images/mercury-blade16-blade18-b-950x580-desktop.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-        padding: 0;
-        /* margin-left: 11px; */
-
-        /* border-top: 10px solid #222222; */
+        border-right: 5px solid #222222;
     }
 
     .sixth-picText {
-        width: 700px;
-        height: 180px;
-        text-align: center;
+        width: 90%;
+        height: 100%;
         margin-top: 6vh;
     }
 
     .sixth-picText p {
-        color: #ffffff;
-        font-size: 42px;
-        font-family: 'Tsemibold W', 'sans-serif';
-        font-weight: 600;
+        font-size: 40px;
     }
 
     .sixth-picText span {
-        color: #ffffff;
         font-size: 21px;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        font-weight: 400;
     }
 
     .sixth-picText a {
-        color: #ffffff;
-        font-size: 1fpx;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-size: 17px;
     }
 
     .sixth-picText a span {
-        font-size: 1fpx;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
-    }
-
-    .sixth-picText a:hover {
-        text-decoration: underline;
-    }
-
-    .lm-custom {
-        margin-right: 6vh;
+        font-size: 17px;
     }
 
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
     .theseventhpic {
-        width: 50%;
+        width: 100%;
         height: 570px;
-        background-color: #222222;
-        background-image: url(../images/razer-pubg-homepage-desktop2x.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-        padding: 0;
-        border-left: 11px solid #222222;
-        /* border-top: 10px solid #222222; */
+        background-image: url(../images/razer-pubg-homepage-mobile2x.jpg);
+        border-left: 5px solid #222222;
     }
 
     .seventh-picText {
-        width: 700px;
-        height: 180px;
-        text-align: center;
+        width: 90%;
+        height: 100%;
         margin-top: 6vh;
     }
 
     .seventh-picText p {
-        color: #ffffff;
-        font-size: 42px;
-        font-family: 'Tsemibold W', 'sans-serif';
-        font-weight: 600;
+        font-size: 40px;
     }
 
     .seventh-picText span {
-        color: #ffffff;
         font-size: 21px;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        font-weight: 400;
     }
 
     .seventh-picText a {
-        color: #ffffff;
         font-size: 17px;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
     }
 
     .seventh-picText a span {
         font-size: 17px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
-    }
-
-    .seventh-picText a:hover {
-        text-decoration: underline;
     }
 
 
     /* The SEVENTH Picture */
 
-    /*********************************************************/
-    .experiment {
-        padding: 0;
-        margin: 0;
-        background-color: #222222;
-        height: 10px;
-        width: 100%;
-    }
-
-    /*********************************************************/
-
-
     /* Double Pics 2: The Sixth And Seventh Picture */
 
 
-    /* Double Pics 3: The Eighth And Ninth Picture */
-    .double-picbox3 {
-        /* width: 100%;
-        height: 570px; */
-        background-color: #222222;
-        padding: 0;
-    }
 
-    .double-picbox3 .row {
+    /* Double Pics 3: The Eighth And Ninth Picture */
+
+    /* .double-picbox3 .row {
         width: 100%;
         height: 570px;
-        margin: 0;
-        display: flex;
-    }
+    } */
 
     /* The EIGHTH Picture */
     .theeighthpic {
-        width: 50%;
+        width: 100%;
         height: 570px;
-        background-color: #222222;
-        background-image: url(../images/exoprimal-b-950x580-desktop.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-        padding: 0;
-        /* margin-left: 11px; */
-
-        /* border-top: 10px solid #222222; */
+        background-image: url(../images/exoprimal-b-480x615-mobile.jpg);
+        background-position: top;
+        border-right: 5px solid #222222;
     }
 
     .eighth-picText {
-        width: 700px;
-        height: 180px;
-        text-align: center;
+        width: 90%;
+        height: 100%;
         margin-top: 6vh;
-        /* line-height: 40px; */
     }
 
     .eighth-picText p {
-        color: #ffffff;
-        font-size: 42px;
-        font-family: 'Tsemibold W', 'sans-serif';
-        font-weight: 600;
+        font-size: 40px;
         line-height: 40px;
     }
 
     .eighth-picText span {
-        color: #ffffff;
         font-size: 21px;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        font-weight: 400;
     }
 
     .eighth-picText a {
-        color: #ffffff;
-        font-size: 1fpx;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-size: 17px;
     }
 
     .eighth-picText a span {
-        font-size: 1fpx;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
+        font-size: 17px;
     }
-
-    .eighth-picText a:hover {
-        text-decoration: underline;
-    }
-
 
 
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
     .theninthpic {
-        width: 50%;
+        width: 100%;
         height: 570px;
-        background-color: #222222;
-        background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-        padding: 0;
-        border-left: 11px solid #222222;
-        /* border-top: 10px solid #222222; */
-        /* position: relative; */
+        background-image: url(../images/razer-edge-b-480x615-mobile.jpg);
+        border-left: 5px solid #222222;
     }
 
 
     .custom-exclusive {
         width: 100px;
         height: 40px;
-        /* position: absolute; */
-        /* margin: 0 auto; */
     }
 
     .ninth-picText {
-        width: 700px;
-        height: 180px;
-        text-align: center;
+        width: 90%;
+        height: 100%;
         margin-top: 6vh;
     }
 
     .ninth-picText p {
-        color: #ffffff;
-        font-size: 42px;
-        font-family: 'Tsemibold W', 'sans-serif';
-        font-weight: 600;
+        font-size: 40px;
         line-height: 66px;
     }
 
     .ninth-picText span {
-        color: #ffffff;
         font-size: 21px;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        font-weight: 400;
         line-height: 34px;
     }
 
@@ -1057,161 +3192,1935 @@
 
     }
 
-    .ninth-picText a:hover {
-        text-decoration: underline;
-    }
 
-    .lm-custom {
-        margin-right: 6vh;
-    }
 
     /* The NINTH Picture */
 
-    /*********************************************************/
-    .experiment {
-        padding: 0;
-        margin: 0;
-        background-color: #222222;
-        height: 10px;
-        width: 100%;
-    }
-
-    /*********************************************************/
-
-
     /* Double Pics 3: The Eighth And Ninth Picture */
 
+
     /* BIGFOOT  */
-    .bigfoot-box {
-        background-color: #222222;
-        margin: 0;
+
+    .customfooterContainer {
         padding: 0;
-        outline: 0;
-        /* border-top: 10px solid #222222; */
     }
 
-    .mainrow {
+
+    .bigfootCol {
+        padding: 0;
+    }
+
+    .mainBigfoot {
         width: 100%;
         height: 370px;
-        padding: 0;
-        margin: 0;
+        /* background-color: orange; */
         background-color: #111111;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-
     }
 
-    .secondrow {
-        width: 80%;
-        height: 285px;
-        padding: 0;
-        margin: 0;
-        margin-top: 20px;
-        background-color: transparent;
-        border-bottom: 1px solid #999999;
+    .footkeeper {
+        width: 95%;
+        height: 290px;
+        /* background-color: mediumpurple; */
+        display: flex;
+        margin-top: 15px;
     }
 
-
-
-    .thirdrow {
-        width: 80%;
-        height: 50px;
-        padding: 0;
-        margin: 0;
-        background: darkslategrey;
+    .footkeeper2 {
+        width: 95%;
+        height: 60px;
+        /* background-color: pink; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #555555;
     }
 
-    .bigfoot-box ul {
-        font-size: 12px;
-        color: #ffffff;
+    .ft-list {
+        width: 15%;
+        height: 290px;
+        /* background-color: khaki; */
+    }
+
+    .ft-listul {
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
         list-style-type: none;
-        padding: 0;
-
-    }
-
-    .custom-cl {
-        padding: 0;
-        width: 180px;
-    }
-
-    .bigfoot-box li {
-        width: 150px;
+        font-size: 12px;
         font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
-        padding: 0;
-        margin-bottom: 12px;
+        padding-left: 0;
+        /* margin-top: 10px; */
+    }
+
+    .ft-listul span {
+        color: #ffffff;
     }
 
 
-    .bigfoot-box li a {
-        color: #999999;
+    .ft-listul li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .ft-listul li a {
         text-decoration: none;
+        color: #999999;
     }
 
-    .bigfoot-box li a:hover {
+
+    .ft-listul li a:hover {
         color: #ffffff;
         text-decoration: underline;
     }
 
-    .custom-icon-ul a {
-        width: 28px;
-        height: 28px;
 
+    .ft-icon li {
+        margin-bottom: 5px;
     }
 
-    .custom-icon-ul img {
+
+    .ft-icon img {
         width: 28px;
         height: 28px;
         border-radius: 50%;
 
     }
 
-    .custom-icon-ul li {
-        margin-bottom: 5px;
+    .ft-gamers {
+        width: 25%;
+        height: 100%;
+        /* background-color: lightseagreen; */
+        display: flex;
+        justify-content: flex-end;
+        /* align-items: flex-start; */
     }
 
-    .custom-gamers {
-        padding: 0;
-        width: 260px;
-        position: absolute;
-        right: 10%;
-        text-align: right;
+    .ft-gamers span {
         color: #43d42b;
         font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
+        font-size: 15px;
     }
 
-    .tinyfoot-cl {
+    .ft2-ul1 {
+        list-style-type: none;
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .ft2-ul1 li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding: 0 10px;
+    }
+
+    .ft2-ul1 span {
+        color: #ffffff;
+    }
+
+    .ft2-ul1 li a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .ft2-ul1 li a:hover {
+        text-decoration: underline;
+        color: #ffffff;
+    }
+
+    .ft2-liborder {
+        border-right: 1px solid #999999;
+
+    }
+
+    .ft2-ul2 {
+        list-style-type: none;
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .ft2-ul2 li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding: 0 10px;
+    }
+
+    .ft2-ul2 span {
+        color: #ffffff;
+    }
+
+
+    .ft2-ul2 li a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .ft2-ul2 li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    #copy {
+        padding-left: 0px;
+    }
+
+    #location {
+        padding-right: 0px;
+    }
+
+
+    /* BIGFOOT  */
+
+    /* SMALLFOOT */
+
+    .smallFooter {
+        display: none;
+    }
+
+    /* SMALLFOOT */
+
+
+}
+
+@media all and (min-width:992px) and (max-width:1199px) {
+
+    /* Navigation 2 */
+    .navigation-bar2 {
+        display: none;
+    }
+
+
+    .contain-box-visibility {
+        display: none;
+    }
+
+    /* Navigation 2 */
+
+
+
+
+
+    /* Gray Box With Useless Content */
+
+    .gray-box {
+        position: relative;
+        top: 60px;
+    }
+
+    /* Gray Box With Useless Content */
+
+    /* First Picture */
+    .first-picbox {
+        width: 100%;
+        height: 700px;
+        align-items: flex-start;
+        background-image: url(../images/prime-day-2023-homepage-desktop2x.jpg);
+
+    }
+
+    .first-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 18vh;
+        /* line-height: 38px; */
+    }
+
+    .first-picText p {
+        font-size: 56px;
+    }
+
+    .first-picText span {
+        font-size: 28px;
+    }
+
+    .first-picText a {
+        font-size: 21px;
+    }
+
+    .first-picText a span {
+        font-size: 21px;
+    }
+
+
+    /* First Picture */
+
+
+    /* Second Picture  */
+    .second-picbox {
+        width: 100%;
+        height: 700px;
+    }
+
+    .second-picText {
+        width: 100%;
+        height: 100%;
+    }
+
+    .second-picText p {
+        font-size: 56px;
+    }
+
+    .second-picText span {
+        font-size: 28px;
+    }
+
+
+    /* Second Picture  */
+
+    /* Third Picture */
+    .third-picbox {
+        width: 100%;
+        height: 700px;
+        background-image: url(../images/razer-blade-14-2023-homepage-desktop2x.jpg);
+    }
+
+
+
+    .third-picText {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        margin-top: 10vh;
+        text-align: center;
+        /* line-height: 35px; */
+    }
+
+    .third-picText p {
+        font-size: 56px;
+    }
+
+    .third-picText span {
+        font-size: 28px;
+    }
+
+    .third-picText a {
+        font-size: 21px;
+    }
+
+    .third-picText a span {
+        font-size: 21px;
+    }
+
+
+
+    /* Third Picture */
+
+    /* Double Pics 1: The Forth And Fifth Picture */
+
+    /* .double-picbox1 .row {
+        width: 100%;
+        height: 570px;
+    } */
+
+    /* The FORTH Picture */
+    .theforthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
+        border-right: 5px solid #222222;
+    }
+
+    .forth-picText {
+        width: 700px;
+        height: 180px;
+        margin-top: 6vh;
+
+    }
+
+    .forth-picText p {
+        font-size: 42px;
+    }
+
+    .forth-picText span {
+        font-size: 21px;
+    }
+
+
+
+    .forth-picText a {
+        font-size: 17px;
+    }
+
+    .forth-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The FORTH Picture*/
+
+    /* The FIFTH Picture*/
+    .thefifthpic {
+        width: 100%;
+        height: 570px;
+        background-color: #222222;
+        background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
+        border-left: 5px solid #222222;
+    }
+
+    .fifth-picText {
+        width: 700px;
+        height: 180px;
+        text-align: center;
+        margin-top: 6vh;
+    }
+
+    .fifth-picText p {
+        font-size: 42px;
+    }
+
+    .fifth-picText span {
+        font-size: 21px;
+    }
+
+    .fifth-picText a {
+        font-size: 17px;
+    }
+
+    .fifth-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The FIFTH Picture*/
+
+    /* Double Pics 1: The Forth And Fifth Picture */
+
+
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+    /* .double-picbox2 .row {
+        width: 100%;
+        height: 570px;
+    } */
+
+    /* The SIXTH Picture */
+    .thesixthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/mercury-blade16-blade18-b-950x580-desktop.jpg);
+        border-right: 5px solid #222222;
+    }
+
+    .sixth-picText {
+        width: 700px;
+        height: 180px;
+        margin-top: 6vh;
+    }
+
+    .sixth-picText p {
+        font-size: 42px;
+    }
+
+    .sixth-picText span {
+        font-size: 21px;
+    }
+
+    .sixth-picText a {
+        font-size: 17px;
+    }
+
+    .sixth-picText a span {
+        font-size: 17px;
+    }
+
+    /* The SIXTH Picture */
+
+    /* The SEVENTH Picture */
+    .theseventhpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/razer-pubg-homepage-mobile2x.jpg);
+        border-left: 5px solid #222222;
+    }
+
+    .seventh-picText {
+        width: 700px;
+        height: 180px;
+        margin-top: 6vh;
+    }
+
+    .seventh-picText p {
+        font-size: 42px;
+    }
+
+    .seventh-picText span {
+        font-size: 21px;
+    }
+
+    .seventh-picText a {
+        font-size: 17px;
+    }
+
+    .seventh-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The SEVENTH Picture */
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+
+    /* .double-picbox3 .row {
+        width: 100%;
+        height: 570px;
+    } */
+
+    /* The EIGHTH Picture */
+    .theeighthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/exoprimal-b-950x580-desktop.jpg);
+        border-right: 5px solid #222222;
+    }
+
+    .eighth-picText {
+        width: 700px;
+        height: 180px;
+        margin-top: 6vh;
+    }
+
+    .eighth-picText p {
+        font-size: 42px;
+        line-height: 40px;
+    }
+
+    .eighth-picText span {
+        font-size: 21px;
+    }
+
+    .eighth-picText a {
+        font-size: 17px;
+    }
+
+    .eighth-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The EIGHTH Picture */
+
+    /* The NINTH Picture */
+    .theninthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
+        border-left: 5px solid #222222;
+    }
+
+
+    .custom-exclusive {
+        width: 100px;
+        height: 40px;
+    }
+
+    .ninth-picText {
+        width: 700px;
+        height: 180px;
+        margin-top: 6vh;
+    }
+
+    .ninth-picText p {
+        font-size: 42px;
+        line-height: 66px;
+    }
+
+    .ninth-picText span {
+        font-size: 21px;
+        line-height: 34px;
+    }
+
+    .ninth-picText a {
+        color: #ffffff;
+        font-size: 17px;
+        text-decoration: none;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        line-height: 34px;
+    }
+
+    .ninth-picText a span {
+        font-size: 17px;
+        color: #44d62c;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+    }
+
+
+
+    /* The NINTH Picture */
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+
+    /* BIGFOOT  */
+
+    .customfooterContainer {
         padding: 0;
-        height: 50px;
     }
 
-    .tinyfoot-ul {
+
+    .bigfootCol {
+        padding: 0;
+    }
+
+    .mainBigfoot {
+        width: 100%;
+        height: 370px;
+        /* background-color: orange; */
+        background-color: #111111;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
-        padding: 0;
-        margin: 0;
     }
 
-    .tinyfoot-ul li {
+    .footkeeper {
+        width: 95%;
+        height: 290px;
+        /* background-color: mediumpurple; */
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .footkeeper2 {
+        width: 95%;
+        height: 60px;
+        /* background-color: pink; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #555555;
+    }
+
+    .ft-list {
+        width: 15%;
+        height: 290px;
+        /* background-color: khaki; */
+    }
+
+    .ft-listul {
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-size: 12px;
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding-left: 0;
+        /* margin-top: 10px; */
+    }
+
+    .ft-listul span {
+        color: #ffffff;
+    }
+
+
+    .ft-listul li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+
+    .ft-listul li a {
+        text-decoration: none;
         color: #999999;
-        margin: 0;
-        width: 100px;
+    }
+
+
+    .ft-listul li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+
+    .ft-icon li {
+        margin-bottom: 5px;
+    }
+
+
+    .ft-icon img {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+
+    }
+
+    .ft-gamers {
+        width: 25%;
+        height: 100%;
+        /* background-color: lightseagreen; */
+        display: flex;
+        justify-content: flex-end;
+        /* align-items: flex-start; */
+    }
+
+    .ft-gamers span {
+        color: #43d42b;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .ft2-ul1 {
+        list-style-type: none;
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .ft2-ul1 li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding: 0 10px;
+    }
+
+    .ft2-ul1 span {
+        color: #ffffff;
+    }
+
+    .ft2-ul1 li a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .ft2-ul1 li a:hover {
+        text-decoration: underline;
+        color: #ffffff;
+    }
+
+    .ft2-liborder {
         border-right: 1px solid #999999;
-        text-align: center;
-        margin-right: 10px;
+
+    }
+
+    .ft2-ul2 {
+        list-style-type: none;
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .ft2-ul2 li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding: 0 10px;
+    }
+
+    .ft2-ul2 span {
+        color: #ffffff;
     }
 
 
-
-    .no-br {
-        border: 0;
+    .ft2-ul2 li a {
+        text-decoration: none;
+        color: #999999;
     }
+
+    .ft2-ul2 li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    #copy {
+        padding-left: 0px;
+    }
+
+    #location {
+        padding-right: 0px;
+    }
+
 
     /* BIGFOOT  */
 
 
+    /* SMALLFOOT */
+
+    .smallFooter {
+        display: none;
+    }
+
+    /* SMALLFOOT */
+
+
+}
+
+@media all and (min-width:1200px) and (max-width:1399.5px) {
+
+    /* Navigation 2 */
+    .navigation-bar2 {
+        display: none;
+    }
+
+    .contain-box-visibility {
+        display: none;
+    }
+
+    /* Navigation 2 */
+
+
+
+
+
+    /* Gray Box With Useless Content */
+
+    .gray-box {
+        position: relative;
+        top: 60px;
+    }
+
+    /* Gray Box With Useless Content */
+
+    /* First Picture */
+    .first-picbox {
+        width: 100%;
+        height: 700px;
+        /* align-items: flex-start; */
+        background-image: url(../images/prime-day-2023-homepage-desktop2x.jpg);
+    }
+
+    .first-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 20vh;
+        line-height: 36px;
+    }
+
+    .first-picText p {
+        font-size: 56px;
+    }
+
+    .first-picText span {
+        font-size: 28px;
+    }
+
+    .first-picText a {
+        font-size: 21px;
+    }
+
+    .first-picText a span {
+        font-size: 21px;
+    }
+
+
+    /* First Picture */
+
+
+    /* Second Picture  */
+    .second-picbox {
+        width: 100%;
+        height: 700px;
+    }
+
+    .second-picText {
+        width: 100%;
+        height: 100%;
+    }
+
+    .second-picText p {
+        font-size: 56px;
+    }
+
+    .second-picText span {
+        font-size: 28px;
+    }
+
+
+    /* Second Picture  */
+
+    /* Third Picture */
+    .third-picbox {
+        width: 100%;
+        height: 700px;
+    }
+
+
+
+    .third-picText {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        margin-top: 10vh;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    .third-picText p {
+        font-size: 56px;
+    }
+
+    .third-picText span {
+        font-size: 28px;
+    }
+
+    .third-picText a {
+        font-size: 21px;
+    }
+
+    .third-picText a span {
+        font-size: 21px;
+    }
+
+
+
+    /* Third Picture */
+
+    /* Double Pics 1: The Forth And Fifth Picture */
+
+    /* .double-picbox1 .row {
+        width: 100%;
+        height: 570px;
+    } */
+
+    /* The FORTH Picture */
+    .theforthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
+        border-right: 5px solid #222222;
+    }
+
+    .forth-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 36px;
+    }
+
+    .forth-picText p {
+        font-size: 42px;
+    }
+
+    .forth-picText span {
+        font-size: 21px;
+    }
+
+
+
+    .forth-picText a {
+        font-size: 17px;
+    }
+
+    .forth-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The FORTH Picture*/
+
+    /* The FIFTH Picture*/
+    .thefifthpic {
+        width: 100%;
+        height: 570px;
+        background-color: #222222;
+        background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
+        border-left: 5px solid #222222;
+    }
+
+    .fifth-picText {
+        width: 90%;
+        height: 100%;
+        text-align: center;
+        margin-top: 10vh;
+        line-height: 36px;
+    }
+
+    .fifth-picText p {
+        font-size: 42px;
+    }
+
+    .fifth-picText span {
+        font-size: 21px;
+    }
+
+    .fifth-picText a {
+        font-size: 17px;
+    }
+
+    .fifth-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The FIFTH Picture*/
+
+    /* Double Pics 1: The Forth And Fifth Picture */
+
+
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+    /* .double-picbox2 .row {
+        width: 100%;
+        height: 570px;
+    } */
+
+    /* The SIXTH Picture */
+    .thesixthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/mercury-blade16-blade18-b-950x580-desktop.jpg);
+        border-right: 5px solid #222222;
+    }
+
+    .sixth-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 36px;
+    }
+
+    .sixth-picText p {
+        font-size: 42px;
+    }
+
+    .sixth-picText span {
+        font-size: 21px;
+    }
+
+    .sixth-picText a {
+        font-size: 17px;
+    }
+
+    .sixth-picText a span {
+        font-size: 17px;
+    }
+
+    /* The SIXTH Picture */
+
+    /* The SEVENTH Picture */
+    .theseventhpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/razer-pubg-homepage-desktop2x.jpg);
+        border-left: 5px solid #222222;
+    }
+
+    .seventh-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 36px;
+    }
+
+    .seventh-picText p {
+        font-size: 42px;
+    }
+
+    .seventh-picText span {
+        font-size: 21px;
+    }
+
+    .seventh-picText a {
+        font-size: 17px;
+    }
+
+    .seventh-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The SEVENTH Picture */
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+
+    /* .double-picbox3 .row {
+        width: 100%;
+        height: 570px;
+    } */
+
+    /* The EIGHTH Picture */
+    .theeighthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/exoprimal-b-950x580-desktop.jpg);
+        border-right: 5px solid #222222;
+    }
+
+    .eighth-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 36px;
+    }
+
+    .eighth-picText p {
+        font-size: 42px;
+        /* line-height: 40px; */
+    }
+
+    .eighth-picText span {
+        font-size: 21px;
+    }
+
+    .eighth-picText a {
+        font-size: 17px;
+    }
+
+    .eighth-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The EIGHTH Picture */
+
+    /* The NINTH Picture */
+    .theninthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
+        border-left: 5px solid #222222;
+    }
+
+
+    .ninth-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 5vh;
+        line-height: 36px;
+    }
+
+    .ninth-picText p {
+        font-size: 42px;
+        /* line-height: 66px; */
+    }
+
+    .ninth-picText span {
+        font-size: 21px;
+        /* line-height: 34px; */
+    }
+
+    .ninth-picText a {
+        color: #ffffff;
+        font-size: 17px;
+        text-decoration: none;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        /* line-height: 34px; */
+    }
+
+    .ninth-picText a span {
+        font-size: 17px;
+        color: #44d62c;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+    }
+
+
+
+    /* The NINTH Picture */
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+
+    /* BIGFOOT  */
+
+    .customfooterContainer {
+        padding: 0;
+    }
+
+
+
+    .bigfootCol {
+        padding: 0;
+    }
+
+    .mainBigfoot {
+        width: 100%;
+        height: 350px;
+        /* background-color: orange; */
+        background-color: #111111;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footkeeper {
+        width: 94%;
+        height: 270px;
+        /* background-color: mediumpurple; */
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .footkeeper2 {
+        width: 94%;
+        height: 60px;
+        /* background-color: pink; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #555555;
+    }
+
+    .ft-list {
+        width: 15%;
+        height: 270px;
+        /* background-color: khaki; */
+    }
+
+    .ft-listul {
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-size: 12px;
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding-left: 0;
+        /* margin-top: 10px; */
+    }
+
+    .ft-listul span {
+        color: #ffffff;
+    }
+
+
+    .ft-listul li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .ft-listul li a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+
+    .ft-listul li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+
+    .ft-icon li {
+        margin-bottom: 5px;
+    }
+
+
+    .ft-icon img {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+
+    }
+
+    .ft-gamers {
+        width: 25%;
+        height: 100%;
+        /* background-color: lightseagreen; */
+        display: flex;
+        justify-content: flex-end;
+        /* align-items: flex-start; */
+    }
+
+    .ft-gamers span {
+        color: #43d42b;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .ft2-ul1 {
+        list-style-type: none;
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .ft2-ul1 li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding: 0 10px;
+    }
+
+    .ft2-ul1 span {
+        color: #ffffff;
+    }
+
+    .ft2-ul1 li a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .ft2-ul1 li a:hover {
+        text-decoration: underline;
+        color: #ffffff;
+    }
+
+    .ft2-liborder {
+        border-right: 1px solid #999999;
+
+    }
+
+    .ft2-ul2 {
+        list-style-type: none;
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .ft2-ul2 li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding: 0 10px;
+    }
+
+    .ft2-ul2 span {
+        color: #ffffff;
+    }
+
+
+    .ft2-ul2 li a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .ft2-ul2 li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    #copy {
+        padding-left: 0px;
+    }
+
+    #location {
+        padding-right: 0px;
+    }
+
+
+    /* BIGFOOT  */
+
+
+
+
+    /* SMALLFOOT */
+
+    .smallFooter {
+        display: none;
+    }
+
+    /* SMALLFOOT */
+
+}
+
+@media all and (min-width:1400px) {
+
+
+    /* Navigation 2 */
+    .navigation-bar2 {
+        display: none;
+    }
+
+    /* Navigation 2 */
+
+
+    /* Navigation 1 */
+    .custom-navul li {
+        margin-right: calc(12px + 3.8vw);
+    }
+
+    /* Navigation 1 */
+
+
+    .contain-box-visibility {
+        display: none;
+    }
+
+
+
+    /* Gray Box With Useless Content */
+
+    .gray-box {
+        position: relative;
+        top: 60px;
+    }
+
+    /* Gray Box With Useless Content */
+
+    /* First Picture */
+    .first-picbox {
+        width: 100%;
+        height: 700px;
+        align-items: flex-start;
+        background-image: url(../images/prime-day-2023-homepage-desktop2x.jpg);
+    }
+
+    .first-picText {
+        width: 100%;
+        height: 90%;
+        margin-top: 20vh;
+        line-height: 36px;
+    }
+
+    .first-picText p {
+        font-size: 56px;
+    }
+
+    .first-picText span {
+        font-size: 28px;
+    }
+
+    .first-picText a {
+        font-size: 21px;
+    }
+
+    .first-picText a span {
+        font-size: 21px;
+    }
+
+
+    /* First Picture */
+
+
+    /* Second Picture  */
+    .second-picbox {
+        width: 100%;
+        height: 700px;
+    }
+
+    .second-picText {
+        width: 100%;
+        height: 100%;
+        margin-top: 10vh;
+        line-height: 36px;
+    }
+
+    .second-picText p {
+        font-size: 56px;
+    }
+
+    .second-picText span {
+        font-size: 28px;
+    }
+
+
+    /* Second Picture  */
+
+    /* Third Picture */
+    .third-picbox {
+        width: 100%;
+        height: 700px;
+    }
+
+
+
+    .third-picText {
+        width: 100%;
+        height: 90%;
+        background-color: transparent;
+        margin-top: 10vh;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    .third-picText p {
+        font-size: 56px;
+    }
+
+    .third-picText span {
+        font-size: 28px;
+    }
+
+    .third-picText a {
+        font-size: 21px;
+    }
+
+    .third-picText a span {
+        font-size: 21px;
+    }
+
+
+
+    /* Third Picture */
+
+    /* Double Pics 1: The Forth And Fifth Picture */
+
+    /* .double-picbox1 .row {
+        width: 100%;
+        height: 570px;
+    } */
+
+    /* The FORTH Picture */
+    .theforthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
+        border-right: 5px solid #222222;
+    }
+
+    .forth-picText {
+        width: 100%;
+        height: 90%;
+        margin-top: 10vh;
+        line-height: 36px;
+
+    }
+
+    .forth-picText p {
+        font-size: 42px;
+    }
+
+    .forth-picText span {
+        font-size: 21px;
+    }
+
+
+
+    .forth-picText a {
+        font-size: 17px;
+    }
+
+    .forth-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The FORTH Picture*/
+
+    /* The FIFTH Picture*/
+    .thefifthpic {
+        width: 100%;
+        height: 570px;
+        background-color: #222222;
+        background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
+        border-left: 5px solid #222222;
+    }
+
+    .fifth-picText {
+        width: 100%;
+        height: 90%;
+        text-align: center;
+        margin-top: 10vh;
+        line-height: 36px;
+    }
+
+    .fifth-picText p {
+        font-size: 42px;
+    }
+
+    .fifth-picText span {
+        font-size: 21px;
+    }
+
+    .fifth-picText a {
+        font-size: 17px;
+    }
+
+    .fifth-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The FIFTH Picture*/
+
+    /* Double Pics 1: The Forth And Fifth Picture */
+
+
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+    /* .double-picbox2 .row {
+        width: 100%;
+        height: 570px;
+    } */
+
+    /* The SIXTH Picture */
+    .thesixthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/mercury-blade16-blade18-b-950x580-desktop.jpg);
+        border-right: 5px solid #222222;
+    }
+
+    .sixth-picText {
+        width: 100%;
+        height: 90%;
+        margin-top: 10vh;
+        line-height: 36px;
+    }
+
+    .sixth-picText p {
+        font-size: 42px;
+    }
+
+    .sixth-picText span {
+        font-size: 21px;
+    }
+
+    .sixth-picText a {
+        font-size: 17px;
+    }
+
+    .sixth-picText a span {
+        font-size: 17px;
+    }
+
+    /* The SIXTH Picture */
+
+    /* The SEVENTH Picture */
+    .theseventhpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/razer-pubg-homepage-desktop2x.jpg);
+        border-left: 5px solid #222222;
+    }
+
+    .seventh-picText {
+        width: 100%;
+        height: 90%;
+        margin-top: 10vh;
+        line-height: 36px;
+    }
+
+    .seventh-picText p {
+        font-size: 42px;
+    }
+
+    .seventh-picText span {
+        font-size: 21px;
+    }
+
+    .seventh-picText a {
+        font-size: 17px;
+    }
+
+    .seventh-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The SEVENTH Picture */
+
+    /* Double Pics 2: The Sixth And Seventh Picture */
+
+
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+
+    /* .double-picbox3 .row {
+        width: 100%;
+        height: 570px;
+    } */
+
+    /* The EIGHTH Picture */
+    .theeighthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/exoprimal-b-950x580-desktop.jpg);
+        border-right: 5px solid #222222;
+    }
+
+    .eighth-picText {
+        width: 100%;
+        height: 90%;
+        margin-top: 10vh;
+        line-height: 36px;
+    }
+
+    .eighth-picText p {
+        font-size: 42px;
+        line-height: 40px;
+    }
+
+    .eighth-picText span {
+        font-size: 21px;
+    }
+
+    .eighth-picText a {
+        font-size: 17px;
+    }
+
+    .eighth-picText a span {
+        font-size: 17px;
+    }
+
+
+    /* The EIGHTH Picture */
+
+    /* The NINTH Picture */
+    .theninthpic {
+        width: 100%;
+        height: 570px;
+        background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
+        border-left: 5px solid #222222;
+    }
+
+
+    .custom-exclusive {
+        width: 100px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .ninth-picText {
+        width: 100%;
+        height: 90%;
+        margin-top: 5vh;
+        line-height: 36px;
+    }
+
+    .ninth-picText p {
+        font-size: 42px;
+        line-height: 66px;
+    }
+
+    .ninth-picText span {
+        font-size: 21px;
+        line-height: 34px;
+    }
+
+    .ninth-picText a {
+        color: #ffffff;
+        font-size: 17px;
+        text-decoration: none;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        line-height: 34px;
+    }
+
+    .ninth-picText a span {
+        font-size: 17px;
+        color: #44d62c;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+
+    }
+
+
+
+    /* The NINTH Picture */
+
+
+
+
+    /* Double Pics 3: The Eighth And Ninth Picture */
+
+    /* BIGFOOT  */
+
+    .customfooterContainer {
+        padding: 0;
+    }
+
+
+
+    .bigfootCol {
+        padding: 0;
+    }
+
+    .mainBigfoot {
+        width: 100%;
+        height: 370px;
+        /* background-color: orange; */
+        background-color: #111111;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footkeeper {
+        width: 76%;
+        height: 270px;
+        /* background-color: mediumpurple; */
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .footkeeper2 {
+        width: 76%;
+        height: 60px;
+        /* background-color: pink; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #555555;
+    }
+
+    .ft-list {
+        width: 15%;
+        height: 270px;
+        /* background-color: khaki; */
+    }
+
+    .ft-listul {
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-size: 12px;
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding-left: 0;
+        /* margin-top: 10px; */
+    }
+
+    .ft-listul span {
+        color: #ffffff;
+    }
+
+
+    .ft-listul li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .ft-listul li a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+
+    .ft-listul li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+
+    .ft-icon li {
+        margin-bottom: 5px;
+    }
+
+
+    .ft-icon img {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+
+    }
+
+    .ft-gamers {
+        width: 25%;
+        height: 100%;
+        /* background-color: lightseagreen; */
+        display: flex;
+        justify-content: flex-end;
+        /* align-items: flex-start; */
+    }
+
+    .ft-gamers span {
+        color: #43d42b;
+        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .ft2-ul1 {
+        list-style-type: none;
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .ft2-ul1 li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding: 0 10px;
+    }
+
+    .ft2-ul1 span {
+        color: #ffffff;
+    }
+
+    .ft2-ul1 li a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .ft2-ul1 li a:hover {
+        text-decoration: underline;
+        color: #ffffff;
+    }
+
+    .ft2-liborder {
+        border-right: 1px solid #999999;
+
+    }
+
+    .ft2-ul2 {
+        list-style-type: none;
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .ft2-ul2 li {
+        font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-weight: 400;
+        padding: 0 10px;
+    }
+
+    .ft2-ul2 span {
+        color: #ffffff;
+    }
+
+
+    .ft2-ul2 li a {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .ft2-ul2 li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    #copy {
+        padding-left: 0px;
+    }
+
+    #location {
+        padding-right: 0px;
+    }
+
+
+    /* BIGFOOT  */
+
+
+    /* SMALLFOOT */
+
+    .smallFooter {
+        display: none;
+    }
+
+    /* SMALLFOOT */
+
+    /* LAST BOX */
+
+    .last-box {
+        display: none;
+    }
+
+    /* LAST BOX */
 
 }
