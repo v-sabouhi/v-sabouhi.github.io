@@ -59,10 +59,7 @@
     border: 0;
 }
 
-.custom-container .row {
-    padding: 0;
-    margin: 0;
-}
+
 
 .navigation-bar {
     width: 100%;
@@ -129,12 +126,12 @@
 
 /* Gray Box With Useless Content */
 
-.gray-box {
+/* .gray-box {
     padding: 0;
     margin: 0;
     outline: 0;
     border: 0;
-}
+} */
 
 .gray {
     width: 100%;
@@ -149,15 +146,12 @@
 }
 
 
-.gray-box .row {
-    margin: 0;
-}
 
 .gray-col {
     padding: 0;
     margin: 0;
-    outline: 0;
-    border: 0;
+    /* outline: 0; */
+    /* border: 0; */
 }
 
 .gray-box p {
@@ -239,11 +233,10 @@
 .first-piccol {
     padding: 0;
     margin: 0;
-    outline: 0;
+    /* outline: 0; */
 }
 
 .first-picText {
-    background-color: transparent;
     text-align: center;
 }
 
@@ -296,11 +289,10 @@
 .second-piccol {
     padding: 0;
     margin: 0;
-    outline: 0;
+    /* outline: 0; */
 }
 
 .second-picText {
-    background-color: transparent;
     margin-top: 10vh;
     text-align: center;
     line-height: 35px;
@@ -356,11 +348,9 @@
 .third-piccol {
     padding: 0;
     margin: 0;
-    outline: 0;
 }
 
 .third-picText {
-    background-color: transparent;
     margin-top: 10vh;
     text-align: center;
     line-height: 35px;
@@ -401,19 +391,6 @@
 /* Third Picture */
 
 /* Double Pics 1: The Forth And Fifth Picture */
-.double-picbox1 {
-    /* width: 100%;
-    height: 570px; */
-    background-color: #222222;
-    padding: 0;
-}
-
-.double-picbox1 .row {
-    /* width: 100%;
-    height: 1400px; */
-    margin: 0;
-    /* display: flex; */
-}
 
 
 /* The FORTH Picture */
@@ -426,7 +403,6 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
-    padding: 0;
 }
 
 .forth-picText {
@@ -514,17 +490,7 @@
 
 
 /* Double Pics 2: The Sixth And Seventh Picture */
-.double-picbox2 {
-    background-color: #222222;
-    padding: 0;
-}
 
-/* .double-picbox2 .row {
-    width: 100%;
-    height: 1400px;
-    margin: 0;
-    display: flex;
-} */
 
 /* The SIXTH Picture */
 .thesixthpic {
@@ -536,7 +502,6 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
-    padding: 0;
 }
 
 .sixth-picText {
@@ -583,7 +548,6 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
-    padding: 0;
 }
 
 .seventh-picText {
@@ -624,17 +588,7 @@
 
 
 /* Double Pics 3: The Eighth And Ninth Picture */
-.double-picbox3 {
-    background-color: #222222;
-    padding: 0;
-}
 
-/* .double-picbox3 .row {
-    width: 100%;
-    height: 1400px;
-    margin: 0;
-    display: flex;
-} */
 
 /* The EIGHTH Picture */
 .theeighthpic {
@@ -646,7 +600,6 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
-    padding: 0;
 }
 
 .eighth-picText {
@@ -694,7 +647,6 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
-    padding: 0;
 }
 
 .custom-exclusive {
@@ -764,7 +716,6 @@
     .nav-containBox {
         width: 100%;
         height: 636px;
-        /* background-color: orange; */
         background-color: #040404;
         display: flex;
         flex-direction: column;
@@ -780,28 +731,22 @@
         height: 40px;
         border-radius: 9px;
         margin: 30px 0 43px 0;
-        /* background-color: mediumslateblue; */
     }
 
     .searchboxText {
         width: 100%;
         height: 100%;
-        /* background-color: transparent; */
         background-color: #222222;
         display: flex;
         align-items: center;
         border-radius: 9px;
         justify-content: flex-start;
         font-family: 'Tlight W', 'Titillium Web', sans-serif;
-        /* padding: 0 5px; */
     }
 
 
     .search-box input {
-        /* width: 90%; */
-        /* height: 40px; */
         border: 0;
-        /* background-color: transparent; */
         background-color: #222222;
         color: #999999;
     }
@@ -817,18 +762,13 @@
 
     /* SEARCH BOX */
 
-    /* .contain-box-visibility {
-    height: 100vh;
-    position: fixed;
-    scroll-behavior:
-} */
+
 
 
 
     .ul-containerBox {
         width: 100%;
         height: 530px;
-        /* background-color: transparent; */
         background-color: #040404;
         display: flex;
         justify-content: center;
@@ -838,23 +778,19 @@
         width: 90%;
         padding: 0;
         margin-bottom: 0;
-        /* background-color: mediumpurple; */
         list-style-type: none;
         display: flex;
         flex-direction: column;
-        /* justify-content: flex-end; */
     }
 
     .ul-boxNav li {
         width: 90%;
         height: 60px;
         font-size: 20px;
-        /* background-color: transparent; */
         background-color: #040404;
         font-family: 'Tlight W', 'Titillium Web', sans-serif;
         color: #999999;
         display: flex;
-        /* justify-content: center; */
         align-items: center;
     }
 
@@ -868,7 +804,6 @@
         color: #999999;
         text-decoration: none;
         display: flex;
-        /* justify-content: center; */
         align-items: center;
     }
 
@@ -899,7 +834,6 @@
         justify-content: space-between;
         align-items: center;
         background-color: transparent;
-        /* background-color: #000000; */
         box-sizing: border-box;
         list-style-type: none;
         font-size: 30px;
@@ -961,7 +895,6 @@
         width: 100%;
         height: 430px;
         background-image: url(../images/prime-day-2023-homepage-mobile2x.jpg);
-        /* align-items: center; */
         background-position: bottom;
     }
 
@@ -1004,7 +937,6 @@
     .second-picText {
         width: 100%;
         height: 100%;
-        /* text-align: center; */
         margin-top: 10vh;
         line-height: 26px;
     }
@@ -1070,10 +1002,6 @@
 
     /* Double Pics 1: The Forth And Fifth Picture */
 
-    /* .double-picbox1 .row {
-        width: 100%;
-        height: 1140px;
-    } */
 
     /* The FORTH Picture */
     .theforthpic {
@@ -1154,11 +1082,6 @@
 
     /* Double Pics 2: The Sixth And Seventh Picture */
 
-    /* .double-picbox2 .row {
-        width: 100%;
-        height: 1140px;
-    } */
-
     /* The SIXTH Picture */
     .thesixthpic {
         width: 100%;
@@ -1234,10 +1157,6 @@
 
     /* Double Pics 3: The Eighth And Ninth Picture */
 
-    /* .double-picbox3 .row {
-        width: 100%;
-        height: 1140px;
-    } */
 
     /* The EIGHTH Picture */
     .theeighthpic {
@@ -1325,23 +1244,11 @@
 
     /* Footer For Small Sizes */
 
-    .smallFooter {
-        background-color: #111111;
-        padding: 0;
-        margin: 0;
-        outline: 0;
-    }
-
-
-    .smfootcol {
-        padding: 0;
-        margin: 0;
-    }
 
 
     .adjustfooter {
         width: 100%;
-        height: 215px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -1380,7 +1287,6 @@
     button {
         width: 20px;
         height: 20px;
-        /* background-color: blue; */
         background-color: transparent;
         display: flex;
         justify-content: center;
@@ -1400,8 +1306,6 @@
     .shop-hdiv {
         width: 90%;
         height: 0px;
-        /* visibility: hidden; */
-        /* display: none; */
         background-color: #111111;
         transition: all 300ms linear 0s;
         overflow: hidden;
@@ -1411,7 +1315,6 @@
         list-style-type: none;
         color: #999999;
         font-size: 12px;
-        /* transition: all 300ms ease 0s; */
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -1441,8 +1344,6 @@
     .explore-hdiv {
         width: 90%;
         height: 0px;
-        /* visibility: hidden; */
-        /* display: none; */
         background-color: #111111;
         transition: all 300ms linear 0s;
         overflow: hidden;
@@ -1452,7 +1353,6 @@
         list-style-type: none;
         color: #999999;
         font-size: 12px;
-        /* transition: all 300ms ease 0s; */
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -1482,8 +1382,6 @@
     .support-hdiv {
         width: 90%;
         height: 0px;
-        /* visibility: hidden; */
-        /* display: none; */
         background-color: #111111;
         transition: all 300ms linear 0s;
         overflow: hidden;
@@ -1493,7 +1391,6 @@
         list-style-type: none;
         color: #999999;
         font-size: 12px;
-        /* transition: all 300ms ease 0s; */
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -1523,8 +1420,6 @@
     .company-hdiv {
         width: 90%;
         height: 0px;
-        /* visibility: hidden; */
-        /* display: none; */
         background-color: #111111;
         transition: all 300ms linear 0s;
         overflow: hidden;
@@ -1534,7 +1429,6 @@
         list-style-type: none;
         color: #999999;
         font-size: 12px;
-        /* transition: all 300ms ease 0s; */
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -1564,8 +1458,6 @@
     /***************************************************************************/
     .open-footer {
         height: 300px;
-        overflow: scroll;
-        /* display: flex; */
         border-bottom: 1px solid #303030;
     }
 
@@ -1588,7 +1480,6 @@
     .small-line-foot {
         width: 100%;
         height: 76px;
-        /* background-color: darkslategrey; */
         background-color: #111111;
         display: flex;
         justify-content: center;
@@ -1637,12 +1528,10 @@
     .small-line-foot2 {
         width: 100%;
         height: 55px;
-        /* background-color: darkslategrey; */
         background-color: #111111;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* border-bottom: 1px solid #303030; */
     }
 
 
@@ -1658,8 +1547,6 @@
         font-weight: 400;
         font-size: 12px;
         height: 16px;
-        /* background-color: pink; */
-
     }
 
     .small-line-ul2 li a {
@@ -1682,14 +1569,12 @@
     .small-line-foot3 {
         width: 100%;
         height: 27px;
-        /* background-color: darkslategrey; */
         background-color: #111111;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0;
         text-align: center;
-        /* border-bottom: 1px solid #303030; */
     }
 
     .custom-sm-gamers {
@@ -1704,12 +1589,10 @@
     .small-line-foot4 {
         width: 100%;
         height: 30px;
-        /* background-color: darkslategrey; */
         background-color: #111111;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* border-bottom: 1px solid #303030; */
     }
 
     .small-line-ul4 {
@@ -1724,7 +1607,6 @@
     .small-line-ul4 li {
         width: 24px;
         height: 24px;
-        /* background-color: pink; */
     }
 
     .small-line-ul4 li a {
@@ -1744,11 +1626,6 @@
         margin-right: 8px;
     }
 
-    .last-box {
-        padding: 0;
-        margin: 0;
-        outline: 0;
-    }
 
     .useless-div {
         width: 100%;
@@ -1770,6 +1647,19 @@
     /* BIGFOOT */
 
 
+
+    .open-close {
+        height: 0;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: all 300ms ease 0s;
+    }
+
+    .custom-height {
+        height: 100vh;
+    }
 
 }
 
@@ -1793,7 +1683,6 @@
     .nav-containBox {
         width: 100%;
         height: 636px;
-        /* background-color: orange; */
         background-color: #040404;
         display: flex;
         flex-direction: column;
@@ -1809,28 +1698,22 @@
         height: 40px;
         border-radius: 9px;
         margin: 30px 0 43px 0;
-        /* background-color: mediumslateblue; */
     }
 
     .searchboxText {
         width: 100%;
         height: 100%;
-        /* background-color: transparent; */
         background-color: #222222;
         display: flex;
         align-items: center;
         border-radius: 9px;
         justify-content: flex-start;
         font-family: 'Tlight W', 'Titillium Web', sans-serif;
-        /* padding: 0 5px; */
     }
 
 
     .search-box input {
-        /* width: 90%; */
-        /* height: 40px; */
         border: 0;
-        /* background-color: transparent; */
         background-color: #222222;
         color: #999999;
     }
@@ -1843,18 +1726,12 @@
 
     /* SEARCH BOX */
 
-    /* .contain-box-visibility {
-        height: 100vh;
-        position: fixed;
-        scroll-behavior:
-    } */
 
 
 
     .ul-containerBox {
         width: 100%;
         height: 530px;
-        /* background-color: transparent; */
         background-color: #040404;
         display: flex;
         justify-content: center;
@@ -1864,23 +1741,19 @@
         width: 90%;
         padding: 0;
         margin-bottom: 0;
-        /* background-color: mediumpurple; */
         list-style-type: none;
         display: flex;
         flex-direction: column;
-        /* justify-content: flex-end; */
     }
 
     .ul-boxNav li {
         width: 90%;
         height: 60px;
         font-size: 20px;
-        /* background-color: transparent; */
         background-color: #040404;
         font-family: 'Tlight W', 'Titillium Web', sans-serif;
         color: #999999;
         display: flex;
-        /* justify-content: center; */
         align-items: center;
     }
 
@@ -1894,7 +1767,6 @@
         color: #999999;
         text-decoration: none;
         display: flex;
-        /* justify-content: center; */
         align-items: center;
     }
 
@@ -1925,7 +1797,6 @@
         justify-content: space-between;
         align-items: center;
         background-color: transparent;
-        /* background-color: #000000; */
         box-sizing: border-box;
         list-style-type: none;
         font-size: 30px;
@@ -1985,7 +1856,6 @@
         width: 100%;
         height: 430px;
         background-image: url(../images/prime-day-2023-homepage-mobile2x.jpg);
-        /* align-items: center; */
         background-position: bottom;
     }
 
@@ -1995,7 +1865,6 @@
         height: 100%;
         margin-top: 10vh;
         line-height: 26px;
-        /* line-height: 35px; */
     }
 
     .first-picText p {
@@ -2094,17 +1963,12 @@
 
     /* Double Pics 1: The Forth And Fifth Picture */
 
-    /* .double-picbox1 .row {
-        width: 100%;
-        height: 1140px;
-    } */
 
     /* The FORTH Picture */
     .theforthpic {
         width: 100%;
         height: 570px;
         background-image: url(../images/cobra-pro-homepage-mobile2x.jpg);
-        /* border-right: 5px solid #222222; */
     }
 
     .forth-picText {
@@ -2143,7 +2007,7 @@
         background-image: url(../images/deathstalker-pro-tkl-480x615-mobile.jpg);
         background-position: bottom;
         border-top: 10px solid #222222;
-        /* border-left: 5px solid #222222; */
+
     }
 
     .fifth-picText {
@@ -2178,18 +2042,12 @@
 
     /* Double Pics 2: The Sixth And Seventh Picture */
 
-    /* .double-picbox2 .row {
-        width: 100%;
-        height: 1140px;
-    } */
 
     /* The SIXTH Picture */
     .thesixthpic {
         width: 100%;
         height: 570px;
         background-image: url(../images/mercury-blade16-blade18-b-480x615-mobile.jpg);
-        /* background-position: bottom; */
-        /* border-right: 5px solid #222222; */
     }
 
     .sixth-picText {
@@ -2222,9 +2080,7 @@
         width: 100%;
         height: 570px;
         background-image: url(../images/razer-pubg-homepage-mobile2x.jpg);
-        /* background-position: bottom; */
         border-top: 10px solid #222222;
-        /* border-left: 5px solid #222222; */
     }
 
     .seventh-picText {
@@ -2258,17 +2114,12 @@
 
     /* Double Pics 3: The Eighth And Ninth Picture */
 
-    /* .double-picbox3 .row {
-        width: 100%;
-        height: 1140px;
-    } */
 
     /* The EIGHTH Picture */
     .theeighthpic {
         width: 100%;
         height: 570px;
         background-image: url(../images/exoprimal-b-480x615-mobile.jpg);
-        /* border-right: 5px solid #222222; */
     }
 
     .eighth-picText {
@@ -2304,7 +2155,6 @@
         height: 570px;
         background-image: url(../images/razer-edge-b-480x615-mobile.jpg);
         border-top: 10px solid #222222;
-        /* border-left: 5px solid #222222; */
     }
 
 
@@ -2351,38 +2201,15 @@
     }
 
 
+
+
     /* Footer For Small Sizes */
 
-    .last-box {
-        padding: 0;
-        margin: 0;
-    }
-
-
-    .last-boxcol {
-        padding: 0;
-        margin: 0;
-    }
-
-
-    .smallFooter {
-        background-color: #111111;
-        padding: 0;
-        margin: 0;
-        outline: 0;
-    }
-
-
-    .smfootcol {
-        padding: 0;
-        margin: 0;
-    }
 
 
     .adjustfooter {
-        margin: 0;
         width: 100%;
-        height: 215px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -2393,7 +2220,7 @@
 
 
     .footTitle-box {
-        /* position: relative; */
+
         width: 90%;
         height: 55px;
         color: #ffffff;
@@ -2421,7 +2248,6 @@
     button {
         width: 20px;
         height: 20px;
-        /* background-color: blue; */
         background-color: transparent;
         display: flex;
         justify-content: center;
@@ -2441,8 +2267,6 @@
     .shop-hdiv {
         width: 90%;
         height: 0px;
-        /* visibility: hidden; */
-        /* display: none; */
         background-color: #111111;
         transition: all 300ms linear 0s;
         overflow: hidden;
@@ -2452,7 +2276,6 @@
         list-style-type: none;
         color: #999999;
         font-size: 12px;
-        /* transition: all 300ms ease 0s; */
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -2482,8 +2305,6 @@
     .explore-hdiv {
         width: 90%;
         height: 0px;
-        /* visibility: hidden; */
-        /* display: none; */
         background-color: #111111;
         transition: all 300ms linear 0s;
         overflow: hidden;
@@ -2493,7 +2314,6 @@
         list-style-type: none;
         color: #999999;
         font-size: 12px;
-        /* transition: all 300ms ease 0s; */
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -2523,8 +2343,6 @@
     .support-hdiv {
         width: 90%;
         height: 0px;
-        /* visibility: hidden; */
-        /* display: none; */
         background-color: #111111;
         transition: all 300ms linear 0s;
         overflow: hidden;
@@ -2534,7 +2352,6 @@
         list-style-type: none;
         color: #999999;
         font-size: 12px;
-        /* transition: all 300ms ease 0s; */
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -2564,8 +2381,6 @@
     .company-hdiv {
         width: 90%;
         height: 0px;
-        /* visibility: hidden; */
-        /* display: none; */
         background-color: #111111;
         transition: all 300ms linear 0s;
         overflow: hidden;
@@ -2575,7 +2390,6 @@
         list-style-type: none;
         color: #999999;
         font-size: 12px;
-        /* transition: all 300ms ease 0s; */
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -2605,9 +2419,7 @@
     /***************************************************************************/
     .open-footer {
         height: 300px;
-        /* display: flex; */
         border-bottom: 1px solid #303030;
-        overflow: scroll;
     }
 
     .rotate {
@@ -2629,7 +2441,6 @@
     .small-line-foot {
         width: 100%;
         height: 76px;
-        /* background-color: darkslategrey; */
         background-color: #111111;
         display: flex;
         justify-content: center;
@@ -2678,12 +2489,10 @@
     .small-line-foot2 {
         width: 100%;
         height: 55px;
-        /* background-color: darkslategrey; */
         background-color: #111111;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* border-bottom: 1px solid #303030; */
     }
 
 
@@ -2699,8 +2508,6 @@
         font-weight: 400;
         font-size: 12px;
         height: 16px;
-        /* background-color: pink; */
-
     }
 
     .small-line-ul2 li a {
@@ -2723,14 +2530,11 @@
     .small-line-foot3 {
         width: 100%;
         height: 27px;
-        /* background-color: darkslategrey; */
         background-color: #111111;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0;
         text-align: center;
-        /* border-bottom: 1px solid #303030; */
     }
 
     .custom-sm-gamers {
@@ -2745,12 +2549,10 @@
     .small-line-foot4 {
         width: 100%;
         height: 30px;
-        /* background-color: darkslategrey; */
         background-color: #111111;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* border-bottom: 1px solid #303030; */
     }
 
     .small-line-ul4 {
@@ -2765,7 +2567,6 @@
     .small-line-ul4 li {
         width: 24px;
         height: 24px;
-        /* background-color: pink; */
     }
 
     .small-line-ul4 li a {
@@ -2785,11 +2586,6 @@
         margin-right: 8px;
     }
 
-    .last-box {
-        padding: 0;
-        margin: 0;
-        outline: 0;
-    }
 
     .useless-div {
         width: 100%;
@@ -2798,13 +2594,7 @@
     }
 
 
-
-
-
     /* LINE FOOTER */
-
-
-
 
     /* Footer For Small Sizes */
 
@@ -2816,7 +2606,18 @@
     /* BIGFOOT */
 
 
+    .open-close {
+        height: 0;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: all 300ms ease 0s;
+    }
 
+    .custom-height {
+        height: 100vh;
+    }
 
 }
 
@@ -2949,10 +2750,6 @@
 
     /* Double Pics 1: The Forth And Fifth Picture */
 
-    /* .double-picbox1 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The FORTH Picture */
     .theforthpic {
@@ -3031,10 +2828,6 @@
 
     /* Double Pics 2: The Sixth And Seventh Picture */
 
-    /* .double-picbox2 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The SIXTH Picture */
     .thesixthpic {
@@ -3107,10 +2900,6 @@
 
     /* Double Pics 3: The Eighth And Ninth Picture */
 
-    /* .double-picbox3 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The EIGHTH Picture */
     .theeighthpic {
@@ -3201,19 +2990,9 @@
 
     /* BIGFOOT  */
 
-    .customfooterContainer {
-        padding: 0;
-    }
-
-
-    .bigfootCol {
-        padding: 0;
-    }
-
     .mainBigfoot {
         width: 100%;
         height: 370px;
-        /* background-color: orange; */
         background-color: #111111;
         display: flex;
         flex-wrap: wrap;
@@ -3224,7 +3003,6 @@
     .footkeeper {
         width: 95%;
         height: 290px;
-        /* background-color: mediumpurple; */
         display: flex;
         margin-top: 15px;
     }
@@ -3232,7 +3010,6 @@
     .footkeeper2 {
         width: 95%;
         height: 60px;
-        /* background-color: pink; */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -3242,13 +3019,11 @@
     .ft-list {
         width: 15%;
         height: 290px;
-        /* background-color: khaki; */
     }
 
     .ft-listul {
         width: 100%;
         height: 100%;
-        /* background-color: blue; */
         display: flex;
         flex-direction: column;
         list-style-type: none;
@@ -3256,7 +3031,6 @@
         font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
         padding-left: 0;
-        /* margin-top: 10px; */
     }
 
     .ft-listul span {
@@ -3297,10 +3071,8 @@
     .ft-gamers {
         width: 25%;
         height: 100%;
-        /* background-color: lightseagreen; */
         display: flex;
         justify-content: flex-end;
-        /* align-items: flex-start; */
     }
 
     .ft-gamers span {
@@ -3394,7 +3166,7 @@
 
 }
 
-@media all and (min-width:992px) and (max-width:1199px) {
+@media all and (min-width:992px) and (max-width:1199.5px) {
 
     /* Navigation 2 */
     .navigation-bar2 {
@@ -3434,7 +3206,6 @@
         width: 100%;
         height: 100%;
         margin-top: 18vh;
-        /* line-height: 38px; */
     }
 
     .first-picText p {
@@ -3494,7 +3265,6 @@
         background-color: transparent;
         margin-top: 10vh;
         text-align: center;
-        /* line-height: 35px; */
     }
 
     .third-picText p {
@@ -3519,10 +3289,6 @@
 
     /* Double Pics 1: The Forth And Fifth Picture */
 
-    /* .double-picbox1 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The FORTH Picture */
     .theforthpic {
@@ -3601,10 +3367,6 @@
 
     /* Double Pics 2: The Sixth And Seventh Picture */
 
-    /* .double-picbox2 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The SIXTH Picture */
     .thesixthpic {
@@ -3677,10 +3439,6 @@
 
     /* Double Pics 3: The Eighth And Ninth Picture */
 
-    /* .double-picbox3 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The EIGHTH Picture */
     .theeighthpic {
@@ -3769,19 +3527,9 @@
 
     /* BIGFOOT  */
 
-    .customfooterContainer {
-        padding: 0;
-    }
-
-
-    .bigfootCol {
-        padding: 0;
-    }
-
     .mainBigfoot {
         width: 100%;
         height: 370px;
-        /* background-color: orange; */
         background-color: #111111;
         display: flex;
         flex-wrap: wrap;
@@ -3792,7 +3540,6 @@
     .footkeeper {
         width: 95%;
         height: 290px;
-        /* background-color: mediumpurple; */
         display: flex;
         margin-top: 15px;
     }
@@ -3800,7 +3547,6 @@
     .footkeeper2 {
         width: 95%;
         height: 60px;
-        /* background-color: pink; */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -3810,13 +3556,11 @@
     .ft-list {
         width: 15%;
         height: 290px;
-        /* background-color: khaki; */
     }
 
     .ft-listul {
         width: 100%;
         height: 100%;
-        /* background-color: blue; */
         display: flex;
         flex-direction: column;
         list-style-type: none;
@@ -3824,7 +3568,6 @@
         font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
         padding-left: 0;
-        /* margin-top: 10px; */
     }
 
     .ft-listul span {
@@ -3865,10 +3608,8 @@
     .ft-gamers {
         width: 25%;
         height: 100%;
-        /* background-color: lightseagreen; */
         display: flex;
         justify-content: flex-end;
-        /* align-items: flex-start; */
     }
 
     .ft-gamers span {
@@ -4085,10 +3826,6 @@
 
     /* Double Pics 1: The Forth And Fifth Picture */
 
-    /* .double-picbox1 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The FORTH Picture */
     .theforthpic {
@@ -4168,10 +3905,6 @@
 
     /* Double Pics 2: The Sixth And Seventh Picture */
 
-    /* .double-picbox2 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The SIXTH Picture */
     .thesixthpic {
@@ -4246,10 +3979,6 @@
 
     /* Double Pics 3: The Eighth And Ninth Picture */
 
-    /* .double-picbox3 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The EIGHTH Picture */
     .theeighthpic {
@@ -4268,7 +3997,6 @@
 
     .eighth-picText p {
         font-size: 42px;
-        /* line-height: 40px; */
     }
 
     .eighth-picText span {
@@ -4304,12 +4032,10 @@
 
     .ninth-picText p {
         font-size: 42px;
-        /* line-height: 66px; */
     }
 
     .ninth-picText span {
         font-size: 21px;
-        /* line-height: 34px; */
     }
 
     .ninth-picText a {
@@ -4317,7 +4043,6 @@
         font-size: 17px;
         text-decoration: none;
         font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        /* line-height: 34px; */
     }
 
     .ninth-picText a span {
@@ -4335,20 +4060,9 @@
 
     /* BIGFOOT  */
 
-    .customfooterContainer {
-        padding: 0;
-    }
-
-
-
-    .bigfootCol {
-        padding: 0;
-    }
-
     .mainBigfoot {
         width: 100%;
         height: 350px;
-        /* background-color: orange; */
         background-color: #111111;
         display: flex;
         flex-wrap: wrap;
@@ -4359,7 +4073,6 @@
     .footkeeper {
         width: 94%;
         height: 270px;
-        /* background-color: mediumpurple; */
         display: flex;
         margin-top: 15px;
     }
@@ -4367,7 +4080,6 @@
     .footkeeper2 {
         width: 94%;
         height: 60px;
-        /* background-color: pink; */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -4377,13 +4089,11 @@
     .ft-list {
         width: 15%;
         height: 270px;
-        /* background-color: khaki; */
     }
 
     .ft-listul {
         width: 100%;
         height: 100%;
-        /* background-color: blue; */
         display: flex;
         flex-direction: column;
         list-style-type: none;
@@ -4391,7 +4101,6 @@
         font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
         padding-left: 0;
-        /* margin-top: 10px; */
     }
 
     .ft-listul span {
@@ -4432,10 +4141,8 @@
     .ft-gamers {
         width: 25%;
         height: 100%;
-        /* background-color: lightseagreen; */
         display: flex;
         justify-content: flex-end;
-        /* align-items: flex-start; */
     }
 
     .ft-gamers span {
@@ -4663,14 +4370,10 @@
 
     /* Double Pics 1: The Forth And Fifth Picture */
 
-    /* .double-picbox1 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The FORTH Picture */
     .theforthpic {
-        width: 100%;
+        width: 99%;
         height: 570px;
         background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
         border-right: 5px solid #222222;
@@ -4707,7 +4410,7 @@
 
     /* The FIFTH Picture*/
     .thefifthpic {
-        width: 100%;
+        width: 99%;
         height: 570px;
         background-color: #222222;
         background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
@@ -4747,14 +4450,10 @@
 
     /* Double Pics 2: The Sixth And Seventh Picture */
 
-    /* .double-picbox2 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The SIXTH Picture */
     .thesixthpic {
-        width: 100%;
+        width: 99%;
         height: 570px;
         background-image: url(../images/mercury-blade16-blade18-b-950x580-desktop.jpg);
         border-right: 5px solid #222222;
@@ -4787,7 +4486,7 @@
 
     /* The SEVENTH Picture */
     .theseventhpic {
-        width: 100%;
+        width: 99%;
         height: 570px;
         background-image: url(../images/razer-pubg-homepage-desktop2x.jpg);
         border-left: 5px solid #222222;
@@ -4825,14 +4524,10 @@
 
     /* Double Pics 3: The Eighth And Ninth Picture */
 
-    /* .double-picbox3 .row {
-        width: 100%;
-        height: 570px;
-    } */
 
     /* The EIGHTH Picture */
     .theeighthpic {
-        width: 100%;
+        width: 99%;
         height: 570px;
         background-image: url(../images/exoprimal-b-950x580-desktop.jpg);
         border-right: 5px solid #222222;
@@ -4867,7 +4562,7 @@
 
     /* The NINTH Picture */
     .theninthpic {
-        width: 100%;
+        width: 99%;
         height: 570px;
         background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
         border-left: 5px solid #222222;
@@ -4923,20 +4618,10 @@
 
     /* BIGFOOT  */
 
-    .customfooterContainer {
-        padding: 0;
-    }
-
-
-
-    .bigfootCol {
-        padding: 0;
-    }
 
     .mainBigfoot {
         width: 100%;
         height: 370px;
-        /* background-color: orange; */
         background-color: #111111;
         display: flex;
         flex-wrap: wrap;
@@ -4947,7 +4632,6 @@
     .footkeeper {
         width: 76%;
         height: 270px;
-        /* background-color: mediumpurple; */
         display: flex;
         margin-top: 15px;
     }
@@ -4955,7 +4639,6 @@
     .footkeeper2 {
         width: 76%;
         height: 60px;
-        /* background-color: pink; */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -4965,13 +4648,11 @@
     .ft-list {
         width: 15%;
         height: 270px;
-        /* background-color: khaki; */
     }
 
     .ft-listul {
         width: 100%;
         height: 100%;
-        /* background-color: blue; */
         display: flex;
         flex-direction: column;
         list-style-type: none;
@@ -4979,7 +4660,6 @@
         font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
         padding-left: 0;
-        /* margin-top: 10px; */
     }
 
     .ft-listul span {
@@ -5020,10 +4700,8 @@
     .ft-gamers {
         width: 25%;
         height: 100%;
-        /* background-color: lightseagreen; */
         display: flex;
         justify-content: flex-end;
-        /* align-items: flex-start; */
     }
 
     .ft-gamers span {
@@ -5123,4 +4801,13 @@
 
     /* LAST BOX */
 
+}
+
+input {
+    outline: 0;
+}
+
+.padding-adjustment {
+    padding-left: 0;
+    padding-right: 0;
 }
