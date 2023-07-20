@@ -33,10 +33,6 @@ const HEIGHT = document.getElementById("adjustft");
 function closeAll(x) {
 
 
-    // HELP THIS RIGHT HERE IS SOMEHOW NEEDED BUT IT IS RUINING THE WHOLE THING
-    // HEIGHT.classList.toggle("extraheight");
-
-
     /* Shayan Hide It
 
     PLUS.classList.remove("rotate");

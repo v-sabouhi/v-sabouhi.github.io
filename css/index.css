@@ -60,7 +60,6 @@
 }
 
 
-
 .navigation-bar {
     width: 100%;
     height: 60px;
@@ -71,7 +70,6 @@
 
 .custom-col {
     padding: 0;
-    /* margin: 0; */
 }
 
 
@@ -84,7 +82,6 @@
     width: 34px;
     height: 34px;
 }
-
 
 .custom-navul2 {
     width: 100%;
@@ -99,14 +96,12 @@
     background-color: #000000;
     list-style-type: none;
     font-size: 30px;
-
 }
 
 .custom-navul2 a {
     text-decoration: none;
     color: #888888;
 }
-
 
 /* 1.Question:problem */
 #menu-list2 {
@@ -123,16 +118,7 @@
 }
 
 
-
 /* Gray Box With Useless Content */
-
-/* .gray-box {
-    padding: 0;
-    margin: 0;
-    outline: 0;
-    border: 0;
-} */
-
 .gray {
     width: 100%;
     height: 44px;
@@ -145,8 +131,6 @@
     color: #d9d9d9;
 }
 
-
-
 .gray-col {
     padding: 0;
     margin: 0;
@@ -158,14 +142,10 @@
     margin: 0;
     text-align: center;
 }
-
-
 /* Gray Box With Useless Content */
 
 
 /* Navigation 1 */
-
-
 .custom-navul {
     width: 100%;
     height: 60px;
@@ -199,8 +179,6 @@
     font-size: 21px;
     margin-right: 0;
 }
-
-
 /* Navigation 1 */
 
 
@@ -233,7 +211,6 @@
 .first-piccol {
     padding: 0;
     margin: 0;
-    /* outline: 0; */
 }
 
 .first-picText {
@@ -267,7 +244,6 @@
 .first-picText a:hover {
     text-decoration: underline;
 }
-
 /* First Picture */
 
 
@@ -289,7 +265,6 @@
 .second-piccol {
     padding: 0;
     margin: 0;
-    /* outline: 0; */
 }
 
 .second-picText {
@@ -326,11 +301,9 @@
 .second-picText a:hover {
     text-decoration: underline;
 }
-
 /* Second Picture */
 
 /* Third Picture */
-
 .third-picbox {
     width: 100%;
     height: 700px;
@@ -386,13 +359,9 @@
 .lm-custom {
     margin-right: 6vh;
 }
-
-
 /* Third Picture */
 
 /* Double Pics 1: The Forth And Fifth Picture */
-
-
 /* The FORTH Picture */
 .theforthpic {
     background-color: #222222;
@@ -436,7 +405,6 @@
 .forth-picText a:hover {
     text-decoration: underline;
 }
-
 /* The FORTH Picture */
 
 /* The FIFTH Picture*/
@@ -477,21 +445,16 @@
 .fifth-picText a span {
     color: #44d62c;
     font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
 }
 
 .fifth-picText a:hover {
     text-decoration: underline;
 }
-
-
 /* The FIFTH Picture*/
 /* Double Pics 1: The Forth And Fifth Picture */
 
 
 /* Double Pics 2: The Sixth And Seventh Picture */
-
-
 /* The SIXTH Picture */
 .thesixthpic {
     background-color: #222222;
@@ -529,13 +492,11 @@
 .sixth-picText a span {
     color: #44d62c;
     font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
 }
 
 .sixth-picText a:hover {
     text-decoration: underline;
 }
-
 /* The SIXTH Picture */
 
 /* The SEVENTH Picture */
@@ -566,7 +527,6 @@
     font-weight: 400;
 }
 
-
 .seventh-picText a {
     color: #ffffff;
     text-decoration: none;
@@ -582,14 +542,11 @@
 .seventh-picText a:hover {
     text-decoration: underline;
 }
-
 /* The SEVENTH Picture */
 /* Double Pics 2: The Sixth And Seventh Picture */
 
 
 /* Double Pics 3: The Eighth And Ninth Picture */
-
-
 /* The EIGHTH Picture */
 .theeighthpic {
     background-color: #222222;
@@ -634,7 +591,6 @@
 .eighth-picText a:hover {
     text-decoration: underline;
 }
-
 /* The EIGHTH Picture */
 
 /* The NINTH Picture */
@@ -680,34 +636,182 @@
 .ninth-picText a span {
     color: #44d62c;
     font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
 }
 
 .ninth-picText a:hover {
     text-decoration: underline;
 }
-
-
 /* The NINTH Picture */
 /* Double Pics 3: The Eighth And Ninth Picture */
 
 
-@media all and (max-width:575px) {
+/* CUSTOM FONT-SIZE */
+.first-picText p {
+    font-size: calc(42px + 1vw);
+}
+
+.first-picText span {
+    font-size: calc(13px + 1vw);
+}
+
+.first-picText a {
+    font-size: calc(6px + 1vw);
+}
+
+.first-picText a span {
+    font-size: calc(6px + 1vw);
+}
+
+.second-picText p {
+    font-size: calc(42px + 1vw);
+}
+
+.second-picText span {
+    font-size: calc(13px + 1vw);
+}
+
+.second-picText a {
+    font-size: calc(6px + 1vw);
+}
+
+.second-picText a span {
+    font-size: calc(6px + 1vw);
+}
 
 
+.third-picText p {
+    font-size: calc(42px + 1vw);
+}
+
+.third-picText span {
+    font-size: calc(13px + 1vw);
+}
+
+.third-picText a {
+    font-size: calc(6px + 1vw);
+}
+
+.third-picText a span {
+    font-size: calc(6px + 1vw);
+}
+
+
+.forth-picText p {
+    font-size: calc(25px + 1vw);
+}
+
+.forth-picText span {
+    font-size: calc(6px + 1vw);
+}
+
+
+
+.forth-picText a {
+    font-size: calc(2px + 1vw);
+}
+
+.forth-picText a span {
+    font-size: calc(2px + 1vw);
+}
+
+
+.fifth-picText p {
+    font-size: calc(25px + 1vw);
+}
+
+.fifth-picText span {
+    font-size: calc(6px + 1vw);
+}
+
+.fifth-picText a {
+    font-size: calc(2px + 1vw);
+}
+
+.fifth-picText a span {
+    font-size: calc(2px + 1vw);
+}
+
+.sixth-picText p {
+    font-size: calc(25px + 1vw);
+}
+
+.sixth-picText span {
+    font-size: calc(6px + 1vw);
+}
+
+.sixth-picText a {
+    font-size: calc(1.8px + 1vw);
+}
+
+.sixth-picText a span {
+    font-size: calc(1.8px + 1vw);
+}
+
+
+.seventh-picText p {
+    font-size: calc(25px + 1vw);
+}
+
+.seventh-picText span {
+    font-size: calc(6px + 1vw);
+}
+
+.seventh-picText a {
+    font-size: calc(2px + 1vw);
+}
+
+.seventh-picText a span {
+    font-size: calc(2px + 1vw);
+}
+
+.eighth-picText p {
+    font-size: calc(25px + 1vw);
+    line-height: 40px;
+}
+
+.eighth-picText span {
+    font-size: calc(6px + 1vw);
+}
+
+.eighth-picText a {
+    font-size: calc(2px + 1vw);
+}
+
+.eighth-picText a span {
+    font-size: calc(2px + 1vw);
+}
+
+
+.ninth-picText p {
+    font-size: calc(25px + 1vw);
+    line-height: 66px;
+}
+
+.ninth-picText span {
+    font-size: calc(6px + 1vw);
+    line-height: 34px;
+}
+
+.ninth-picText a {
+    font-size: calc(2px + 1vw);
+}
+
+.ninth-picText a span {
+    font-size: calc(2px + 1vw);
+}
+/* CUSTOM FONT-SIZE */
+
+
+@media all and (max-width:575.5px) {
 
     /* Navigation 1 */
     .navigation-bar {
         display: none;
     }
-
     /* Navigation 1 */
 
 
     /* Navigation 2 */
-    /* Navigation 2 */
-
-
     .custom-containcol {
         padding: 0;
     }
@@ -715,22 +819,22 @@
 
     .nav-containBox {
         width: 100%;
-        height: 636px;
         background-color: #040404;
         display: flex;
         flex-direction: column;
         align-items: center;
         transition: all 300ms linear 0s;
         overflow: hidden;
+        height: 100vh;
+        justify-content: flex-start;
     }
 
     /* SEARCH BOX */
-
     .search-box {
         width: 96%;
-        height: 40px;
         border-radius: 9px;
         margin: 30px 0 43px 0;
+        height: 7vh;
     }
 
     .searchboxText {
@@ -744,34 +848,28 @@
         font-family: 'Tlight W', 'Titillium Web', sans-serif;
     }
 
-
     .search-box input {
         border: 0;
         background-color: #222222;
         color: #999999;
     }
 
-
-
-
     .search-box span {
         margin: 0 10px;
         font-size: 12px;
         color: #999999;
     }
-
     /* SEARCH BOX */
-
-
-
 
 
     .ul-containerBox {
         width: 100%;
-        height: 530px;
         background-color: #040404;
         display: flex;
-        justify-content: center;
+        height: 85vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
 
     .ul-boxNav {
@@ -780,18 +878,19 @@
         margin-bottom: 0;
         list-style-type: none;
         display: flex;
-        flex-direction: column;
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: center;
     }
 
     .ul-boxNav li {
         width: 90%;
-        height: 60px;
         font-size: 20px;
         background-color: #040404;
         font-family: 'Tlight W', 'Titillium Web', sans-serif;
         color: #999999;
-        display: flex;
-        align-items: center;
     }
 
     .border-customNav {
@@ -800,11 +899,8 @@
 
     .ul-boxNav li a {
         width: 100%;
-        height: 100%;
         color: #999999;
         text-decoration: none;
-        display: flex;
-        align-items: center;
     }
 
     .ul-boxNav li a:hover {
@@ -822,7 +918,7 @@
     /* THIRD NAVIGATION */
     .menu-container {
         width: 100%;
-        height: 48px;
+        height: 8vh;
     }
 
     .custom-navul3 {
@@ -859,12 +955,7 @@
         color: #000000;
     }
 
-
-
-
     /* THIRD NAVIGATION */
-
-
 
     /************************************************************************************/
     /* NAVIGATION JAVASCRIPT CLASSES */
@@ -878,26 +969,18 @@
         height: 0px;
     }
 
-
-
     /* NAVIGATION JAVASCRIPT CLASSES */
     /************************************************************************************/
 
-
     /* Navigation 2 */
-
-    /* Navigation 2 */
-
-
 
     /* First Picture */
     .first-picbox {
         width: 100%;
         height: 430px;
-        background-image: url(../images/prime-day-2023-homepage-mobile2x.jpg);
+        background-image: url(../images/razer-blade-14-2023-homepage-mobile2x.jpg);
         background-position: bottom;
     }
-
 
     .first-picText {
         width: 100%;
@@ -907,32 +990,29 @@
     }
 
     .first-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .first-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .first-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .first-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* First Picture */
 
     /* Second Picture  */
     .second-picbox {
         width: 100%;
         height: 430px;
-        background-image: url(../images/xanthus-homepage-mobile2x.jpg);
+        background-image: url(../images/razer-blackwidow-v4-small-2x.jpg);
         background-position: bottom;
     }
-
 
     .second-picText {
         width: 100%;
@@ -942,34 +1022,29 @@
     }
 
     .second-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .second-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .second-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
 
     .second-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* Second Picture  */
 
     /* Third Picture */
     .third-picbox {
         width: 100%;
         height: 430px;
-        background-image: url(../images/razer-blade-14-2023-homepage-mobile2x.jpg);
+        background-image: url(../images/cobra-pro-homepage-mobile2x.jpg);
         background-position: bottom;
     }
-
-
 
     .third-picText {
         width: 100%;
@@ -981,34 +1056,28 @@
     }
 
     .third-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .third-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .third-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .third-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
-
     /* Third Picture */
 
     /* Double Pics 1: The Forth And Fifth Picture */
-
-
     /* The FORTH Picture */
     .theforthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/cobra-pro-homepage-mobile2x.jpg);
-        /* border-right: 5px solid #222222; */
+        background-image: url(../images/razer-blackwidow-v4-x-b-480x615-mobile.jpg);
     }
 
     .forth-picText {
@@ -1019,24 +1088,20 @@
     }
 
     .forth-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .forth-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
-
-
     .forth-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .forth-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -1044,10 +1109,8 @@
         width: 100%;
         height: 570px;
         background-color: #222222;
-        background-image: url(../images/deathstalker-pro-tkl-480x615-mobile.jpg);
-        background-position: bottom;
+        background-image: url(../images/back-to-school-campaign-b-480x615-mobile.jpg);
         border-top: 10px solid #222222;
-        /* border-left: 5px solid #222222; */
     }
 
     .fifth-picText {
@@ -1059,36 +1122,31 @@
     }
 
     .fifth-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .fifth-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .fifth-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .fifth-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* The FIFTH Picture*/
-
     /* Double Pics 1: The Forth And Fifth Picture */
 
 
     /* Double Pics 2: The Sixth And Seventh Picture */
-
     /* The SIXTH Picture */
     .thesixthpic {
         width: 100%;
         height: 570px;
         background-image: url(../images/mercury-blade16-blade18-b-480x615-mobile.jpg);
         background-position: bottom;
-        /* border-right: 5px solid #222222; */
     }
 
     .sixth-picText {
@@ -1099,31 +1157,28 @@
     }
 
     .sixth-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .sixth-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .sixth-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .sixth-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
     .theseventhpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/razer-pubg-homepage-mobile2x.jpg);
-        background-position: bottom;
+        background-image: url(../images/razer-street-fighter-6-custom-b-480x615-mobile.jpg);
         border-top: 10px solid #222222;
-        /* border-left: 5px solid #222222; */
     }
 
     .seventh-picText {
@@ -1134,36 +1189,30 @@
     }
 
     .seventh-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .seventh-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .seventh-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .seventh-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* The SEVENTH Picture */
-
     /* Double Pics 2: The Sixth And Seventh Picture */
 
 
     /* Double Pics 3: The Eighth And Ninth Picture */
-
-
     /* The EIGHTH Picture */
     .theeighthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/exoprimal-b-480x615-mobile.jpg);
-        /* border-right: 5px solid #222222; */
+        background-image: url(../images/honkai-star-rail-webshop-razer-gold-480x615.jpg);
     }
 
     .eighth-picText {
@@ -1174,22 +1223,20 @@
     }
 
     .eighth-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .eighth-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .eighth-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .eighth-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -1198,9 +1245,7 @@
         height: 570px;
         background-image: url(../images/razer-edge-b-480x615-mobile.jpg);
         border-top: 10px solid #222222;
-        /* border-left: 5px solid #222222; */
     }
-
 
     .custom-exclusive {
         width: 100px;
@@ -1215,23 +1260,20 @@
     }
 
     .ninth-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .ninth-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .ninth-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .ninth-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
-
     /* The NINTH Picture */
 
     /* Double Pics 3: The Eighth And Ninth Picture */
@@ -1239,13 +1281,9 @@
     .bigfoot-box {
         display: none;
     }
-
     /* BIGFOOT */
 
     /* Footer For Small Sizes */
-
-
-
     .adjustfooter {
         width: 100%;
         height: auto;
@@ -1254,12 +1292,10 @@
         justify-content: flex-start;
         align-items: center;
         background-color: #111111;
-
     }
 
 
     .footTitle-box {
-
         width: 90%;
         height: 55px;
         color: #ffffff;
@@ -1272,7 +1308,6 @@
         font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
     }
-
 
     .custom-ft-icon {
         font-size: 16px;
@@ -1295,12 +1330,9 @@
         position: relative;
     }
 
-
     .custom-ft-icon:hover {
         color: #ffffff;
     }
-
-
 
     /* SHOP */
     .shop-hdiv {
@@ -1337,7 +1369,6 @@
         color: #ffffff;
         text-decoration: underline;
     }
-
     /* SHOP */
 
     /* EXPLORE */
@@ -1375,7 +1406,6 @@
         color: #ffffff;
         text-decoration: underline;
     }
-
     /* EXPLORE */
 
     /* SUPPORT */
@@ -1413,7 +1443,6 @@
         color: #ffffff;
         text-decoration: underline;
     }
-
     /* SUPPORT */
 
     /* COMPANY */
@@ -1451,7 +1480,6 @@
         color: #ffffff;
         text-decoration: underline;
     }
-
     /* COMPANY */
 
 
@@ -1464,7 +1492,6 @@
     .rotate {
         transform: rotateX(0deg);
     }
-
 
     .hideborder {
         border-bottom: 0px;
@@ -1491,6 +1518,11 @@
         list-style-type: none;
         color: #999999;
         display: flex;
+        /* SH */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
         margin-bottom: 0;
     }
 
@@ -1499,11 +1531,20 @@
         font-weight: 400;
         font-size: 12px;
         height: 16px;
+        /* SH */
+        width: fit-content;
+    }
+
+    /* SH */
+    .small-line-ul li:first-of-type {
+        width: 100%;
+        text-align: center;
     }
 
     .small-line-ul li a {
         color: #999999;
         text-decoration: none;
+        padding: 0 5px;
     }
 
     .small-line-ul li a:hover {
@@ -1517,13 +1558,7 @@
 
     .custom-rightborder {
         border-right: 1px solid #999999;
-        padding: 0 10px;
     }
-
-    .custom-padding {
-        padding: 0 10px;
-    }
-
 
     .small-line-foot2 {
         width: 100%;
@@ -1533,7 +1568,6 @@
         justify-content: center;
         align-items: center;
     }
-
 
     .small-line-ul2 {
         list-style-type: none;
@@ -1558,7 +1592,6 @@
         color: #ffffff;
         text-decoration: underline;
     }
-
 
     #custom-usa {
         color: #ffffff;
@@ -1596,6 +1629,9 @@
     }
 
     .small-line-ul4 {
+        padding-left: 0;
+        width: 100%;
+        height: 30px;
         list-style-type: none;
         color: #999999;
         display: flex;
@@ -1626,27 +1662,19 @@
         margin-right: 8px;
     }
 
-
     .useless-div {
         width: 100%;
         height: 70px;
         background-color: #111111;
     }
-
-
     /* LINE FOOTER */
-
     /* Footer For Small Sizes */
-
 
     /* BIGFOOT */
     .customfooterContainer {
         display: none;
     }
-
     /* BIGFOOT */
-
-
 
     .open-close {
         height: 0;
@@ -1669,35 +1697,32 @@
     .navigation-bar {
         display: none;
     }
-
     /* Navigation 1 */
 
     /* Navigation 2 */
-
 
     .custom-containcol {
         padding: 0;
     }
 
-
     .nav-containBox {
         width: 100%;
-        height: 636px;
         background-color: #040404;
         display: flex;
         flex-direction: column;
         align-items: center;
         transition: all 300ms linear 0s;
         overflow: hidden;
+        height: 100vh;
+        justify-content: flex-start;
     }
 
     /* SEARCH BOX */
-
     .search-box {
         width: 96%;
-        height: 40px;
         border-radius: 9px;
         margin: 30px 0 43px 0;
+        height: 7vh;
     }
 
     .searchboxText {
@@ -1711,7 +1736,6 @@
         font-family: 'Tlight W', 'Titillium Web', sans-serif;
     }
 
-
     .search-box input {
         border: 0;
         background-color: #222222;
@@ -1723,18 +1747,17 @@
         font-size: 12px;
         color: #999999;
     }
-
     /* SEARCH BOX */
-
-
-
 
     .ul-containerBox {
         width: 100%;
-        height: 530px;
         background-color: #040404;
         display: flex;
-        justify-content: center;
+        height: 85vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
     }
 
     .ul-boxNav {
@@ -1743,18 +1766,19 @@
         margin-bottom: 0;
         list-style-type: none;
         display: flex;
-        flex-direction: column;
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: center;
     }
 
     .ul-boxNav li {
         width: 90%;
-        height: 60px;
         font-size: 20px;
         background-color: #040404;
         font-family: 'Tlight W', 'Titillium Web', sans-serif;
         color: #999999;
-        display: flex;
-        align-items: center;
     }
 
     .border-customNav {
@@ -1763,11 +1787,8 @@
 
     .ul-boxNav li a {
         width: 100%;
-        height: 100%;
         color: #999999;
         text-decoration: none;
-        display: flex;
-        align-items: center;
     }
 
     .ul-boxNav li a:hover {
@@ -1785,7 +1806,7 @@
     /* THIRD NAVIGATION */
     .menu-container {
         width: 100%;
-        height: 48px;
+        height: 8vh;
     }
 
     .custom-navul3 {
@@ -1800,13 +1821,11 @@
         box-sizing: border-box;
         list-style-type: none;
         font-size: 30px;
-
     }
 
     .custom-navul3 li {
         text-align: center;
     }
-
 
     .custom-navul3 a {
         text-decoration: none;
@@ -1821,12 +1840,7 @@
         margin-right: 4%;
         color: #000000;
     }
-
-
-
-
     /* THIRD NAVIGATION */
-
 
 
     /************************************************************************************/
@@ -1836,26 +1850,20 @@
         display: none;
     }
 
-
     .hide-menu {
         height: 0px;
     }
 
-
-
     /* NAVIGATION JAVASCRIPT CLASSES */
     /************************************************************************************/
-
-
     /* Navigation 2 */
-
 
 
     /* First Picture */
     .first-picbox {
         width: 100%;
         height: 430px;
-        background-image: url(../images/prime-day-2023-homepage-mobile2x.jpg);
+        background-image: url(../images/razer-blade-14-2023-homepage-mobile2x.jpg);
         background-position: bottom;
     }
 
@@ -1868,29 +1876,27 @@
     }
 
     .first-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .first-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .first-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .first-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* First Picture */
 
     /* Second Picture  */
     .second-picbox {
         width: 100%;
         height: 430px;
-        background-image: url(../images/xanthus-homepage-mobile2x.jpg);
+        background-image: url(../images/razer-blackwidow-v4-small-2x.jpg);
         background-position: bottom;
     }
 
@@ -1903,72 +1909,63 @@
     }
 
     .second-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .second-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .second-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .second-picText span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
-
     /* Second Picture  */
 
     /* Third Picture */
     .third-picbox {
         width: 100%;
         height: 430px;
-        background-image: url(../images/razer-blade-14-2023-homepage-mobile2x.jpg);
+        background-image: url(../images/cobra-pro-homepage-mobile2x.jpg);
         background-position: bottom;
     }
-
 
 
     .third-picText {
         width: 100%;
         height: 100%;
-        background-color: transparent;
         line-height: 26px;
         margin-top: 10vh;
         text-align: center;
     }
 
     .third-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .third-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .third-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .third-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
-
     /* Third Picture */
 
+
     /* Double Pics 1: The Forth And Fifth Picture */
-
-
     /* The FORTH Picture */
     .theforthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/cobra-pro-homepage-mobile2x.jpg);
+        background-image: url(../images/razer-blackwidow-v4-x-b-480x615-mobile.jpg);
     }
 
     .forth-picText {
@@ -1979,24 +1976,20 @@
     }
 
     .forth-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .forth-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
-
-
     .forth-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .forth-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -2004,10 +1997,8 @@
         width: 100%;
         height: 570px;
         background-color: #222222;
-        background-image: url(../images/deathstalker-pro-tkl-480x615-mobile.jpg);
-        background-position: bottom;
+        background-image: url(../images/back-to-school-campaign-b-480x615-mobile.jpg);
         border-top: 10px solid #222222;
-
     }
 
     .fifth-picText {
@@ -2019,30 +2010,25 @@
     }
 
     .fifth-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .fifth-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .fifth-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .fifth-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* The FIFTH Picture*/
-
     /* Double Pics 1: The Forth And Fifth Picture */
 
 
     /* Double Pics 2: The Sixth And Seventh Picture */
-
-
     /* The SIXTH Picture */
     .thesixthpic {
         width: 100%;
@@ -2058,28 +2044,27 @@
     }
 
     .sixth-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .sixth-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .sixth-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .sixth-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
     .theseventhpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/razer-pubg-homepage-mobile2x.jpg);
+        background-image: url(../images/razer-street-fighter-6-custom-b-480x615-mobile.jpg);
         border-top: 10px solid #222222;
     }
 
@@ -2091,35 +2076,30 @@
     }
 
     .seventh-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .seventh-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .seventh-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .seventh-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* The SEVENTH Picture */
-
     /* Double Pics 2: The Sixth And Seventh Picture */
 
 
     /* Double Pics 3: The Eighth And Ninth Picture */
-
-
     /* The EIGHTH Picture */
     .theeighthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/exoprimal-b-480x615-mobile.jpg);
+        background-image: url(../images/honkai-star-rail-webshop-razer-gold-480x615.jpg);
     }
 
     .eighth-picText {
@@ -2130,23 +2110,21 @@
     }
 
     .eighth-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
 
     }
 
     .eighth-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .eighth-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .eighth-picText a span {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
-
-
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -2156,7 +2134,6 @@
         background-image: url(../images/razer-edge-b-480x615-mobile.jpg);
         border-top: 10px solid #222222;
     }
-
 
     .custom-exclusive {
         width: 100px;
@@ -2171,42 +2148,29 @@
     }
 
     .ninth-picText p {
-        font-size: calc(16px + 1rem);
+        font-size: calc(25px + 1vw);
     }
 
     .ninth-picText span {
-        font-size: calc(14px + 1vh);
+        font-size: calc(13px + 1vw);
     }
 
     .ninth-picText a {
-        font-size: calc(11px + 1vh);
+        font-size: calc(11px + 1vw);
     }
 
     .ninth-picText a span {
-        font-size: calc(11px + 1vh);
-
+        font-size: calc(11px + 1vw);
     }
-
-
-
     /* The NINTH Picture */
 
 
-
-
     /* Double Pics 3: The Eighth And Ninth Picture */
-
     .bigfoot-box {
         display: none;
     }
 
-
-
-
     /* Footer For Small Sizes */
-
-
-
     .adjustfooter {
         width: 100%;
         height: auto;
@@ -2215,12 +2179,9 @@
         justify-content: flex-start;
         align-items: center;
         background-color: #111111;
-
     }
 
-
     .footTitle-box {
-
         width: 90%;
         height: 55px;
         color: #ffffff;
@@ -2233,7 +2194,6 @@
         font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
     }
-
 
     .custom-ft-icon {
         font-size: 16px;
@@ -2256,12 +2216,9 @@
         position: relative;
     }
 
-
     .custom-ft-icon:hover {
         color: #ffffff;
     }
-
-
 
     /* SHOP */
     .shop-hdiv {
@@ -2298,7 +2255,6 @@
         color: #ffffff;
         text-decoration: underline;
     }
-
     /* SHOP */
 
     /* EXPLORE */
@@ -2336,7 +2292,6 @@
         color: #ffffff;
         text-decoration: underline;
     }
-
     /* EXPLORE */
 
     /* SUPPORT */
@@ -2374,7 +2329,6 @@
         color: #ffffff;
         text-decoration: underline;
     }
-
     /* SUPPORT */
 
     /* COMPANY */
@@ -2412,7 +2366,6 @@
         color: #ffffff;
         text-decoration: underline;
     }
-
     /* COMPANY */
 
 
@@ -2426,7 +2379,6 @@
         transform: rotateX(0deg);
     }
 
-
     .hideborder {
         border-bottom: 0px;
     }
@@ -2434,7 +2386,6 @@
     .extraheight {
         height: 490px;
     }
-
     /***************************************************************************/
 
     /* LINE FOOTER */
@@ -2452,6 +2403,9 @@
         list-style-type: none;
         color: #999999;
         display: flex;
+        /* SH */
+        justify-content: center;
+        align-items: center;
         margin-bottom: 0;
     }
 
@@ -2485,7 +2439,6 @@
         padding: 0 10px;
     }
 
-
     .small-line-foot2 {
         width: 100%;
         height: 55px;
@@ -2494,7 +2447,6 @@
         justify-content: center;
         align-items: center;
     }
-
 
     .small-line-ul2 {
         list-style-type: none;
@@ -2520,7 +2472,6 @@
         text-decoration: underline;
     }
 
-
     #custom-usa {
         color: #ffffff;
         border-right: 1px solid #ffffff;
@@ -2545,7 +2496,6 @@
         font-size: 12px;
     }
 
-
     .small-line-foot4 {
         width: 100%;
         height: 30px;
@@ -2556,6 +2506,9 @@
     }
 
     .small-line-ul4 {
+        width: 100%;
+        height: 30px;
+        padding-left: 0;
         list-style-type: none;
         color: #999999;
         display: flex;
@@ -2592,19 +2545,14 @@
         height: 70px;
         background-color: #111111;
     }
-
-
     /* LINE FOOTER */
-
     /* Footer For Small Sizes */
 
     /* BIGFOOT */
     .customfooterContainer {
         display: none;
     }
-
     /* BIGFOOT */
-
 
     .open-close {
         height: 0;
@@ -2628,30 +2576,22 @@
         display: none;
     }
 
-
     .contain-box-visibility {
         display: none;
     }
-
     /* Navigation 2 */
-
 
     /* Navigation 1 */
     .custom-navul li {
         margin-right: calc(8px + 2.6vw);
     }
-
     /* Navigation 1 */
 
-
-
     /* Gray Box With Useless Content */
-
     .gray-box {
         position: relative;
         top: 60px;
     }
-
     /* Gray Box With Useless Content */
 
     /* First Picture */
@@ -2659,7 +2599,7 @@
         width: 100%;
         height: 430px;
         align-items: flex-start;
-        background-image: url(../images/prime-day-2023-homepage-desktop2x.jpg);
+        background-image: url(../images/razer-blade-14-2023-homepage-desktop2x.jpg);
     }
 
     .first-picText {
@@ -2669,23 +2609,17 @@
         line-height: 38px;
     }
 
-    .first-picText p {
-        font-size: 54px;
-    }
-
     .first-picText span {
-        font-size: 28px;
+        font-size: calc(18px + 1vw);
     }
 
     .first-picText a {
-        font-size: 21px;
+        font-size: calc(12px + 1vw);
     }
 
     .first-picText a span {
-        font-size: 21px;
+        font-size: calc(12px + 1vw);
     }
-
-
     /* First Picture */
 
 
@@ -2693,6 +2627,7 @@
     .second-picbox {
         width: 100%;
         height: 430px;
+        background-image: url(../images/razer-blackwidow-v4-homepage-large-2x.jpg);
     }
 
     .second-picText {
@@ -2700,54 +2635,46 @@
         height: 100%;
     }
 
-    .second-picText p {
-        font-size: 54px;
-    }
-
     .second-picText span {
-        font-size: 28px;
+        font-size: calc(18px + 1vw);
     }
 
+    .second-picText a {
+        font-size: calc(12px + 1vw);
+    }
 
+    .second-picText a span {
+        font-size: calc(12px + 1vw);
+    }
     /* Second Picture  */
 
     /* Third Picture */
     .third-picbox {
         width: 100%;
         height: 430px;
+        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
     }
-
-
 
     .third-picText {
         width: 100%;
         height: 100%;
-        background-color: transparent;
         margin-top: 10vh;
         text-align: center;
         line-height: 35px;
     }
 
-    .third-picText p {
-        font-size: 54px;
-    }
-
     .third-picText span {
-        font-size: 28px;
+        font-size: calc(18px + 1vw);
     }
 
     .third-picText a {
-        font-size: 21px;
+        font-size: calc(12px + 1vw);
     }
 
     .third-picText a span {
-        font-size: 21px;
+        font-size: calc(12px + 1vw);
     }
-
-
-
     /* Third Picture */
-
     /* Double Pics 1: The Forth And Fifth Picture */
 
 
@@ -2755,7 +2682,7 @@
     .theforthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
+        background-image: url(../images/razer-blackwidow-v4-x-b-950x580-desktop.jpg);
         border-right: 5px solid #222222;
     }
 
@@ -2763,28 +2690,19 @@
         width: 90%;
         height: 100%;
         margin-top: 6vh;
-
-    }
-
-    .forth-picText p {
-        font-size: 40px;
     }
 
     .forth-picText span {
-        font-size: 21px;
+        font-size: calc(16px + 1vw);
     }
 
-
-
     .forth-picText a {
-        font-size: 17px;
+        font-size: calc(8px + 1vw);
     }
 
     .forth-picText a span {
-        font-size: 17px;
+        font-size: calc(8px + 1vw);
     }
-
-
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -2792,7 +2710,7 @@
         width: 100%;
         height: 570px;
         background-color: #222222;
-        background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
+        background-image: url(../images/back-to-school-campaign-b-950x580-desktop.jpg);
         border-left: 5px solid #222222;
     }
 
@@ -2803,32 +2721,22 @@
         margin-top: 6vh;
     }
 
-    .fifth-picText p {
-        font-size: 40px;
-    }
-
     .fifth-picText span {
-        font-size: 21px;
+        font-size: calc(16px + 1vw);
     }
 
     .fifth-picText a {
-        font-size: 17px;
+        font-size: calc(8px + 1vw);
     }
 
     .fifth-picText a span {
-        font-size: 17px;
+        font-size: calc(8px + 1vw);
     }
-
-
     /* The FIFTH Picture*/
-
     /* Double Pics 1: The Forth And Fifth Picture */
 
 
-
     /* Double Pics 2: The Sixth And Seventh Picture */
-
-
     /* The SIXTH Picture */
     .thesixthpic {
         width: 100%;
@@ -2843,29 +2751,24 @@
         margin-top: 6vh;
     }
 
-    .sixth-picText p {
-        font-size: 40px;
-    }
-
     .sixth-picText span {
-        font-size: 21px;
+        font-size: calc(16px + 1vw);
     }
 
     .sixth-picText a {
-        font-size: 17px;
+        font-size: calc(8px + 1vw);
     }
 
     .sixth-picText a span {
-        font-size: 17px;
+        font-size: calc(8px + 1vw);
     }
-
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
     .theseventhpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/razer-pubg-homepage-mobile2x.jpg);
+        background-image: url(../images/razer-street-fighter-6-custom-b-950x580-desktop.jpg);
         border-left: 5px solid #222222;
     }
 
@@ -2875,37 +2778,27 @@
         margin-top: 6vh;
     }
 
-    .seventh-picText p {
-        font-size: 40px;
-    }
-
     .seventh-picText span {
-        font-size: 21px;
+        font-size: calc(16px + 1vw);
     }
 
     .seventh-picText a {
-        font-size: 17px;
+        font-size: calc(8px + 1vw);
     }
 
     .seventh-picText a span {
-        font-size: 17px;
+        font-size: calc(8px + 1vw);
     }
-
-
     /* The SEVENTH Picture */
-
     /* Double Pics 2: The Sixth And Seventh Picture */
 
 
-
     /* Double Pics 3: The Eighth And Ninth Picture */
-
-
     /* The EIGHTH Picture */
     .theeighthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/exoprimal-b-480x615-mobile.jpg);
+        background-image: url(../images/honkai-star-rail-webshop-razer-gold-954x580.jpg);
         background-position: top;
         border-right: 5px solid #222222;
     }
@@ -2917,23 +2810,21 @@
     }
 
     .eighth-picText p {
-        font-size: 40px;
         line-height: 40px;
     }
 
+
     .eighth-picText span {
-        font-size: 21px;
+        font-size: calc(16px + 1vw);
     }
 
     .eighth-picText a {
-        font-size: 17px;
+        font-size: calc(8px + 1vw);
     }
 
     .eighth-picText a span {
-        font-size: 17px;
+        font-size: calc(8px + 1vw);
     }
-
-
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -2943,7 +2834,6 @@
         background-image: url(../images/razer-edge-b-480x615-mobile.jpg);
         border-left: 5px solid #222222;
     }
-
 
     .custom-exclusive {
         width: 100px;
@@ -2957,39 +2847,25 @@
     }
 
     .ninth-picText p {
-        font-size: 40px;
         line-height: 66px;
     }
 
     .ninth-picText span {
-        font-size: 21px;
         line-height: 34px;
+        font-size: calc(16px + 1vw);
     }
 
     .ninth-picText a {
-        color: #ffffff;
-        font-size: 17px;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-        line-height: 34px;
+        font-size: calc(8px + 1vw);
     }
 
     .ninth-picText a span {
-        font-size: 17px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
+        font-size: calc(8px + 1vw);
     }
-
-
-
     /* The NINTH Picture */
 
     /* Double Pics 3: The Eighth And Ninth Picture */
-
-
     /* BIGFOOT  */
-
     .mainBigfoot {
         width: 100%;
         height: 370px;
@@ -3049,17 +2925,14 @@
         color: #999999;
     }
 
-
     .ft-listul li a:hover {
         color: #ffffff;
         text-decoration: underline;
     }
 
-
     .ft-icon li {
         margin-bottom: 5px;
     }
-
 
     .ft-icon img {
         width: 28px;
@@ -3133,7 +3006,6 @@
         color: #ffffff;
     }
 
-
     .ft2-ul2 li a {
         text-decoration: none;
         color: #999999;
@@ -3151,19 +3023,13 @@
     #location {
         padding-right: 0px;
     }
-
-
     /* BIGFOOT  */
 
     /* SMALLFOOT */
-
     .smallFooter {
         display: none;
     }
-
     /* SMALLFOOT */
-
-
 }
 
 @media all and (min-width:992px) and (max-width:1199.5px) {
@@ -3173,24 +3039,16 @@
         display: none;
     }
 
-
     .contain-box-visibility {
         display: none;
     }
-
     /* Navigation 2 */
 
-
-
-
-
     /* Gray Box With Useless Content */
-
     .gray-box {
         position: relative;
         top: 60px;
     }
-
     /* Gray Box With Useless Content */
 
     /* First Picture */
@@ -3198,33 +3056,32 @@
         width: 100%;
         height: 700px;
         align-items: flex-start;
-        background-image: url(../images/prime-day-2023-homepage-desktop2x.jpg);
+        background-image: url(../images/razer-blade-14-2023-homepage-desktop2x.jpg);
 
     }
 
     .first-picText {
         width: 100%;
-        height: 100%;
-        margin-top: 18vh;
+        height: 90%;
+        margin-top: 20vh;
+        line-height: 36px;
     }
 
     .first-picText p {
-        font-size: 56px;
+        font-size: calc(44px + 1vw);
     }
 
     .first-picText span {
-        font-size: 28px;
+        font-size: calc(16px + 1vw);
     }
 
     .first-picText a {
-        font-size: 21px;
+        font-size: calc(9px + 1vw);
     }
 
     .first-picText a span {
-        font-size: 21px;
+        font-size: calc(9px + 1vw);
     }
-
-
     /* First Picture */
 
 
@@ -3232,98 +3089,96 @@
     .second-picbox {
         width: 100%;
         height: 700px;
+        background-image: url(../images/razer-blackwidow-v4-homepage-large-2x.jpg);
     }
 
     .second-picText {
         width: 100%;
-        height: 100%;
+        height: 90%;
+        line-height: 36px;
     }
 
     .second-picText p {
-        font-size: 56px;
+        font-size: calc(44px + 1vw);
     }
 
     .second-picText span {
-        font-size: 28px;
+        font-size: calc(16px + 1vw);
     }
 
+    .second-picText a {
+        font-size: calc(9px + 1vw);
+    }
 
+    .second-picText a span {
+        font-size: calc(9px + 1vw);
+    }
     /* Second Picture  */
 
     /* Third Picture */
     .third-picbox {
         width: 100%;
         height: 700px;
-        background-image: url(../images/razer-blade-14-2023-homepage-desktop2x.jpg);
+        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
     }
-
-
 
     .third-picText {
         width: 100%;
-        height: 100%;
-        background-color: transparent;
+        height: 90%;
+        line-height: 36px;
         margin-top: 10vh;
         text-align: center;
     }
 
     .third-picText p {
-        font-size: 56px;
+        font-size: calc(44px + 1vw);
     }
 
     .third-picText span {
-        font-size: 28px;
+        font-size: calc(16px + 1vw);
     }
 
     .third-picText a {
-        font-size: 21px;
+        font-size: calc(9px + 1vw);
     }
 
     .third-picText a span {
-        font-size: 21px;
+        font-size: calc(9px + 1vw);
     }
-
-
-
     /* Third Picture */
 
     /* Double Pics 1: The Forth And Fifth Picture */
-
-
     /* The FORTH Picture */
     .theforthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
+        background-image: url(../images/razer-blackwidow-v4-x-b-950x580-desktop.jpg);
         border-right: 5px solid #222222;
     }
 
     .forth-picText {
-        width: 700px;
-        height: 180px;
+        width: 90%;
+        height: 90%;
         margin-top: 6vh;
-
+        line-height: 36px;
     }
 
     .forth-picText p {
-        font-size: 42px;
+        font-size: calc(32px + 1vw);
     }
 
     .forth-picText span {
-        font-size: 21px;
+        font-size: calc(9px + 1vw);
     }
-
 
 
     .forth-picText a {
-        font-size: 17px;
+        font-size: calc(6px + 1vw);
     }
 
     .forth-picText a span {
-        font-size: 17px;
+        font-size: calc(6px + 1vw);
     }
-
-
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -3331,43 +3186,38 @@
         width: 100%;
         height: 570px;
         background-color: #222222;
-        background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
+        background-image: url(../images/back-to-school-campaign-b-950x580-desktop.jpg);
         border-left: 5px solid #222222;
     }
 
     .fifth-picText {
-        width: 700px;
-        height: 180px;
+        width: 96%;
+        height: 90%;
         text-align: center;
         margin-top: 6vh;
+        line-height: 36px;
     }
 
     .fifth-picText p {
-        font-size: 42px;
+        font-size: calc(32px + 1vw);
     }
 
     .fifth-picText span {
-        font-size: 21px;
+        font-size: calc(9px + 1vw);
     }
 
     .fifth-picText a {
-        font-size: 17px;
+        font-size: calc(6px + 1vw);
     }
 
     .fifth-picText a span {
-        font-size: 17px;
+        font-size: calc(6px + 1vw);
     }
-
-
     /* The FIFTH Picture*/
-
     /* Double Pics 1: The Forth And Fifth Picture */
 
 
-
     /* Double Pics 2: The Sixth And Seventh Picture */
-
-
     /* The SIXTH Picture */
     .thesixthpic {
         width: 100%;
@@ -3377,101 +3227,94 @@
     }
 
     .sixth-picText {
-        width: 700px;
-        height: 180px;
+        width: 90%;
+        height: 90%;
         margin-top: 6vh;
+        line-height: 36px;
     }
 
     .sixth-picText p {
-        font-size: 42px;
+        font-size: calc(32px + 1vw);
     }
 
     .sixth-picText span {
-        font-size: 21px;
+        font-size: calc(9px + 1vw);
     }
 
     .sixth-picText a {
-        font-size: 17px;
+        font-size: calc(6px + 1vw);
     }
 
     .sixth-picText a span {
-        font-size: 17px;
+        font-size: calc(6px + 1vw);
     }
-
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
     .theseventhpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/razer-pubg-homepage-mobile2x.jpg);
+        background-image: url(../images/razer-street-fighter-6-custom-b-950x580-desktop.jpg);
         border-left: 5px solid #222222;
     }
 
     .seventh-picText {
-        width: 700px;
-        height: 180px;
+        width: 100%;
+        height: 90%;
         margin-top: 6vh;
+        line-height: 36px;
     }
 
     .seventh-picText p {
-        font-size: 42px;
+        font-size: calc(32px + 1vw);
     }
 
     .seventh-picText span {
-        font-size: 21px;
+        font-size: calc(9px + 1vw);
     }
 
     .seventh-picText a {
-        font-size: 17px;
+        font-size: calc(6px + 1vw);
     }
 
     .seventh-picText a span {
-        font-size: 17px;
+        font-size: calc(6px + 1vw);
     }
-
-
     /* The SEVENTH Picture */
-
     /* Double Pics 2: The Sixth And Seventh Picture */
 
 
-
     /* Double Pics 3: The Eighth And Ninth Picture */
-
-
     /* The EIGHTH Picture */
     .theeighthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/exoprimal-b-950x580-desktop.jpg);
+        background-image: url(../images/honkai-star-rail-webshop-razer-gold-954x580.jpg);
         border-right: 5px solid #222222;
     }
 
     .eighth-picText {
-        width: 700px;
-        height: 180px;
+        width: 90%;
+        height: 90%;
         margin-top: 6vh;
+        line-height: 36px;
     }
 
     .eighth-picText p {
-        font-size: 42px;
-        line-height: 40px;
+        font-size: calc(32px + 1vw);
     }
 
     .eighth-picText span {
-        font-size: 21px;
+        font-size: calc(9px + 1vw);
     }
 
     .eighth-picText a {
-        font-size: 17px;
+        font-size: calc(6px + 1vw);
     }
 
     .eighth-picText a span {
-        font-size: 17px;
+        font-size: calc(6px + 1vw);
     }
-
-
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -3482,51 +3325,40 @@
         border-left: 5px solid #222222;
     }
 
-
     .custom-exclusive {
         width: 100px;
         height: 40px;
     }
 
     .ninth-picText {
-        width: 700px;
-        height: 180px;
+        width: 90%;
+        height: 90%;
         margin-top: 6vh;
+        line-height: 36px;
     }
 
     .ninth-picText p {
-        font-size: 42px;
+        font-size: calc(32px + 1vw);
         line-height: 66px;
     }
 
     .ninth-picText span {
-        font-size: 21px;
+        font-size: calc(9px + 1vw);
         line-height: 34px;
     }
 
     .ninth-picText a {
-        color: #ffffff;
-        font-size: 17px;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-size: calc(6px + 1vw);
         line-height: 34px;
     }
 
     .ninth-picText a span {
-        font-size: 17px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
+        font-size: calc(6px + 1vw);
     }
-
-
-
     /* The NINTH Picture */
 
     /* Double Pics 3: The Eighth And Ninth Picture */
-
     /* BIGFOOT  */
-
     .mainBigfoot {
         width: 100%;
         height: 370px;
@@ -3574,7 +3406,6 @@
         color: #ffffff;
     }
 
-
     .ft-listul li {
         font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
@@ -3586,23 +3417,19 @@
         color: #999999;
     }
 
-
     .ft-listul li a:hover {
         color: #ffffff;
         text-decoration: underline;
     }
 
-
     .ft-icon li {
         margin-bottom: 5px;
     }
-
 
     .ft-icon img {
         width: 28px;
         height: 28px;
         border-radius: 50%;
-
     }
 
     .ft-gamers {
@@ -3670,7 +3497,6 @@
         color: #ffffff;
     }
 
-
     .ft2-ul2 li a {
         text-decoration: none;
         color: #999999;
@@ -3688,20 +3514,13 @@
     #location {
         padding-right: 0px;
     }
-
-
     /* BIGFOOT  */
 
-
     /* SMALLFOOT */
-
     .smallFooter {
         display: none;
     }
-
     /* SMALLFOOT */
-
-
 }
 
 @media all and (min-width:1200px) and (max-width:1399.5px) {
@@ -3714,53 +3533,40 @@
     .contain-box-visibility {
         display: none;
     }
-
     /* Navigation 2 */
 
-
-
-
-
     /* Gray Box With Useless Content */
-
     .gray-box {
         position: relative;
         top: 60px;
     }
-
     /* Gray Box With Useless Content */
 
     /* First Picture */
     .first-picbox {
         width: 100%;
         height: 700px;
-        /* align-items: flex-start; */
-        background-image: url(../images/prime-day-2023-homepage-desktop2x.jpg);
+        background-image: url(../images/razer-blade-14-2023-homepage-desktop2x.jpg);
     }
 
     .first-picText {
         width: 100%;
-        height: 100%;
+        height: 90%;
         margin-top: 20vh;
         line-height: 36px;
     }
 
-    .first-picText p {
-        font-size: 56px;
-    }
-
     .first-picText span {
-        font-size: 28px;
+        font-size: calc(16px + 1vw);
     }
 
     .first-picText a {
-        font-size: 21px;
+        font-size: calc(8px + 1vw);
     }
 
     .first-picText a span {
-        font-size: 21px;
+        font-size: calc(8px + 1vw);
     }
-
 
     /* First Picture */
 
@@ -3769,6 +3575,7 @@
     .second-picbox {
         width: 100%;
         height: 700px;
+        background-image: url(../images/razer-blackwidow-v4-homepage-large-2x.jpg);
     }
 
     .second-picText {
@@ -3776,91 +3583,74 @@
         height: 100%;
     }
 
-    .second-picText p {
-        font-size: 56px;
-    }
-
     .second-picText span {
-        font-size: 28px;
+        font-size: calc(16px + 1vw);
     }
 
+    .second-picText a {
+        font-size: calc(8px + 1vw);
+    }
 
+    .second-picText a span {
+        font-size: calc(8px + 1vw);
+    }
     /* Second Picture  */
 
     /* Third Picture */
     .third-picbox {
         width: 100%;
         height: 700px;
+        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
     }
-
-
 
     .third-picText {
         width: 100%;
-        height: 100%;
-        background-color: transparent;
+        height: 90%;
         margin-top: 10vh;
         text-align: center;
         line-height: 36px;
     }
 
-    .third-picText p {
-        font-size: 56px;
-    }
-
     .third-picText span {
-        font-size: 28px;
+        font-size: calc(16px + 1vw);
     }
 
     .third-picText a {
-        font-size: 21px;
+        font-size: calc(8px + 1vw);
     }
 
     .third-picText a span {
-        font-size: 21px;
+        font-size: calc(8px + 1vw);
     }
-
-
-
     /* Third Picture */
 
     /* Double Pics 1: The Forth And Fifth Picture */
-
-
     /* The FORTH Picture */
     .theforthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
+        background-image: url(../images/razer-blackwidow-v4-x-b-950x580-desktop.jpg);
         border-right: 5px solid #222222;
     }
 
     .forth-picText {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
         margin-top: 10vh;
         line-height: 36px;
     }
 
-    .forth-picText p {
-        font-size: 42px;
-    }
-
     .forth-picText span {
-        font-size: 21px;
+        font-size: calc(8px + 1vw);
     }
-
-
 
     .forth-picText a {
-        font-size: 17px;
+        font-size: calc(4px + 1vw);
     }
 
     .forth-picText a span {
-        font-size: 17px;
+        font-size: calc(4px + 1vw);
     }
-
-
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -3868,44 +3658,34 @@
         width: 100%;
         height: 570px;
         background-color: #222222;
-        background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
+        background-image: url(../images/back-to-school-campaign-b-950x580-desktop.jpg);
         border-left: 5px solid #222222;
     }
 
     .fifth-picText {
         width: 90%;
-        height: 100%;
+        height: 90%;
         text-align: center;
         margin-top: 10vh;
         line-height: 36px;
     }
 
-    .fifth-picText p {
-        font-size: 42px;
-    }
-
     .fifth-picText span {
-        font-size: 21px;
+        font-size: calc(8px + 1vw);
     }
 
     .fifth-picText a {
-        font-size: 17px;
+        font-size: calc(4px + 1vw);
     }
 
     .fifth-picText a span {
-        font-size: 17px;
+        font-size: calc(4px + 1vw);
     }
-
-
     /* The FIFTH Picture*/
-
     /* Double Pics 1: The Forth And Fifth Picture */
 
 
-
     /* Double Pics 2: The Sixth And Seventh Picture */
-
-
     /* The SIXTH Picture */
     .thesixthpic {
         width: 100%;
@@ -3915,103 +3695,83 @@
     }
 
     .sixth-picText {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
         margin-top: 10vh;
         line-height: 36px;
     }
 
-    .sixth-picText p {
-        font-size: 42px;
-    }
-
     .sixth-picText span {
-        font-size: 21px;
+        font-size: calc(8px + 1vw);
     }
 
     .sixth-picText a {
-        font-size: 17px;
+        font-size: calc(4px + 1vw);
     }
 
     .sixth-picText a span {
-        font-size: 17px;
+        font-size: calc(4px + 1vw);
     }
-
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
     .theseventhpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/razer-pubg-homepage-desktop2x.jpg);
+        background-image: url(../images/razer-street-fighter-6-custom-b-950x580-desktop.jpg);
         border-left: 5px solid #222222;
     }
 
     .seventh-picText {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
         margin-top: 10vh;
         line-height: 36px;
     }
 
-    .seventh-picText p {
-        font-size: 42px;
-    }
-
     .seventh-picText span {
-        font-size: 21px;
+        font-size: calc(8px + 1vw);
     }
 
     .seventh-picText a {
-        font-size: 17px;
+        font-size: calc(4px + 1vw);
     }
 
     .seventh-picText a span {
-        font-size: 17px;
+        font-size: calc(4px + 1vw);
     }
-
-
     /* The SEVENTH Picture */
-
     /* Double Pics 2: The Sixth And Seventh Picture */
 
 
 
     /* Double Pics 3: The Eighth And Ninth Picture */
-
-
     /* The EIGHTH Picture */
     .theeighthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/exoprimal-b-950x580-desktop.jpg);
+        background-image: url(../images/honkai-star-rail-webshop-razer-gold-954x580.jpg);
         border-right: 5px solid #222222;
     }
 
     .eighth-picText {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
         margin-top: 10vh;
         line-height: 36px;
     }
 
-    .eighth-picText p {
-        font-size: 42px;
-    }
-
     .eighth-picText span {
-        font-size: 21px;
+        font-size: calc(8px + 1vw);
     }
 
     .eighth-picText a {
-        font-size: 17px;
+        font-size: calc(4px + 1vw);
     }
 
     .eighth-picText a span {
-        font-size: 17px;
+        font-size: calc(4px + 1vw);
     }
-
-
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -4022,44 +3782,28 @@
         border-left: 5px solid #222222;
     }
 
-
     .ninth-picText {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
         margin-top: 5vh;
         line-height: 36px;
     }
 
-    .ninth-picText p {
-        font-size: 42px;
-    }
-
     .ninth-picText span {
-        font-size: 21px;
+        font-size: calc(8px + 1vw);
     }
 
     .ninth-picText a {
-        color: #ffffff;
-        font-size: 17px;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-size: calc(4px + 1vw);
     }
 
     .ninth-picText a span {
-        font-size: 17px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
+        font-size: calc(4px + 1vw);
     }
-
-
-
     /* The NINTH Picture */
 
     /* Double Pics 3: The Eighth And Ninth Picture */
-
     /* BIGFOOT  */
-
     .mainBigfoot {
         width: 100%;
         height: 350px;
@@ -4107,7 +3851,6 @@
         color: #ffffff;
     }
 
-
     .ft-listul li {
         font-family: 'Heebo', 'Tlight W', 'Titillium Web', 'sans-serif';
         font-weight: 400;
@@ -4119,23 +3862,19 @@
         color: #999999;
     }
 
-
     .ft-listul li a:hover {
         color: #ffffff;
         text-decoration: underline;
     }
 
-
     .ft-icon li {
         margin-bottom: 5px;
     }
-
 
     .ft-icon img {
         width: 28px;
         height: 28px;
         border-radius: 50%;
-
     }
 
     .ft-gamers {
@@ -4221,55 +3960,38 @@
     #location {
         padding-right: 0px;
     }
-
-
     /* BIGFOOT  */
 
-
-
-
     /* SMALLFOOT */
-
     .smallFooter {
         display: none;
     }
-
     /* SMALLFOOT */
-
 }
 
 @media all and (min-width:1400px) {
-
 
     /* Navigation 2 */
     .navigation-bar2 {
         display: none;
     }
-
     /* Navigation 2 */
-
 
     /* Navigation 1 */
     .custom-navul li {
         margin-right: calc(12px + 3.8vw);
     }
-
     /* Navigation 1 */
-
 
     .contain-box-visibility {
         display: none;
     }
 
-
-
     /* Gray Box With Useless Content */
-
     .gray-box {
         position: relative;
         top: 60px;
     }
-
     /* Gray Box With Useless Content */
 
     /* First Picture */
@@ -4277,7 +3999,7 @@
         width: 100%;
         height: 700px;
         align-items: flex-start;
-        background-image: url(../images/prime-day-2023-homepage-desktop2x.jpg);
+        background-image: url(../images/razer-blade-14-2023-homepage-desktop2x.jpg);
     }
 
     .first-picText {
@@ -4288,29 +4010,27 @@
     }
 
     .first-picText p {
-        font-size: 56px;
+        font-size: calc(42px + 1vw);
     }
 
     .first-picText span {
-        font-size: 28px;
+        font-size: calc(13px + 1vw);
     }
 
     .first-picText a {
-        font-size: 21px;
+        font-size: calc(6px + 1vw);
     }
 
     .first-picText a span {
-        font-size: 21px;
+        font-size: calc(6px + 1vw);
     }
-
-
     /* First Picture */
-
 
     /* Second Picture  */
     .second-picbox {
         width: 100%;
         height: 700px;
+        background-image: url(../images/razer-blackwidow-v4-homepage-large-2x.jpg);
     }
 
     .second-picText {
@@ -4321,23 +4041,28 @@
     }
 
     .second-picText p {
-        font-size: 56px;
+        font-size: calc(42px + 1vw);
     }
 
     .second-picText span {
-        font-size: 28px;
+        font-size: calc(13px + 1vw);
     }
 
+    .second-picText a {
+        font-size: calc(6px + 1vw);
+    }
 
+    .second-picText a span {
+        font-size: calc(6px + 1vw);
+    }
     /* Second Picture  */
 
     /* Third Picture */
     .third-picbox {
         width: 100%;
         height: 700px;
+        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
     }
-
-
 
     .third-picText {
         width: 100%;
@@ -4349,33 +4074,28 @@
     }
 
     .third-picText p {
-        font-size: 56px;
+        font-size: calc(42px + 1vw);
     }
 
     .third-picText span {
-        font-size: 28px;
+        font-size: calc(13px + 1vw);
     }
 
     .third-picText a {
-        font-size: 21px;
+        font-size: calc(6px + 1vw);
     }
 
     .third-picText a span {
-        font-size: 21px;
+        font-size: calc(6px + 1vw);
     }
-
-
-
     /* Third Picture */
 
     /* Double Pics 1: The Forth And Fifth Picture */
-
-
     /* The FORTH Picture */
     .theforthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/cobra-pro-homepage-desktop2x.jpg);
+        background-image: url(../images/razer-blackwidow-v4-x-b-950x580-desktop.jpg);
         border-right: 5px solid #222222;
     }
 
@@ -4384,28 +4104,23 @@
         height: 90%;
         margin-top: 10vh;
         line-height: 36px;
-
     }
 
     .forth-picText p {
-        font-size: 42px;
+        font-size: calc(25px + 1vw);
     }
 
     .forth-picText span {
-        font-size: 21px;
+        font-size: calc(6px + 1vw);
     }
 
-
-
     .forth-picText a {
-        font-size: 17px;
+        font-size: calc(2px + 1vw);
     }
 
     .forth-picText a span {
-        font-size: 17px;
+        font-size: calc(2px + 1vw);
     }
-
-
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -4413,7 +4128,7 @@
         width: 100%;
         height: 570px;
         background-color: #222222;
-        background-image: url(../images/deathstalker-pro-tkl-950x580-desktop.jpg);
+        background-image: url(../images/back-to-school-campaign-b-950x580-desktop.jpg);
         border-left: 5px solid #222222;
     }
 
@@ -4426,31 +4141,25 @@
     }
 
     .fifth-picText p {
-        font-size: 42px;
+        font-size: calc(25px + 1vw);
     }
 
     .fifth-picText span {
-        font-size: 21px;
+        font-size: calc(6px + 1vw);
     }
 
     .fifth-picText a {
-        font-size: 17px;
+        font-size: calc(2px + 1vw);
     }
 
     .fifth-picText a span {
-        font-size: 17px;
+        font-size: calc(2px + 1vw);
     }
-
-
     /* The FIFTH Picture*/
-
     /* Double Pics 1: The Forth And Fifth Picture */
 
 
-
     /* Double Pics 2: The Sixth And Seventh Picture */
-
-
     /* The SIXTH Picture */
     .thesixthpic {
         width: 100%;
@@ -4467,69 +4176,62 @@
     }
 
     .sixth-picText p {
-        font-size: 42px;
+        font-size: calc(25px + 1vw);
     }
 
     .sixth-picText span {
-        font-size: 21px;
+        font-size: calc(6px + 1vw);
     }
 
     .sixth-picText a {
-        font-size: 17px;
+        font-size: calc(1.8px + 1vw);
     }
 
     .sixth-picText a span {
-        font-size: 17px;
+        font-size: calc(1.8px + 1vw);
     }
-
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
     .theseventhpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/razer-pubg-homepage-desktop2x.jpg);
+        background-image: url(../images/razer-street-fighter-6-custom-b-950x580-desktop.jpg);
         border-left: 5px solid #222222;
     }
 
     .seventh-picText {
         width: 100%;
         height: 90%;
-        margin-top: 10vh;
+        margin-top: 5vh;
         line-height: 36px;
     }
 
     .seventh-picText p {
-        font-size: 42px;
+        font-size: calc(25px + 1vw);
     }
 
     .seventh-picText span {
-        font-size: 21px;
+        font-size: calc(6px + 1vw);
     }
 
     .seventh-picText a {
-        font-size: 17px;
+        font-size: calc(2px + 1vw);
     }
 
     .seventh-picText a span {
-        font-size: 17px;
+        font-size: calc(2px + 1vw);
     }
-
-
     /* The SEVENTH Picture */
-
     /* Double Pics 2: The Sixth And Seventh Picture */
 
 
-
     /* Double Pics 3: The Eighth And Ninth Picture */
-
-
     /* The EIGHTH Picture */
     .theeighthpic {
         width: 100%;
         height: 570px;
-        background-image: url(../images/exoprimal-b-950x580-desktop.jpg);
+        background-image: url(../images/honkai-star-rail-webshop-razer-gold-954x580.jpg);
         border-right: 5px solid #222222;
     }
 
@@ -4541,23 +4243,21 @@
     }
 
     .eighth-picText p {
-        font-size: 42px;
+        font-size: calc(25px + 1vw);
         line-height: 40px;
     }
 
     .eighth-picText span {
-        font-size: 21px;
+        font-size: calc(6px + 1vw);
     }
 
     .eighth-picText a {
-        font-size: 17px;
+        font-size: calc(2px + 1vw);
     }
 
     .eighth-picText a span {
-        font-size: 17px;
+        font-size: calc(2px + 1vw);
     }
-
-
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -4567,7 +4267,6 @@
         background-image: url(../images/razer-edge-b-950x580-desktop.jpg);
         border-left: 5px solid #222222;
     }
-
 
     .custom-exclusive {
         width: 100px;
@@ -4583,42 +4282,27 @@
     }
 
     .ninth-picText p {
-        font-size: 42px;
+        font-size: calc(25px + 1vw);
         line-height: 66px;
     }
 
     .ninth-picText span {
-        font-size: 21px;
+        font-size: calc(6px + 1vw);
         line-height: 34px;
     }
 
     .ninth-picText a {
-        color: #ffffff;
-        font-size: 17px;
-        text-decoration: none;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
+        font-size: calc(2px + 1vw);
         line-height: 34px;
     }
 
     .ninth-picText a span {
-        font-size: 17px;
-        color: #44d62c;
-        font-family: 'Tlight W', 'Titillium Web', 'sans-serif';
-
+        font-size: calc(2px + 1vw);
     }
-
-
-
     /* The NINTH Picture */
 
-
-
-
     /* Double Pics 3: The Eighth And Ninth Picture */
-
     /* BIGFOOT  */
-
-
     .mainBigfoot {
         width: 100%;
         height: 370px;
@@ -4780,27 +4464,20 @@
     #location {
         padding-right: 0px;
     }
-
-
     /* BIGFOOT  */
 
 
     /* SMALLFOOT */
-
     .smallFooter {
         display: none;
     }
-
     /* SMALLFOOT */
 
     /* LAST BOX */
-
     .last-box {
         display: none;
     }
-
     /* LAST BOX */
-
 }
 
 input {
