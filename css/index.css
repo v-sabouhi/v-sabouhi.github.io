@@ -142,6 +142,7 @@
     margin: 0;
     text-align: center;
 }
+
 /* Gray Box With Useless Content */
 
 
@@ -179,6 +180,7 @@
     font-size: 21px;
     margin-right: 0;
 }
+
 /* Navigation 1 */
 
 
@@ -244,6 +246,7 @@
 .first-picText a:hover {
     text-decoration: underline;
 }
+
 /* First Picture */
 
 
@@ -301,6 +304,7 @@
 .second-picText a:hover {
     text-decoration: underline;
 }
+
 /* Second Picture */
 
 /* Third Picture */
@@ -359,6 +363,7 @@
 .lm-custom {
     margin-right: 6vh;
 }
+
 /* Third Picture */
 
 /* Double Pics 1: The Forth And Fifth Picture */
@@ -405,6 +410,7 @@
 .forth-picText a:hover {
     text-decoration: underline;
 }
+
 /* The FORTH Picture */
 
 /* The FIFTH Picture*/
@@ -450,6 +456,7 @@
 .fifth-picText a:hover {
     text-decoration: underline;
 }
+
 /* The FIFTH Picture*/
 /* Double Pics 1: The Forth And Fifth Picture */
 
@@ -497,6 +504,7 @@
 .sixth-picText a:hover {
     text-decoration: underline;
 }
+
 /* The SIXTH Picture */
 
 /* The SEVENTH Picture */
@@ -542,6 +550,7 @@
 .seventh-picText a:hover {
     text-decoration: underline;
 }
+
 /* The SEVENTH Picture */
 /* Double Pics 2: The Sixth And Seventh Picture */
 
@@ -591,6 +600,7 @@
 .eighth-picText a:hover {
     text-decoration: underline;
 }
+
 /* The EIGHTH Picture */
 
 /* The NINTH Picture */
@@ -641,6 +651,7 @@
 .ninth-picText a:hover {
     text-decoration: underline;
 }
+
 /* The NINTH Picture */
 /* Double Pics 3: The Eighth And Ninth Picture */
 
@@ -799,6 +810,7 @@
 .ninth-picText a span {
     font-size: calc(2px + 1vw);
 }
+
 /* CUSTOM FONT-SIZE */
 
 
@@ -808,6 +820,7 @@
     .navigation-bar {
         display: none;
     }
+
     /* Navigation 1 */
 
 
@@ -859,6 +872,7 @@
         font-size: 12px;
         color: #999999;
     }
+
     /* SEARCH BOX */
 
 
@@ -1004,6 +1018,7 @@
     .first-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* First Picture */
 
     /* Second Picture  */
@@ -1036,6 +1051,7 @@
     .second-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* Second Picture  */
 
     /* Third Picture */
@@ -1070,6 +1086,7 @@
     .third-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* Third Picture */
 
     /* Double Pics 1: The Forth And Fifth Picture */
@@ -1102,6 +1119,7 @@
     .forth-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -1136,6 +1154,7 @@
     .fifth-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The FIFTH Picture*/
     /* Double Pics 1: The Forth And Fifth Picture */
 
@@ -1171,6 +1190,7 @@
     .sixth-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
@@ -1203,6 +1223,7 @@
     .seventh-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The SEVENTH Picture */
     /* Double Pics 2: The Sixth And Seventh Picture */
 
@@ -1237,6 +1258,7 @@
     .eighth-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -1274,6 +1296,7 @@
     .ninth-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The NINTH Picture */
 
     /* Double Pics 3: The Eighth And Ninth Picture */
@@ -1281,6 +1304,7 @@
     .bigfoot-box {
         display: none;
     }
+
     /* BIGFOOT */
 
     /* Footer For Small Sizes */
@@ -1369,6 +1393,7 @@
         color: #ffffff;
         text-decoration: underline;
     }
+
     /* SHOP */
 
     /* EXPLORE */
@@ -1406,6 +1431,7 @@
         color: #ffffff;
         text-decoration: underline;
     }
+
     /* EXPLORE */
 
     /* SUPPORT */
@@ -1443,6 +1469,7 @@
         color: #ffffff;
         text-decoration: underline;
     }
+
     /* SUPPORT */
 
     /* COMPANY */
@@ -1480,6 +1507,7 @@
         color: #ffffff;
         text-decoration: underline;
     }
+
     /* COMPANY */
 
 
@@ -1567,6 +1595,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .small-line-ul2 {
@@ -1574,6 +1603,11 @@
         color: #999999;
         display: flex;
         margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .custom-ch {
+        padding: 0 10px;
     }
 
     .small-line-ul2 li {
@@ -1667,6 +1701,7 @@
         height: 70px;
         background-color: #111111;
     }
+
     /* LINE FOOTER */
     /* Footer For Small Sizes */
 
@@ -1674,6 +1709,7 @@
     .customfooterContainer {
         display: none;
     }
+
     /* BIGFOOT */
 
     .open-close {
@@ -1697,6 +1733,7 @@
     .navigation-bar {
         display: none;
     }
+
     /* Navigation 1 */
 
     /* Navigation 2 */
@@ -1747,6 +1784,7 @@
         font-size: 12px;
         color: #999999;
     }
+
     /* SEARCH BOX */
 
     .ul-containerBox {
@@ -1840,6 +1878,8 @@
         margin-right: 4%;
         color: #000000;
     }
+
+
     /* THIRD NAVIGATION */
 
 
@@ -1890,6 +1930,7 @@
     .first-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* First Picture */
 
     /* Second Picture  */
@@ -1923,6 +1964,7 @@
     .second-picText span {
         font-size: calc(11px + 1vw);
     }
+
     /* Second Picture  */
 
     /* Third Picture */
@@ -1957,6 +1999,7 @@
     .third-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* Third Picture */
 
 
@@ -1990,6 +2033,7 @@
     .forth-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -2024,6 +2068,7 @@
     .fifth-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The FIFTH Picture*/
     /* Double Pics 1: The Forth And Fifth Picture */
 
@@ -2058,6 +2103,7 @@
     .sixth-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
@@ -2090,6 +2136,7 @@
     .seventh-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The SEVENTH Picture */
     /* Double Pics 2: The Sixth And Seventh Picture */
 
@@ -2125,6 +2172,7 @@
     .eighth-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -2162,6 +2210,7 @@
     .ninth-picText a span {
         font-size: calc(11px + 1vw);
     }
+
     /* The NINTH Picture */
 
 
@@ -2255,6 +2304,7 @@
         color: #ffffff;
         text-decoration: underline;
     }
+
     /* SHOP */
 
     /* EXPLORE */
@@ -2292,6 +2342,7 @@
         color: #ffffff;
         text-decoration: underline;
     }
+
     /* EXPLORE */
 
     /* SUPPORT */
@@ -2329,6 +2380,7 @@
         color: #ffffff;
         text-decoration: underline;
     }
+
     /* SUPPORT */
 
     /* COMPANY */
@@ -2366,6 +2418,7 @@
         color: #ffffff;
         text-decoration: underline;
     }
+
     /* COMPANY */
 
 
@@ -2386,6 +2439,7 @@
     .extraheight {
         height: 490px;
     }
+
     /***************************************************************************/
 
     /* LINE FOOTER */
@@ -2407,6 +2461,9 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 0;
+        /* test */
+        flex-wrap: wrap;
+        padding-left: 0;
     }
 
     .small-line-ul li {
@@ -2414,6 +2471,14 @@
         font-weight: 400;
         font-size: 12px;
         height: 16px;
+        /* test */
+        width: fit-content;
+    }
+
+    /* test */
+    .small-line-ul li:first-of-type {
+        width: 100%;
+        text-align: center;
     }
 
     .small-line-ul li a {
@@ -2453,6 +2518,11 @@
         color: #999999;
         display: flex;
         margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .custom-ch {
+        padding: 0 10px;
     }
 
     .small-line-ul2 li {
@@ -2545,6 +2615,7 @@
         height: 70px;
         background-color: #111111;
     }
+
     /* LINE FOOTER */
     /* Footer For Small Sizes */
 
@@ -2552,6 +2623,7 @@
     .customfooterContainer {
         display: none;
     }
+
     /* BIGFOOT */
 
     .open-close {
@@ -2579,12 +2651,14 @@
     .contain-box-visibility {
         display: none;
     }
+
     /* Navigation 2 */
 
     /* Navigation 1 */
     .custom-navul li {
         margin-right: calc(8px + 2.6vw);
     }
+
     /* Navigation 1 */
 
     /* Gray Box With Useless Content */
@@ -2592,6 +2666,7 @@
         position: relative;
         top: 60px;
     }
+
     /* Gray Box With Useless Content */
 
     /* First Picture */
@@ -2620,6 +2695,7 @@
     .first-picText a span {
         font-size: calc(12px + 1vw);
     }
+
     /* First Picture */
 
 
@@ -2646,6 +2722,7 @@
     .second-picText a span {
         font-size: calc(12px + 1vw);
     }
+
     /* Second Picture  */
 
     /* Third Picture */
@@ -2674,6 +2751,7 @@
     .third-picText a span {
         font-size: calc(12px + 1vw);
     }
+
     /* Third Picture */
     /* Double Pics 1: The Forth And Fifth Picture */
 
@@ -2703,6 +2781,7 @@
     .forth-picText a span {
         font-size: calc(8px + 1vw);
     }
+
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -2732,6 +2811,7 @@
     .fifth-picText a span {
         font-size: calc(8px + 1vw);
     }
+
     /* The FIFTH Picture*/
     /* Double Pics 1: The Forth And Fifth Picture */
 
@@ -2762,6 +2842,7 @@
     .sixth-picText a span {
         font-size: calc(8px + 1vw);
     }
+
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
@@ -2789,6 +2870,7 @@
     .seventh-picText a span {
         font-size: calc(8px + 1vw);
     }
+
     /* The SEVENTH Picture */
     /* Double Pics 2: The Sixth And Seventh Picture */
 
@@ -2825,6 +2907,7 @@
     .eighth-picText a span {
         font-size: calc(8px + 1vw);
     }
+
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -2862,6 +2945,7 @@
     .ninth-picText a span {
         font-size: calc(8px + 1vw);
     }
+
     /* The NINTH Picture */
 
     /* Double Pics 3: The Eighth And Ninth Picture */
@@ -3023,12 +3107,14 @@
     #location {
         padding-right: 0px;
     }
+
     /* BIGFOOT  */
 
     /* SMALLFOOT */
     .smallFooter {
         display: none;
     }
+
     /* SMALLFOOT */
 }
 
@@ -3042,6 +3128,7 @@
     .contain-box-visibility {
         display: none;
     }
+
     /* Navigation 2 */
 
     /* Gray Box With Useless Content */
@@ -3049,6 +3136,7 @@
         position: relative;
         top: 60px;
     }
+
     /* Gray Box With Useless Content */
 
     /* First Picture */
@@ -3082,6 +3170,7 @@
     .first-picText a span {
         font-size: calc(9px + 1vw);
     }
+
     /* First Picture */
 
 
@@ -3113,6 +3202,7 @@
     .second-picText a span {
         font-size: calc(9px + 1vw);
     }
+
     /* Second Picture  */
 
     /* Third Picture */
@@ -3145,6 +3235,7 @@
     .third-picText a span {
         font-size: calc(9px + 1vw);
     }
+
     /* Third Picture */
 
     /* Double Pics 1: The Forth And Fifth Picture */
@@ -3179,6 +3270,7 @@
     .forth-picText a span {
         font-size: calc(6px + 1vw);
     }
+
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -3213,6 +3305,7 @@
     .fifth-picText a span {
         font-size: calc(6px + 1vw);
     }
+
     /* The FIFTH Picture*/
     /* Double Pics 1: The Forth And Fifth Picture */
 
@@ -3248,6 +3341,7 @@
     .sixth-picText a span {
         font-size: calc(6px + 1vw);
     }
+
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
@@ -3280,6 +3374,7 @@
     .seventh-picText a span {
         font-size: calc(6px + 1vw);
     }
+
     /* The SEVENTH Picture */
     /* Double Pics 2: The Sixth And Seventh Picture */
 
@@ -3315,6 +3410,7 @@
     .eighth-picText a span {
         font-size: calc(6px + 1vw);
     }
+
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -3355,6 +3451,7 @@
     .ninth-picText a span {
         font-size: calc(6px + 1vw);
     }
+
     /* The NINTH Picture */
 
     /* Double Pics 3: The Eighth And Ninth Picture */
@@ -3514,12 +3611,14 @@
     #location {
         padding-right: 0px;
     }
+
     /* BIGFOOT  */
 
     /* SMALLFOOT */
     .smallFooter {
         display: none;
     }
+
     /* SMALLFOOT */
 }
 
@@ -3533,6 +3632,7 @@
     .contain-box-visibility {
         display: none;
     }
+
     /* Navigation 2 */
 
     /* Gray Box With Useless Content */
@@ -3540,6 +3640,7 @@
         position: relative;
         top: 60px;
     }
+
     /* Gray Box With Useless Content */
 
     /* First Picture */
@@ -3594,6 +3695,7 @@
     .second-picText a span {
         font-size: calc(8px + 1vw);
     }
+
     /* Second Picture  */
 
     /* Third Picture */
@@ -3622,6 +3724,7 @@
     .third-picText a span {
         font-size: calc(8px + 1vw);
     }
+
     /* Third Picture */
 
     /* Double Pics 1: The Forth And Fifth Picture */
@@ -3651,6 +3754,7 @@
     .forth-picText a span {
         font-size: calc(4px + 1vw);
     }
+
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -3681,6 +3785,7 @@
     .fifth-picText a span {
         font-size: calc(4px + 1vw);
     }
+
     /* The FIFTH Picture*/
     /* Double Pics 1: The Forth And Fifth Picture */
 
@@ -3712,6 +3817,7 @@
     .sixth-picText a span {
         font-size: calc(4px + 1vw);
     }
+
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
@@ -3740,6 +3846,7 @@
     .seventh-picText a span {
         font-size: calc(4px + 1vw);
     }
+
     /* The SEVENTH Picture */
     /* Double Pics 2: The Sixth And Seventh Picture */
 
@@ -3772,6 +3879,7 @@
     .eighth-picText a span {
         font-size: calc(4px + 1vw);
     }
+
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -3800,6 +3908,7 @@
     .ninth-picText a span {
         font-size: calc(4px + 1vw);
     }
+
     /* The NINTH Picture */
 
     /* Double Pics 3: The Eighth And Ninth Picture */
@@ -3960,12 +4069,14 @@
     #location {
         padding-right: 0px;
     }
+
     /* BIGFOOT  */
 
     /* SMALLFOOT */
     .smallFooter {
         display: none;
     }
+
     /* SMALLFOOT */
 }
 
@@ -3975,12 +4086,14 @@
     .navigation-bar2 {
         display: none;
     }
+
     /* Navigation 2 */
 
     /* Navigation 1 */
     .custom-navul li {
         margin-right: calc(12px + 3.8vw);
     }
+
     /* Navigation 1 */
 
     .contain-box-visibility {
@@ -3992,6 +4105,7 @@
         position: relative;
         top: 60px;
     }
+
     /* Gray Box With Useless Content */
 
     /* First Picture */
@@ -4024,6 +4138,7 @@
     .first-picText a span {
         font-size: calc(6px + 1vw);
     }
+
     /* First Picture */
 
     /* Second Picture  */
@@ -4055,6 +4170,7 @@
     .second-picText a span {
         font-size: calc(6px + 1vw);
     }
+
     /* Second Picture  */
 
     /* Third Picture */
@@ -4088,6 +4204,7 @@
     .third-picText a span {
         font-size: calc(6px + 1vw);
     }
+
     /* Third Picture */
 
     /* Double Pics 1: The Forth And Fifth Picture */
@@ -4121,6 +4238,7 @@
     .forth-picText a span {
         font-size: calc(2px + 1vw);
     }
+
     /* The FORTH Picture*/
 
     /* The FIFTH Picture*/
@@ -4155,6 +4273,7 @@
     .fifth-picText a span {
         font-size: calc(2px + 1vw);
     }
+
     /* The FIFTH Picture*/
     /* Double Pics 1: The Forth And Fifth Picture */
 
@@ -4190,6 +4309,7 @@
     .sixth-picText a span {
         font-size: calc(1.8px + 1vw);
     }
+
     /* The SIXTH Picture */
 
     /* The SEVENTH Picture */
@@ -4222,6 +4342,7 @@
     .seventh-picText a span {
         font-size: calc(2px + 1vw);
     }
+
     /* The SEVENTH Picture */
     /* Double Pics 2: The Sixth And Seventh Picture */
 
@@ -4258,6 +4379,7 @@
     .eighth-picText a span {
         font-size: calc(2px + 1vw);
     }
+
     /* The EIGHTH Picture */
 
     /* The NINTH Picture */
@@ -4299,6 +4421,7 @@
     .ninth-picText a span {
         font-size: calc(2px + 1vw);
     }
+
     /* The NINTH Picture */
 
     /* Double Pics 3: The Eighth And Ninth Picture */
@@ -4464,6 +4587,7 @@
     #location {
         padding-right: 0px;
     }
+
     /* BIGFOOT  */
 
 
@@ -4471,12 +4595,14 @@
     .smallFooter {
         display: none;
     }
+
     /* SMALLFOOT */
 
     /* LAST BOX */
     .last-box {
         display: none;
     }
+
     /* LAST BOX */
 }
 
