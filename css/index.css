@@ -1719,6 +1719,7 @@
         top: 0;
         left: 0;
         transition: all 300ms ease 0s;
+        z-index: 999;
     }
 
     .custom-height {
@@ -2633,6 +2634,7 @@
         top: 0;
         left: 0;
         transition: all 300ms ease 0s;
+        z-index: 999;
     }
 
     .custom-height {
